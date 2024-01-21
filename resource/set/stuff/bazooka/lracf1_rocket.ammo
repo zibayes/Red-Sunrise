@@ -1,0 +1,15 @@
+{from "pattern rpg_ammo"
+	{entity "gunstav_ammo"}
+	{tag "pierce"}
+	{view "gunstav_ammo"
+		{tail "bazooka_tail" "tail"}
+	} 
+	{inventory
+		{size 5 1 }
+	}
+	{damage blastwave
+		{energy 1}
+		{area 2 8}
+	}
+}
+

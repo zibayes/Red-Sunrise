@@ -1,0 +1,11 @@
+{breed
+	{behaviour soldier}
+	{skin "sov_medic"}
+	{icon_priority 0}
+	{nationality rus}
+	{inventory
+		{item "ak74" filled}
+		{item "medkit"}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,55 @@
+{location "main"
+	{background
+;		{picture "/interface/background/main"}
+		{video "/video/menu"}
+		{media "main"
+			{file "/music/main_theme" loop}
+		}
+	}
+}
+{location "login"
+	{background
+		{picture "/interface/background/main"}
+		{media "main"
+			{file "/music/main_theme" loop}
+		}
+	}
+}
+{location "single"
+	{background
+		{media ""
+			{file "/music/loading_theme" loop}
+		}
+	}
+}
+{location "multi"
+	{background
+		{picture "/interface/background/main"}
+		{media "main"
+			{file "/music/main_theme" loop}
+		}
+	}
+}
+{location "multi_ingame"
+	{background
+		{picture "/interface/background/main"}
+	}
+}
+{location "options"
+	{background
+		{picture "/interface/background/main"}
+		{media "main"
+			{file "/music/main_theme" loop}
+		}
+	}
+}
+{location "credits"
+	{background
+;		{picture "/interface/background/credits"}
+		{video "/video/credits"}
+		{media "credits"
+			{file "/music/skirmish_hero_eng" loop
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{from "pattern gun"  
+	{filling "mortar"}
+	{fireSound "reactive/mortar"}
+	{reloadSound "gun_r03"}
+	("range_light_howitzer")
+	("caliber_medium")
+	{range 155 165}
+
+}

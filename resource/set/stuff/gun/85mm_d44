@@ -1,0 +1,25 @@
+{from "pattern gun"     ;
+	{filling "bullet85"}
+	{fireSound "gun/85to100_cal/85mm_zis53"}
+	{rechargeTime 7.5}
+	("range_medium")
+	
+	("speed" s(1030))
+	("caliber_large")
+	{projectileDamage 129}   
+	("damage" a(132) b(122) c(100) d(88) e(80))
+	{parameters "apcr"
+        ("damage" a(157) b(142) c(117) d(98) e(85))
+	}
+	{parameters "heat"
+		("speed" s(700))
+		("damage_cumulative" a(300))
+		{spreading 8.25
+			{SpreadPower	1}
+		}
+		{range 175 185}
+	}
+	
+	("accuracy_medium")
+	{range 192 202}
+}

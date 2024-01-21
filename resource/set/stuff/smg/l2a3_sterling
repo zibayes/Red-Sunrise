@@ -1,0 +1,8 @@
+{from "pattern smg"
+	{filling "ammo 919_34" 34}
+	{entity "l2a3_sterling"}
+	{desc "Sterling L2"}
+	{reloadSound "sterling_reload"}
+	("recoveryTime" r(550))
+ 	("speed" s(800))
+}

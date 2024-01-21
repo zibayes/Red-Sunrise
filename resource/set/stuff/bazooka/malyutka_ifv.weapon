@@ -1,0 +1,17 @@
+{from "pattern proj_weapon"
+        {tag "gun"}
+	{filling "ammo malyutka" 1}
+	{fillingVisible "rocket"}
+	{fireSound "Missile/TOW"}
+        {mass 7}
+	{rechargeTime 10}
+        {cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+        {projectileDamage 0}
+	{maxRange 160}
+	{aimRange 160}
+	{parameters "fg"
+                          {maxRange 170}
+		{aimRange 170}
+	}
+}

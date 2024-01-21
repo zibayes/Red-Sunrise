@@ -1,0 +1,21 @@
+{from "pattern gun"
+	{filling "bullet20 zenite" 1100}	
+	{fireSound "gun/20mm_rh202_fire"}
+	{rechargeTime 2}
+	{RecoveryTime 0.01}
+	{automatic}
+	{AimingTolerance 20}
+	{burst
+		{min 1}
+		{short 2}
+		{long 10}
+	}
+	
+	("range_autocannon")
+	{projectileDamage 30}
+	("speed" s(1050))
+	("caliber_zenite")
+	("damage" a(39) b(29) c(20) d(13) e(9))
+	{range 157 167}
+	("accuracy_zenite_medium")
+}

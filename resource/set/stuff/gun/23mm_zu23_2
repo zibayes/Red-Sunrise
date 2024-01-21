@@ -1,0 +1,21 @@
+{from "pattern gun"
+	{filling "bullet23 zenite" 200}	
+	{fireSound "gun/23mm_zu23_fire"}
+	{rechargeTime 7}
+	{RecoveryTime 0.03}
+	{automatic}
+	{AimingTolerance 20}
+	{burst
+		{min 1}
+		{short 2}
+		{long 10}
+	}
+	
+	("range_autocannon")
+	{projectileDamage 30}
+	("speed" s(970))
+	("caliber_zenite")
+	("damage" a(45) b(33) c(23) d(15) e(11))
+	{range 105 115}
+	("accuracy_very_low")
+}

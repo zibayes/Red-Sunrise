@@ -1,0 +1,23 @@
+{bullet
+        {desc "M210F"}
+	{tag "big shell fg bomb"}
+	{inventory
+		{size 6 1}
+		{weight 100}
+	}	
+	{mass 42}
+	{entity "m210f"}
+	{view "m210f"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	{damage blastwave
+		{energy 8}
+		{area 1 2}
+	}
+	{damage add blastwave
+		{energy 1.5}
+		{area 8 14}
+	}
+}

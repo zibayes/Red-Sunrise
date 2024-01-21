@@ -1,0 +1,16 @@
+{bullet
+	{tag "size_small shell fg"}
+	{inventory
+		{size 5 1}
+		{weight 60}
+	}	
+	{mass 10}
+	{entity "mim104c_patriot_ammo"}
+	{view "mim104c_patriot_ammo"
+		{tail "rocket_smoke" "tail"}
+	}
+	{damage blastwave
+		{energy 5}
+		{area 2 8}
+	}	
+}

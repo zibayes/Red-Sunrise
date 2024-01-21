@@ -1,0 +1,10 @@
+;SDL
+(include "construction.inc")
+{props "wood" "parts" "construction" "no_destroyed_stamp" "small"}
+{collider "particle.big"}
+{simulation {able 1}}
+{mass 6000}
+("armor_fence_wood")
+("armor_use_volume_thickness")
+
+{lodclass "decor_medium"}

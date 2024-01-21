@@ -1,0 +1,26 @@
+{from "pattern rifle"
+	{tag "autorifle"}
+	{filling "ammo 76251_20m14" 20}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	{mass 5.1}
+	{entity "m14"}
+	{desc "M14"}
+	{fireSound "rifle/m14_shot"}
+	{reloadSound "fal_reload"}
+	{rechargeTime 3.5}
+	
+	{Automatic}
+	{healthDamage 285}
+	("recoveryTime" r(750))
+	("accuracy_rifle_low")
+	("speed" s(850))
+	{range 75 80}
+	{burst
+		{short 1 0.5}
+		{long 1 0.5}
+	}
+}

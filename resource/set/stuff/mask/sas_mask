@@ -1,0 +1,5 @@
+{from "pattern mask"
+	{entity "sas_mask"}
+	{desc "Противогаз SAS"}
+		
+}

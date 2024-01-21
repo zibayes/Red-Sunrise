@@ -1,0 +1,4 @@
+{from "fieldcap_rus"
+        {desc "Ермолка"}
+	{entity "rus_afg_ermolka"}
+}

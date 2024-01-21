@@ -1,0 +1,6 @@
+{from "pattern pistol"
+	{filling "ammo 919_15" 15}
+	{entity "m9_beretta"}
+	{fireSound	"pistol/beretta/"}
+	{reloadSound "l9_reload"}
+}

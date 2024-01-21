@@ -1,0 +1,17 @@
+{from "pattern sniper_rifle"
+	{tag "silenced_small"}
+	{filling "ammo 939_20" 20}
+	{inventory
+		{size 6 2 }
+	}
+	{entity "vintorez"}
+	{fireSound "small_arms/silenced_val/"}
+	{reloadSound "Ak74_reload"}
+	{range 100 100}
+	{healthDamage 380}
+	{Automatic}
+	{recoveryTime 0.3}
+	{mass 2.5}
+	
+	("speed" s(700))
+}

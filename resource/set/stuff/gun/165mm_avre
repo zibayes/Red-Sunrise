@@ -1,0 +1,12 @@
+{from "pattern gun"     ; su-122
+	{filling "ammo 165hesh"}
+	{fireSound "gun/203mm"}
+	{reloadSound "tankgun_r04"}
+	("range_grazing_howitzer")
+	
+	("caliber_maximum")
+	
+	{rechargeTime 35}
+	{bullet_view "165hesh_ammo"}
+	{range 190 200}
+}

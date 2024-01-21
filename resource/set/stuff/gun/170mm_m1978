@@ -1,0 +1,14 @@
+{from "pattern gun"		;
+	{filling "bullet170" 6}
+	{fireSound "gun/howitzer/203mm"}
+	{reloadSound "tankgun_r02"}
+	("range_heavy_howitzer")
+	{range 420 430}
+	{projectileDamage 1000}
+	{recoveryTime 8.00}
+	{rechargeTime 90}
+
+	{cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}
+	{burst {min 6} {noaiming}}	
+}

@@ -1,0 +1,19 @@
+{from "pattern gun"
+	{filling "bullet120"}
+	{fireSound "gun/120mm_l30_fire"}
+	{reloadSound "120mm_l30_reload"}
+	{rechargeTime 8.57}
+	("range_maximum")
+
+	("speed" s(1370))
+	("caliber_maximum")
+	{projectileDamage 500}
+	("damage" a(397) b(393) c(389) d(385) e(379))
+	{parameters "apcr"
+		("speed" s(1370))
+        	("damage" a(500) b(490) c(482) d(473) e(464))
+	}
+	
+	("accuracy_high")
+	{range 210 220}
+}

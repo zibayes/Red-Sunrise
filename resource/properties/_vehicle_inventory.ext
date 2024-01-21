@@ -1,0 +1,60 @@
+;SDL
+{obstacleID "stuff"}
+{props "inventory_box" "spread_items"}
+
+{Volume "body00"
+	{able {touch}}
+}
+{Volume "body01"
+	{able {touch}}
+}
+{Volume "body02"
+	{able {touch}}
+}
+{Volume "body03"
+	{able {touch}}
+}
+{Volume "body04"
+	{able {touch}}
+}
+{Volume "body05"
+	{able {touch}}
+}
+
+(define "inv_ambulance"
+	{extender "inventory"
+		{box
+			{Size 8 10}
+			{Weight 15000}
+			{item "medkit" filled}
+		}
+	}
+)
+(define "inv_firetruck"
+	{extender "inventory"
+		{box
+			{Size 8 10}
+			{Weight 15000}
+			{item "fireaxe" filled}
+		}
+	}
+)
+(define "inv_military"
+	{extender "inventory"
+		{box
+			{Size 8 10}
+			{Weight 15000}
+			{item "m16a2" filled}
+			{item "m67 grenade"}
+		}
+	}
+)
+(define "inv_police"
+	{extender "inventory"
+		{box
+			{Size 8 10}
+			{Weight 15000}
+			{item "remington870" filled}
+		}
+	}
+)

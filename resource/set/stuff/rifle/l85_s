@@ -1,0 +1,17 @@
+{from "pattern rifle"
+	{tag "assaultrifle"}
+	{filling "ammo 55645_30ar" 30}
+	{mass 3.8}
+	{entity "l85_s"}
+	{fireSound "small_arms/aug/"}
+	{reloadSound "l85_reload"}
+	{rechargeTime 3.8}
+	
+	{Automatic}
+	{healthDamage 230}
+	("recoveryTime" r(650))
+	("accuracy_rifle_high")
+	("speed" s(940))
+	{range 95 95}
+	("burst_assault_rifle")
+}

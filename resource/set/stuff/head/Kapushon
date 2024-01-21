@@ -1,0 +1,9 @@
+{from "fieldcap_rus"
+	{tag "head_closed"}
+	{entity "Kapushon"}
+	{desc "Капюшон"}
+	{inventory
+		{size 1 1}
+		{weight 100}
+	}                        
+}

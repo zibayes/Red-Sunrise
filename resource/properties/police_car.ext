@@ -1,0 +1,281 @@
+;SDL
+actor
+
+(include "vehicle.ext")
+(include "car_crew.ext")
+
+("brain_vehicle")
+
+(define "accuracy_by_motion" ; 	spreading depending on the speed of "body", "gun" volumes
+	{AccuracyByMotion
+		{MaxLinearSpeed %max_linear}               ;km/h
+		{ByLinearSpeed %accuracy_by_linear}
+		{MaxAngularSpeed %max_angular}             ;deg/s
+		{ByAngularSpeed %accuracy_by_angular}
+		{DisorderTime %disorder_time}              ;s
+		{OrderTime %order_time}                    ;s
+	}
+)
+(define "abm_low"
+	("accuracy_by_motion"
+		max_linear(14) accuracy_by_linear(0.2)
+		max_angular(4) accuracy_by_angular(0.6)
+		disorder_time(1.2) order_time(2)
+	)
+)
+(define "abm_mgun"
+	("accuracy_by_motion"
+		max_linear(18) accuracy_by_linear(0.5)
+		max_angular(4) accuracy_by_angular(0.8)
+		disorder_time(1.2) order_time(2)
+	)
+)
+(define "abm_zenite"
+    ("accuracy_by_motion"
+        max_linear(10) accuracy_by_linear(0.5)
+        max_angular(4) accuracy_by_angular(0.8)
+        disorder_time(1.2) order_time(1.4)
+    )
+)
+
+{hearingBias 4.5} ; in meters
+{collider "car"}
+{props "car" "wheeled" "emit_on_sink" "tractor"}
+{targetClass "car"}
+{targetSelector "tank_bullet"}
+
+{able "ally_crew"}
+
+{placer
+	{place "driver"
+		{visor "main"}
+		{UseVision 0}
+	}
+}
+
+{extender "inventory"
+	{box
+		{Size 6 10}
+		{weight 10000}
+        {item "repair_kit"}
+		{item "can" filling "fuel" 60}
+	}
+}
+
+{volume "cabin"
+	{thickness hollow 1}
+}
+{volume "body"
+	{thickness 8}
+}
+{volume "bodyback"
+	{thickness 5}
+	{whole_wound}
+}
+{volume "glass"
+	{thickness 0.1}
+}
+{volume "engine"
+	{thickness 10}
+}
+{volume "inventory"
+	{tags "explosive"}
+	{thickness 0.2}
+}
+{volume "fuel"
+	{tags "explosive"}
+	{thickness 1}
+}
+(define "glass_volume"
+	{volume %0
+		{thickness 0.1}
+		{tags "glass"}
+	}
+)	
+	
+{component "body"
+	{RepairTime 25}
+	{tags "mover"}
+}
+{component "bodyback"
+	{RepairTime 25}
+}
+{component "cabin"
+	{RepairTime 15}
+}
+{component "engine"
+	{RepairTime 15}
+}
+{component "fuel"
+}
+
+{Chassis "wheel"
+	("chassis_defaults")
+	{speed
+		{Slow	10	}	; km/h
+		{Normal	20	}
+		{Fast	25	}
+	}
+}
+
+(define "locomotion"
+	{MaxSpeed			50}						; max speed, km/h
+	{StartTime			20}						; acceleration time from 0 to max speed, seconds
+	{maxSpeedAtMaxTurn	30}						; max speed at max turn, km/h
+	{BrakeTime			1.5}					; forced deceleration time from max speed to 0, seconds
+	{StopTime			5}						; stop time after turning off the engine (no breaking), seconds
+	{TurnRadius			9.0}					; [AI mode] minimum turn radius for AI, meters - DC turn radius is capped by SteerMax parameter(in degrees) in .mdl file
+	{TurnStart			6.0}					; [DC mode] time to go from minimum turn speed to maximum, seconds
+	{TurnStop			0.5}					; [DC mode] time to go from maximum turn speed to zero, seconds
+	{Gears				0.1 0.3 0.5 0.7 1.0}	; forward gear ratios
+	{RearGears			0.2 0.5}				; backward gear ratio
+	{GearSwitchDelay	0.0}					; time to switch from forward gear to rear one, sec
+	{SteerOn			30}						; steering wheels' turn speed, degrees per second
+	{SteerOff			40}						; steering wheels' relaxed (no control applied) neutral position return speed, degrees per second
+	{SplineRadius		1}						; limit turning radius on the splines (path planner parameter), meters
+	{MaxSlope			75}						; maximum slope to drive up hill
+	{FallSlope			75}						; maximum slope before physics kick in
+)
+
+(define "armor_car"
+	{armor
+		{setting "body"
+			;{thickness (* %b %k)}
+			{threshold
+				{blast 					
+					{value 5}
+				}								
+				{pierce 
+					{value 3}
+				}
+			}						
+			{durability 
+				{blast 					
+					{value 10}
+				}			
+				{pierce
+					{value 75}
+				}
+			}				
+			{volumes "body*"}
+		}
+		{setting "body_back"
+			;{thickness %bb}
+			{threshold
+				{blast 					
+					{value 5}
+				}								
+				{pierce 
+					{value 1}
+				}
+			}						
+			{durability 
+				{blast 					
+					{value 10}
+				}			
+				{pierce
+					{value 50}
+				}
+			}				
+			{volumes "bodyback*"}
+		}
+		{setting "engine"
+			;{thickness (* 2.5 %b)}
+			{threshold								
+				{blast 					
+					{value 5}
+				}								
+				{pierce 
+					{value 3}
+				}
+			}						
+			{durability 		
+				{blast 					
+					{value 10}
+				}							
+				{pierce
+					{value 150}				
+				}
+			}		
+			{whole_wound}		
+			{volumes "engine*"}
+		}
+		{setting "wheel"
+			{thickness 5}
+			{threshold
+				{blast 
+					{value 10}
+				}				
+				{pierce 
+					{value 1}
+				}
+			}			
+			{durability 
+				{blast 
+					{value 10}
+				}				
+				{pierce 
+					{value 10}
+				}
+			}			
+			{whole_wound}
+			{volumes "wheel*"}
+		}
+		{setting "cabin"
+			{thickness 5}
+			{threshold
+				{blast 
+					{value 1}
+				}
+			}
+			{durability 
+				{blast 					
+					{value 10}
+				}			
+				{pierce					
+					{value 15}
+				}			
+			}
+			{volumes "cabin*"}
+		}
+			{setting "shields"
+				{thickness 5}
+				{threshold
+					{blast 					
+						{value 8}
+					}								
+					{pierce 
+						{value 7}
+					}
+				}
+				{durability 
+					{blast 					
+						{value 17}
+					}			
+					{pierce
+						{value 22}
+					}
+				}				
+				{volumes "shield1*" "shiel2*" "shield3*"}
+			}
+		}
+		{sensor
+			{visor "view-around"
+                {vision "moto_around"}
+				{bone "basis"}
+			}		
+			{visor "main"
+				{vision "vehicle_main"}
+			}		
+		}
+)
+
+(define "armor_light"
+	("armor_car" b(10) k(%0) bb(0.5))
+)
+(define "armor_medium"
+	("armor_car" b(15) k(%0) bb(0.5))
+)
+(define "armor_fuel"
+	("armor_car" b(10) k(%0) bb(6))
+)

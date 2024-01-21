@@ -1,0 +1,31 @@
+{breed
+	{skin "ussr_soldier_berezka"}
+	{icon bazooker}
+	{icon_priority 3}
+	{nationality rus}
+	{armors
+		{body belt_a_rpg}
+		{head rus_afg_sh68_ermolka}
+	}
+	{perks
+		{"melee" lvl_1
+		}
+		{"avoidance" lvl_1
+		}
+		{"pistol" lvl_1
+		}
+		{"rifle" lvl_1
+		}
+		{"smg" lvl_5
+		}
+		{"mgun" lvl_5
+		}
+	}
+	{inventory
+		{item "aks74u" filled}
+		{item "rpg-27" filled}
+		{item "pistol ammo" 90}
+		{item "bandage" 5}
+		{in_hands 0}
+	}
+}

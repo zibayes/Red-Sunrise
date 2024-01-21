@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "cw_usa_soldier_sniper1_multicam"}
+	{portrait nato_snaiper}
+	{icon_priority 0}
+	{tags "nato_snaiper"}
+	{nationality usa}
+	{perks
+		{"health" "150%"
+		}
+		{"vision" mp_sniper
+		}
+		{"speed" 1
+		}
+		{"mgun" lvl_1
+		}
+		{"pistol" lvl_1
+		}
+		{"rifle" lvl_5
+		}
+		{"smg" lvl_1
+		}
+		{"health_regeneration" "150%"
+		}
+		{"melee" lvl_1
+		}
+	}
+	{inventory
+		{item "m9_beretta" filling "919_15 ammo" 15}
+		{item "knife_ger"}
+		{item "l96a1" filling "76251_10aw ammo" 10}
+		{in_hands 2}
+	}
+}

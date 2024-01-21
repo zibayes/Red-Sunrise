@@ -1,0 +1,10 @@
+{from "pattern gun2"
+	{filling "ammo rbs70" 1}
+	{fillingVisible "rocket"}
+	{fireSound "reactive/katyusha_burst"}
+	{rechargeTime 20}
+	{range 262 262}
+	
+	("speed" s(500))
+	("accuracy_minimum")
+}

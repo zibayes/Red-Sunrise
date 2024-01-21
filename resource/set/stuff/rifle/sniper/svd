@@ -1,0 +1,15 @@
+{from "pattern sniper_rifle"
+	{filling "ammo 76254_10" 10}
+	{inventory
+		{size 5 2 }
+	}
+	{entity "svd"}
+	{fireSound "rifle/svd_shoot"}
+	{reloadSound "svd_reload"}
+	{range 95 100}
+	{healthDamage 315}
+	{recoveryTime 0.12}
+	{mass 4.3}
+	("speed" s(850))
+	{desc "СВД"}
+}

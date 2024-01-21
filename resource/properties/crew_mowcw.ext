@@ -1,0 +1,379 @@
+;SDL
+
+;// BOARDING ANIMATIONS //////////////////////////////////////////////////////////////////////
+
+;board main without opening door
+(define "board_nodoor"
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_body"} {end "seat_passenger"} {base "doorleft"}}
+			{reverse	{end	"emit_body"} {base "doorleft" -1}}
+		}
+		{anm "right"
+			{forward	{begin	"board_body"} {end "seat_passenger"} {base "doorright"}}
+			{reverse	{end	"emit_body"} {base "doorright" -1}}
+		}
+	}
+)
+
+;board driver and passengers left and right with doors
+(define "board_door_low"
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_Kubel_driver"} {end "seat_driver_car"} {base "doorleft"}}
+			{reverse 	{end	"board_Kubel_driver" -1} {base "doorleft" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_Kubel_leftpassenger"} {end "seat_passenger"} {base "doorleft1"}}
+			{reverse 	{end	"board_Kubel_leftpassenger" -1} {base "doorleft1" -1}}
+		}
+		{anm "right"
+			{forward	{begin	"board_Kubel_rightpassenger"} {end "seat_passenger"} {base "doorright1"}}
+			{reverse 	{end	"board_Kubel_rightpassenger" -1} {base "doorright1" -1}}
+		}
+	}
+)
+
+;board main left and right with door, elevated seats
+(define "board_door_mid"
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_big-midcar_driver"} {end "seat_driver_car"} {base "doorleft"}}
+			{reverse	{end	"board_big-midcar_driver" -1} {base "doorleft" -1}}
+		}
+		{anm "right"
+			{forward	{begin	"board_big-midcar"} {end "seat_passenger"} {base "doorright"}}
+			{reverse	{end	"board_big-midcar" -1} {base "doorright" -1}}
+		}
+	}
+)
+
+;board main left and right with door, high seats
+(define "board_highcar"
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_big-highcar_driver"} {end "seat_driver_car"} {base "doorleft"}}
+			{reverse	{end	"board_big-highcar_driver" -1} {base "doorleft" -1}}
+		}
+		{anm "right"
+			{forward	{begin	"board_big-highcar"} {end "seat_passenger"} {base "doorright"}}
+			{reverse	{end	"board_big-highcar" -1} {base "doorright" -1}}
+		}
+	}
+)
+
+;board left and right, very high
+(define "board_plane_high"
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_plane_left"} {end "seat_driver_car"} {base "doorleft"}}
+			{reverse	{end	"board_plane_left" -1} {base "doorleft" -1}}
+		}
+		{anm "right"
+			{forward	{begin	"board_plane_left"} {end "seat_passenger"} {base "doorright"}}
+			{reverse	{end	"board_plane_left" -1} {base "doorright" -1}}
+		}
+	}
+)
+
+;board passenger places on tank chassis
+(define "board_armor_1"
+	{boarder
+		{anm "passenger"
+			{forward	{begin	"board_higharmor"} 	{end "seat_armor"}}
+			{reverse	{end	"emit_tank_1_hold"}}
+		}
+	}
+)
+
+;board open tank gunner
+(define "board_tank_open"
+	{boarder
+		{anm "anim_board_tank"
+			{forward	{begin	"board_tank"}{end "seat_gunner_stand"}}
+			{reverse	{end	"emit_tank_1_hold"}}
+		}
+	}
+)
+
+;board tank left and right, low
+(define "board_tank"
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank"}}
+			{reverse	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank"}}
+			{reverse	{end	"emit_tank_1_hold"}}
+		}
+	}
+)
+
+;board tank left and right, high
+(define "board_tank_high"
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_sherman_left"}}
+			{reverse	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_sherman_right"}}
+			{reverse	{end	"emit_tank_2_hold"}}
+		}
+	}
+)
+
+;board tank driver through extra hatch
+(define "board_tank_driver"
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_tank"} {base "open_driver"}}
+			{reverse	{end	"emit_body"} {base "close_driver"}}
+		}
+	}
+)
+
+;board passengers through a single back door
+(define "board_doorback_1"
+	{boarder
+		{anm "passenger"
+			{forward	{begin	"board_dodge_bodyback"} {end "seat_passenger"} {base "doorback"}}
+			{reverse	{end	"emit_body"} {base "doorback" -1}}
+		}
+	}
+)
+
+;board passengers through two back doors with left and right seats
+(define "board_doorback_2_low"
+	{boarder
+		{anm "passenger1"
+			{forward	{begin	"board_ba-20m"} {end "seat_passenger"} {base "doorback1"}}
+			{reverse	{end	"emit_tank_1"} {base "doorback1" -1}}
+		}
+		{anm "passenger2"
+			{forward	{begin	"board_ba-20m_driver"} {end "seat_passenger"} {base "doorback2"}}
+			{reverse	{end	"emit_tank_2"} {base "doorback2" -1}}
+		}
+	}
+)
+
+
+;board passengers on extra side doors left and right
+(define "board_sidedoors"
+	{boarder
+		{anm "passenger_left"
+			{forward	{begin	"board_sdkfz251-1"} {end "seat_passenger"} {base "doorleft1"}}
+			{reverse	{end	"emit_tank_1"} {base "doorleft1" -1}}
+		}
+		{anm "passenger_right"
+			{forward	{begin	"board_sdkfz251-1"} {end "seat_passenger"} {base "doorright1"}}
+			{reverse	{end	"emit_tank_1"} {base "doorright1" -1}}
+		}
+	}
+)
+
+(define "board_boat"
+	{boarder
+		{anm "passenger"
+			{forward	{begin	"board_rubber_boat"} {end "seat_passenger"}}
+			{reverse 	{end	"board_rubber_boat" -1}}
+		}
+	}
+)
+
+
+;// CREW TYPE DEFINES //////////////////////////////////////////////////////////////////////
+
+(define "crew_visible"
+	{placer
+		{place "%place"
+			{group "%group"}
+			{linkbone "%place"}
+			{turnoff {sensor} {targetable}}
+		}
+	}
+	{boarder
+		{door "%door"}
+		{door "%door2"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+		{link "%door2" "%place" {anm "%animation2"} {forward putoff} {reverse puton}}
+	}
+)
+
+(define "crew_open"
+	{placer
+		{place "%place"
+			{group "%group"}
+			{linkbone "%bone"}
+			{openForCrush}
+		}
+	}
+	{boarder
+		{door "%door"}
+		{door "%door2"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+		{link "%door2" "%place" {anm "%animation2"} {forward putoff} {reverse puton}}
+	}
+)
+
+(define "crew_invisible"
+	{placer
+		{place "%place"
+			{group "%group"}
+		}
+	}
+	{boarder
+		{door "%door"}
+		{door "%door2"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+		{link "%door2" "%place" {anm "%animation2"} {forward putoff} {reverse puton}}
+	}
+)
+
+
+;// CREW VISIBLE /////////////////////////////////////////////////////////////////////////////
+
+(define "crew_2_visible_low"
+	("board_door_low")
+	("crew_visible"		place(driver)		door(emit1) animation(driver)	group(crew))
+	("crew_visible"		place(commander)	door(emit2) animation(right)	group(crew))
+)
+
+(define "crew_2_visible_mid"
+	("board_door_mid")
+	("crew_visible"		place(driver)		door(emit1) animation(left)		group(crew))
+	("crew_visible"		place(commander)	door(emit2) animation(right)	group(crew))
+)
+
+(define "crew_2_visible_left"
+	("board_nodoor")
+	("crew_visible"		place(driver)		door(emit1) animation(left)		group(crew))
+	("crew_visible"		place(commander)	door(emit1) animation(left)		group(crew))
+)
+
+(define "crew_2_visible_right"
+	("board_nodoor")
+	("crew_visible"		place(driver)		door(emit2) animation(right)	group(crew))
+	("crew_visible"		place(commander)	door(emit2) animation(right)	group(crew))
+)
+
+(define "crew_open_mgun"
+	("board_tank_open")
+	("crew_open"		place(gunner2) bone(gunner2) door(emit1) door2(emit2) animation(anim_board_tank) animation2(anim_board_tank) group(crew))
+)
+
+(define "passenger_3_armor"
+	("board_armor_1")
+	("crew_visible"		place(seat01)	door(emit3) animation(passenger)	group(passenger))
+	("crew_visible"		place(seat02)	door(emit4) animation(passenger)	group(passenger))
+	("crew_visible"		place(seat03)	door(emit5) animation(passenger)	group(passenger))
+)
+
+(define "passenger_4_armor"
+	("passenger_3_armor")
+	("crew_visible"		place(seat04)	door(emit6) animation(passenger)	group(passenger))
+)
+
+(define "passenger_2_visible"
+	("board_door_low")
+	("crew_visible"		place(seat01)	door(emit3) animation(left)			group(passenger))
+	("crew_visible"		place(seat02)	door(emit4) animation(right)		group(passenger))
+)
+
+(define "passenger_4_visible_side"
+	("board_sidedoors")
+	("crew_visible"		place(seat01)	door(emit3) animation(passenger_left)	group(passenger))
+	("crew_visible"		place(seat02)	door(emit4) animation(passenger_right)	group(passenger))
+	("crew_visible"		place(seat03)	door(emit3) animation(passenger_left)	group(passenger))
+	("crew_visible"		place(seat04)	door(emit4) animation(passenger_right)	group(passenger))
+)
+
+(define "passenger_10_visible_back"
+	("board_doorback_1")
+	("crew_visible"		place(seat01)	door(emit3) animation(passenger)	group(passenger))
+	("crew_visible"		place(seat02)	door(emit4) animation(passenger)	group(passenger))
+	("crew_visible"		place(seat03)	door(emit3) animation(passenger)	group(passenger))
+	("crew_visible"		place(seat04)	door(emit4) animation(passenger)	group(passenger))
+	("crew_visible"		place(seat05)	door(emit3) animation(passenger)	group(passenger))
+	("crew_visible"		place(seat06)	door(emit4) animation(passenger)	group(passenger))
+	("crew_visible"		place(seat07)	door(emit3) animation(passenger)	group(passenger))
+	("crew_visible"		place(seat08)	door(emit4) animation(passenger)	group(passenger))
+	("crew_visible"		place(seat09)	door(emit3) animation(passenger)	group(passenger))
+	("crew_visible"		place(seat10)	door(emit4) animation(passenger)	group(passenger))
+)
+
+(define "passenger_11_visible_back"
+	("passenger_10_visible_back")
+	("crew_visible"		place(seat11)	door(emit3) animation(passenger)	group(passenger))
+)
+
+(define "passenger_14_visible_back"
+	("passenger_11_visible_back")
+	("crew_visible" place(seat12)		door(emit4) animation(passenger)	group(passenger))
+	("crew_visible" place(seat13)		door(emit3) animation(passenger)	group(passenger))
+	("crew_visible" place(seat14)		door(emit4) animation(passenger)	group(passenger))
+)
+
+(define "passenger_16_visible_back"
+	("passenger_14_visible_back")
+	("crew_visible" place(seat15)		door(emit4) animation(passenger)	group(passenger))
+	("crew_visible" place(seat16)		door(emit3) animation(passenger)	group(passenger))
+	("crew_visible" place(seat14)		door(emit4) animation(passenger)	group(passenger))
+)
+
+;// CREW INVISIBLE ///////////////////////////////////////////////////////////////////////////
+
+(define "crew_1_invisible"
+	("board_tank_high")
+	("crew_invisible"	place(driver)		door(emit1) door2(emit2) animation(left) animation2(right)	group(crew))
+)
+
+(define "crew_3_invisible"
+	("crew_1_invisible")
+	("crew_invisible"	place(gunner)		door(emit1) door2(emit2) animation(left) animation2(right)	group(crew))
+	("crew_invisible"	place(commander)	door(emit1) door2(emit2) animation(left) animation2(right)	group(crew))
+)
+
+(define "crew_3_invisible_nocomm"
+	("board_tank_high")
+	("crew_invisible"	place(driver)		door(emit1) door2(emit2) animation(left) animation2(right)	group(crew))
+	("crew_invisible"	place(gunner)		door(emit1) door2(emit2) animation(left) animation2(right)	group(crew))
+	("crew_invisible"	place(charger)		door(emit1) door2(emit2) animation(left) animation2(right)	group(crew))
+)
+
+(define "crew_4_invisible"
+	("crew_3_invisible_nocomm")
+	("crew_invisible"	place(commander)	door(emit1) door2(emit2) animation(left) animation2(right)	group(crew))
+)
+
+(define "crew_4_invisible_driver"
+	("board_tank_high")
+	("board_tank_driver")
+	("crew_invisible"	place(driver)		door(emit0)				 animation(driver)					group(crew))
+	("crew_invisible"	place(gunner)		door(emit1) door2(emit2) animation(left) animation2(right)	group(crew))
+	("crew_invisible"	place(charger)		door(emit1) door2(emit2) animation(left) animation2(right)	group(crew))
+	("crew_invisible"	place(commander)	door(emit1) door2(emit2) animation(left) animation2(right)	group(crew))
+)
+
+(define "crew_4_invisible_opencomm"
+	("crew_4_invisible")
+	("crew_open_mgun")
+)
+
+(define "crew_1_invisible_gunner2"
+	("board_tank_high")
+	("crew_invisible"	place(gunner2)		door(emit1) door2(emit2) animation(left) animation2(right)	group(crew))
+)
+
+(define "passenger_8_invisible_low"		;bmp-1 only
+	("board_doorback_2_low")
+	("crew_invisible" place(seat01)		door(emit3) animation(passenger1)	group(crew))
+	("crew_invisible" place(seat02)		door(emit4) animation(passenger2)	group(crew))
+	("crew_invisible" place(seat03)		door(emit3) animation(passenger1)	group(crew))
+	("crew_invisible" place(seat04)		door(emit4) animation(passenger2)	group(crew))
+	("crew_invisible" place(seat05)		door(emit3) animation(passenger1)	group(crew))
+	("crew_invisible" place(seat06)		door(emit4) animation(passenger2)	group(crew))
+	("crew_invisible" place(seat07)		door(emit3) animation(passenger1)	group(crew))
+	("crew_invisible" place(seat08)		door(emit4) animation(passenger2)	group(crew))
+)

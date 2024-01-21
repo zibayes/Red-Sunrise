@@ -1,0 +1,10 @@
+{from "pattern overcoat"
+        {desc "Belt A Sniper"}
+	{tag "armor"}
+        {mass 2.0}
+	{inventory
+		{size 1 1}
+		{weight 50}
+	}
+	{entity "belt_a_sniper"}
+}

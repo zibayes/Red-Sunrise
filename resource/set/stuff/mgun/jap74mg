@@ -1,0 +1,12 @@
+{from "pattern mgun"
+	{filling "ammo 76251_100" 200}
+	{entity "jap62mgun"}
+	{fireSound	"mgun/fnmag_fire/"}
+	{reloadSound "fnmag_reload"}
+
+	("recoveryTime" r(700))
+	("burst_long")
+	("speed" s(840))
+	{range 95 100}
+	{healthDamage 305}
+}

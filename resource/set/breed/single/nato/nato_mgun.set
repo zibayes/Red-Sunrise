@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "cw_usa_soldier"}
+	{portrait nato_mgun}
+	{icon_priority 0}
+	{nationality usa}
+	{armors
+		{head usa_helmet_2}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"speed" 1
+		}
+		{"melee" lvl_1
+		}
+		{"mgun" lvl_5
+		}
+		{"at_rifle" lvl_1
+		}
+		{"rifle" lvl_1
+		}
+		{"pistol" lvl_1
+		}
+		{"vision" mp_soldier
+		}
+		{"smg" lvl_1
+		}
+	}
+	{inventory
+		{item "m249" filling "55645_200 ammo" 200}
+		{item "55645_200 ammo" 3}
+		{in_hands 0}
+	}
+}

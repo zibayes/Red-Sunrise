@@ -1,0 +1,20 @@
+{from "pattern gun"
+	{filling "bullet125"}
+	{fireSound "gun/125mm_2a46_fire"}
+	{reloadSound "125mm_2a46_reload"}
+	{rechargeTime 8.57}
+	("range_maximum")
+
+	("speed" s(1475))
+	("caliber_maximum")
+	{projectileDamage 520}
+        ("damage" a(660) b(637) c(610) d(596) e(585))
+	
+	{parameters "heat"
+		("speed" s(950))
+		("damage_cumulative" a(480))
+		("accuracy_high")
+	}
+	("accuracy_maximum")
+	{range 227 237}
+}

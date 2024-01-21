@@ -1,0 +1,11 @@
+{from "pattern gun"     ; "T62"
+	{filling "bullet105" 1}
+        {desc "105mm D23"}
+	{fireSound "gun/105mm_type6"}
+        {reloadSound "tankgun_r04"}
+	{rechargeTime 6}
+	{range 160 200}
+	{projectileDamage 440}
+	("damage" a(430) b(390) c(360) d(320) e(280))
+	{speed 600}
+}

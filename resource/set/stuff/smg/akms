@@ -1,0 +1,22 @@
+{from "pattern smg"
+	{filling "pistol ammo" 30}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	{mass 3.8}
+	{entity "akms"}
+	{fireSound "small_arms/akm/"}
+	{reloadSound "AK47_reload"}
+	{rechargeTime 3.5}
+	
+	{Automatic}
+	{healthDamage 250}
+	{speed 710}
+	{range 70 80}
+	{burst
+		{short 3 0.5}
+		{long 30 0.5}
+	}
+}

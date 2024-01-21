@@ -1,0 +1,38 @@
+{breed
+	{skin "ussr_soldier_sql"}
+	{portrait "rus_super_mg"}
+	{icon "sappers"}
+	{icon_priority 1}
+	{nationality rus}
+	{armors
+		{head helmet1_rus}
+	}
+	{perks
+		{"health" "100%"
+		}
+		{"mgun" none
+		}
+		{"pistol" none
+		}
+		{"power" "100%"
+		}
+		{"rifle" none
+		}
+		{"smg" basic
+		}
+		{"rocketlauncher" none
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.7
+		}
+		{"melee" advanced
+		}
+	}
+	{inventory
+		{item "mine_detector"}
+		{item "ammo pistol" 100}
+		{item "akms"}
+		{in_hands 2}
+	}
+}

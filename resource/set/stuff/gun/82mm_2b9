@@ -1,0 +1,9 @@
+{from "pattern gun"
+	{filling "ammo mortar fg" 1}
+	{fireSound "reactive/mortar"}
+	{reloadSound "gun_r03"}
+	("range_light_howitzer")
+	("caliber_medium")
+	{range 152 162}
+	{rechargeTime 3}
+}

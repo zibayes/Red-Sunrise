@@ -1,0 +1,38 @@
+{from "pattern gun"
+	{filling "bullet115"}
+	{fireSound "gun/115mm_2a20_fire"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 10}
+	("range_maximum")
+
+	("speed" s(1615))
+	("caliber_maximum")
+	{projectileDamage 275}
+	("damage" a(388) b(379) c(375) d(359) e(330))
+	{parameters "apcr"
+		("speed" s(1615))
+        	("damage" a(410) b(400) c(390) d(378) e(362))
+	}
+	{parameters "heat"
+		("speed" s(950))
+		("damage_cumulative" a(440))
+		("accuracy_high")
+	}
+	
+	("accuracy_medium")
+	{range 227 237}
+	{parameters "arkan"
+		{bullet_view "arkan_ammo"
+			{tail "rocket_smoke" "tail"}
+		}
+		("speed" s(500))
+		("damage_cumulative" a(525))
+		{range 280 285}
+		{gravity 0}
+		{spreading 5.25
+			{SpreadPower	1}
+		}
+		{cursor "cannon_on_atgm"}
+		{cursorReloading "cannon_reload_atgm"}
+	}
+}

@@ -1,0 +1,31 @@
+{weapon_throwing
+	{inventory {noView}}
+	{states
+		{fire	"fire"  	 }
+		{reload "reload"	 }
+		{unload "unload"	 }
+		{aim 	"aim-thrower"}
+		{can_aim "can-aim-thrower"}
+	}
+	{foresight "Foresight2"}
+	{fireSound	"grenade_pin"}
+	{AimingTolerance 3}				; degree
+	{aimRange 30}					; m
+	{gravity  1}
+	{filling "throwable"}
+;	{thirdpersonparams inherit "human default"
+;		{clip
+;			{distanceMin	1		}
+;			{distanceMax	200		}
+;		}
+;		{level 0
+;			{faroffset	0 25 70	}
+;			{nearoffset	0 25 15	}
+;			{delta		25			}
+;		}
+;		{maxlevel 0}
+;	}
+	
+;	{crosshair "crosshair6"}
+;	{crosshairReloading "crosshair6_reload"}
+}

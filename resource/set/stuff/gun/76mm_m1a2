@@ -1,0 +1,19 @@
+{from "pattern gun"
+	{filling "bullet76"}
+	{fireSound "gun/50to76_cal/76mm_mk4"}
+	{reloadSound "gun_r05"}
+	{rechargeTime 6}
+	("range_medium")
+	
+	("speed" s(792))
+	("caliber_medium")
+	{projectileDamage 102}
+	("damage" a(102) b(93) c(88) d(82) e(75))
+	{parameters "apcr"
+	("speed" s(1000))
+        ("damage" a(168) b(157) c(135) d(116) e(98))
+	}
+	
+	{range 175 185}
+	("accuracy_very_low")
+}

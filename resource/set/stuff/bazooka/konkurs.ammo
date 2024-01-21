@@ -1,0 +1,18 @@
+{from "pattern rpg_ammo"
+	{entity "konkurs_ammo"}
+	{view "konkurs_ammo"
+		{tail "rok_tail" "tail"}
+        }
+	{inventory
+		{weight 100}
+		{size 5 1}
+	}
+	{damage blastwave
+		{energy 1}
+		{area 2 8}
+	}
+	{damage cumulative
+		{damage 650}
+		{distance 0.3}
+	}
+}

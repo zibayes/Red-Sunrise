@@ -1,0 +1,17 @@
+{from "pattern gun"
+	{filling "bullet100"}
+	{fireSound "gun/85to100_cal/100mm_d10c"}
+	{rechargeTime 6}
+	("range_maximum")
+
+	("speed" s(890))
+	("caliber_maximum")
+	{projectileDamage 170}
+        ("damage" a(210) b(188) c(164) d(144) e(126))
+	{parameters "apcr"
+	("damage" a(250) b(217) c(169) d(114) e(99))
+	}
+	
+	("accuracy_low")
+	{range 192 202}
+}

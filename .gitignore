@@ -1,0 +1,9 @@
+# hidden directories
+
+resource/entity/humanskin
+resource/entity/inventory_modern
+resource/entity/modern_construction
+resource/entity/modern_entities
+resource/entity/modern_land
+resource/entity/-vehicle_modern
+resource/texture

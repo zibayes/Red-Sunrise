@@ -1,0 +1,20 @@
+{from "pattern bullet"
+	{tag "mgun weapon bullet to_hand shoot_walking"}
+	{entity "dshk"}
+	{fireSound "small_arms/rpk/"}
+	{reloadSound "small_arms/mgun_tank/"}
+	{filling "ammo mgun" 250}
+	{inventory
+		{size 6 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	{mass 5}
+	{traceFreq 4}
+	{Automatic}
+ 	{speed 825}
+	{projectileDamage 5}
+	{projectileDamageClip 5}
+	{projectileDamageTable {22.5 5} {250 0}}
+	{range 90 95}
+}

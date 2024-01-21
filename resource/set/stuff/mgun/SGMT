@@ -1,0 +1,12 @@
+{from "pattern mgun"
+        {desc "—√Ã“"}
+	{filling "ammo mgun" 100}
+	{entity "sgmt"}
+	{fireSound	"small_arms/rpk/"}
+	{reloadSound "dt"}
+	{inventory 	{handle_bone "handle_box"}}
+
+	{speed 800}
+	{healthDamage 260}
+	{range 90 95}
+}

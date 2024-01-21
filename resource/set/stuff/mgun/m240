@@ -1,0 +1,12 @@
+{from "pattern mgun"
+	{filling "ammo 76251_100" 100}
+	{entity "m240"}
+	{fireSound	"mgun/fnmag_fire/"}
+	{reloadSound "fnmag_reload"}
+
+	("recoveryTime" r(600))
+	("burst_long")
+	("speed" s(853))
+	{range 95 100}
+	{healthDamage 305}
+}

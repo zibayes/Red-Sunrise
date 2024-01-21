@@ -1,0 +1,13 @@
+{from "pattern mgun"
+        {tag "not_for_human link_mmg"}
+        {filling "ammo hmgun" 50}
+	{entity "dshk"}
+	{fireSound "mgun/dshk_burst/"}
+	{reloadSound "ptrd"}
+        {rechargeTime 6.5}
+        {recoveryTime 0.14}
+	{speed 845}
+	{healthDamage 105}
+	{projectileDamageTable {25 30} {50 25} {75 15} {100 5}}
+        {range 75 80}
+}

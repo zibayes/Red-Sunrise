@@ -1,0 +1,11 @@
+;Created by Pheonix
+{item
+	{tag "smallitemin1hand mask"}
+	{mass 0.1}
+	{inventory
+		{link_bone "head"}
+		{size 2 2 }
+		{fsm "belt"}
+		{weight 100}
+	}
+}

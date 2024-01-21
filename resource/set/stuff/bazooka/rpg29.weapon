@@ -1,0 +1,11 @@
+{from "pattern rpg_weapon"
+	{filling "ammo rpg29rocket" 1}
+	{preloaded}
+	{entity "rpg29"}
+	{desc "РПГ-29"}
+    {projectileDamage 630}
+	{fireSound "bazooka/rpg7"}
+	{reloadSound "RPG_reload"}
+	("speed" s(280))
+	{range 45 50}
+}

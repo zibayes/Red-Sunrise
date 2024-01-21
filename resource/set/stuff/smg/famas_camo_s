@@ -1,0 +1,25 @@
+{from "pattern rifle"
+	{tag "assaultrifle"}
+	{filling "ammo 55645_25fr" 25}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	{mass 3.7}
+	{entity "famas_camo_s"}
+	{fireSound "smg/famas_fire"}
+	{reloadSound "l85_reload"}
+	{rechargeTime 2.8}
+	
+	{Automatic}
+	{healthDamage 300}
+	("recoveryTime" r(950))
+	("accuracy_rifle_high")
+	("speed" s(960))
+	{range 60 65}
+	{burst
+		{short 3 0.5}
+		{long 25 0.5}
+	}
+}

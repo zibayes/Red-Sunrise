@@ -1,0 +1,18 @@
+{from "pattern rifle"
+	{tag "assaultrifle"}
+	{filling "ammo 55645_30ar" 30}
+	{mass 3.63}
+	{entity "colt_model_723"}
+	{desc "M16"}
+	{fireSound "small_arms/m249"}
+	{reloadSound "m16_reload"}
+	{rechargeTime 3.7}
+	
+	{Automatic}
+	{healthDamage 230}
+	("recoveryTime" r(800))
+	("accuracy_rifle")
+	("speed" s(975))
+	{range 90 90}
+	("burst_assault_rifle")
+}

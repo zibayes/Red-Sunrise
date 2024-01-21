@@ -1,0 +1,9 @@
+{from "pattern gun"
+        {desc "152μμ Δ22"}
+	{filling "bullet152" 1}
+	{fireSound "gun/d30_shot"}
+	{reloadSound "gun_r04"}
+	{rechargeTime 16}
+	{range 300 310}
+	{ZeroingAccuracy 1.00 0.70 0.60 0.50 0.40}
+}

@@ -1,0 +1,10 @@
+{from "pattern rpg_weapon"
+	{filling "ammo smaw_rocket" 1}
+	{preloaded}
+	{entity "smaw"}
+    {projectileDamage 500}
+	{fireSound "bazooka/smaw_fire"}
+	{reloadSound "smaw_reload"}
+	("speed" s(220))
+	{range 45 50}
+}

@@ -1,0 +1,22 @@
+;test_core
+{from "pattern smg"
+	{tag "reliability_high"}
+	{filling "ammo pistol" 30}
+	{mass 4.3}
+    {desc "AK"}        
+	{entity "Ak47"}
+	{fireSound "smg/mp44_burst/"}
+	{reloadSound "AK47_reload"}
+	{speed 320}	
+
+	{recoveryTime 0.16}
+        {rechargeTime 3}
+
+	{aimRange 50}	; == maxRange
+	{maxRange 60}
+	{burst
+		{short 5 1}
+		{long 8 1}
+	}
+	{healthDamage 92}	
+}

@@ -1,0 +1,18 @@
+{from "pattern gun2"
+	{filling "bullet40 fg" 20}
+	{fireSound "gun/40mm_mk19_fire"}
+	("range_light_howitzer")
+	{rechargeTime 2}
+	{RecoveryTime 0.185}
+	{AimingTolerance 10}
+	{Automatic}
+	{burst
+		{min 1}
+		{short 2.5 1}
+		{long 7 2}
+	}
+	
+	("speed" s(241))
+	("caliber_minimum")    
+	{range 55 60}            
+}

@@ -1,0 +1,107 @@
+{from "pattern gun"
+	{filling "bullet125"}
+	{fireSound "gun/125mm_2a46_fire"}
+	{reloadSound "125mm_2a46_reload"}
+	{rechargeTime 6.67}
+	("range_maximum")
+
+	("speed" s(1475))
+	("caliber_maximum")
+	{projectileDamage 420}
+	("damage" a(460) b(446) c(420) d(406) e(390))
+	{parameters "apcr"
+	("damage" a(500) b(496) c(480) d(460) e(430))
+	}
+	{parameters "heat"
+		("speed" s(950))
+		("damage_cumulative" a(480))
+		("accuracy_high")
+	}
+	
+	("accuracy_medium")
+	{range 210 220}
+	{parameters "angora"
+		{bullet_view "kobra_ammo"
+			{tail "rocket_smoke" "tail"}
+		}
+		("speed" s(450))
+		("damage_cumulative" a(525))
+		{range 262 272}
+		{gravity 0}
+		{spreading 4.90
+			{SpreadPower	1}
+		}
+		{cursor "cannon_on_atgm"}
+		{cursorReloading "cannon_reload_atgm"}
+	}
+	{parameters "invar"
+		{bullet_view "refleks_ammo"
+			{tail "rocket_smoke" "tail"}
+		}
+		("speed" s(800))
+		("damage_cumulative" a(630))
+		{range 280 285}
+		{gravity 0}
+		{spreading 4.50
+			{SpreadPower	1}
+		}
+		{cursor "cannon_on_atgm"}
+		{cursorReloading "cannon_reload_atgm"}
+	}
+	{parameters "kobra"
+		{bullet_view "kobra_ammo"
+			{tail "rocket_smoke" "tail"}
+		}
+		("speed" s(400))
+		("damage_cumulative" a(490))
+		{range 262 272}
+		{gravity 0}
+		{spreading 5.60
+			{SpreadPower	1}
+		}
+		{cursor "cannon_on_atgm"}
+		{cursorReloading "cannon_reload_atgm"}
+	}
+	{parameters "refleks"
+		{bullet_view "refleks_ammo"
+			{tail "rocket_smoke" "tail"}
+		}
+		("speed" s(770))
+		("damage_cumulative" a(600))
+		{range 280 285}
+		{gravity 0}
+		{spreading 5.25
+			{SpreadPower	1}
+		}
+		{cursor "cannon_on_atgm"}
+		{cursorReloading "cannon_reload_atgm"}
+	}
+	{parameters "sheksna"
+		{bullet_view "kobra_ammo"
+			{tail "rocket_smoke" "tail"}
+		}
+		("speed" s(400))
+		("damage_cumulative" a(385))
+		{range 280 285}
+		{gravity 0}
+		{spreading 6.10
+			{SpreadPower	1}
+		}
+		{cursor "cannon_on_atgm"}
+		{cursorReloading "cannon_reload_atgm"}
+	}
+	{parameters "svir"
+		{bullet_view "refleks_ammo"
+			{tail "rocket_smoke" "tail"}
+		}
+		("speed" s(650))
+		("damage_cumulative" a(560))
+		{range 262 272}
+		{gravity 0}
+		{spreading 5.25
+			{SpreadPower	1}
+		}
+		{cursor "cannon_on_atgm"}
+		{cursorReloading "cannon_reload_atgm"}
+	}
+}

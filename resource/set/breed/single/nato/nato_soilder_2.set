@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_soldier"}
+	{portrait jap_soldier1}
+	{icon officers}
+	{icon_priority 0}
+	{nationality jap}
+	{perks
+		{"health" "100%"
+		}
+		{"melee" lvl_1
+		}
+		{"speed" 1
+		}
+		{"vision" mp_soldier
+		}
+		{"mgun" lvl_1
+		}
+		{"pistol" lvl_1
+		}
+		{"rifle" lvl_1
+		}
+		{"smg" lvl_5
+		}
+	}
+	{inventory
+		{item "jap64smg" filling "76251_20jp ammo" 20}
+		{in_hands 0}
+	}
+}

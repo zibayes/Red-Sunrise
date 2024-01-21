@@ -1,0 +1,17 @@
+{from "pattern gun"
+	{filling "bullet105"}
+	{fireSound "gun/howitzer/105mm_m2a1"}
+	{rechargeTime 12}
+	("range_grazing_howitzer")
+
+	("speed" s(220))
+	("caliber_maximum")
+	{parameters "heat"
+		("damage_cumulative" a(120))
+		("accuracy_very_low")
+	}
+	{range 175 185}
+	("accuracy_very_low")
+}
+
+

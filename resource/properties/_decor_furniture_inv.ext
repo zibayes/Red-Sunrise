@@ -1,0 +1,10 @@
+;SDL
+(include "construction.inc")
+{obstacleid "stuff"}
+{props "steel" "inventory_box" "spread_items"}
+{collider "particle.big"}
+{simulation {able 1}}
+{mass 100}
+("armor_use_volume_thickness")
+
+{lodclass "decor_small"}

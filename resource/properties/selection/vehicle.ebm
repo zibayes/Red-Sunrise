@@ -1,0 +1,6 @@
+{bitmap
+	{Axis  128 128 }
+	{Filtering  1 }
+	{Blend  alpha }
+	{Frame  "vehicle.tga" }
+}

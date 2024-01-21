@@ -1,0 +1,200 @@
+;SDL
+actor
+
+{skeleton
+	(include "/properties/animation/helicopter/heli_anm.ext")
+}
+(include "vehicle.ext")
+(include "helicopter_crew.ext")
+{obstacleID "helicopter"}
+{PatherID  "helicopter"}
+{collider "helicopter"}
+{simulatorID "airborne"}
+{props "helicopter" "vehicle" "vision_vehicle_maximum" "obstacle_ignore_height"}
+{able "-emit_passangers_on_enemy"}
+{targetClass "airborne" "fg bullet"}
+{targetSelector "airborne"}
+{brain "vehicle"
+	{state "vehicle"}
+}
+{Simulation {Able 1}}
+
+{Chassis "human_carrier"
+	{ignorePatherBounds}
+	{dontUseSlope}
+	{locomotion
+		{MaxSpeed	55}
+		{StartTime	3}
+		{TurnTime	2}
+    		{Gears      0.1 0.5 0.8 1.0}
+    		{RearGears  0.35}
+	}
+	{FuelBag
+		{volume 400 }	
+		{rate	20 }   
+		{remain 400 }
+		{fuel "fuel"}
+	}
+	{speed
+		{Slow	25}	
+		{Normal	45}
+		{Fast	55}
+	}
+}
+{sensor
+	{visor "main"
+		{vision "heli_main"} 
+		{bone "basis"}
+	}
+	{visor "gunner"
+		{vision "heli_gunner"} 
+		{bone "turret"}
+	}
+	{RecognizeTime 0.25}
+	{InformRange 100 100}		;first - AI ;second - USER
+}
+
+{boarder}
+{## extender "detail"
+	{random}
+}
+
+{extender "inventory"
+	{box
+		{Size 6 11}
+		{weight 10000}
+		{item "repair_kit"}
+		{item "helicopter_controller" 1}
+	}
+}
+{mass 6600}
+
+{Weaponry
+	{place "gun"
+		{RestoreIKAfterAim}
+		{Rotate}
+	}
+	{place "mgun"
+		{RestoreIKAfterAim}
+		{basic}
+		{Rotate}
+	}
+}
+
+(define "armor_heli"
+	{armor
+        {setting "body"
+			{volumes "body*"}
+            {durability
+                {blast
+                    {koef 90}
+                }
+                {pierce  
+                    {koef 999}
+				}
+            }
+            {threshold
+                {blast
+                    {koef 90}
+                }
+            }
+        }
+        {setting "engine"
+			{volumes "engine*"}
+            {durability
+                {blast
+                    {koef 90}
+                }
+                {pierce  
+                    {koef 999}
+				}
+            }
+            {threshold
+                {blast
+                    {koef 90}
+                }
+            }
+        }
+	}
+)
+
+(define "accuracy_by_motion" ; 	spreading depending on the speed of "body", "gun" volumes
+	{AccuracyByMotion
+		{MaxLinearSpeed %max_linear}               ;km/h
+		{ByLinearSpeed %accuracy_by_linear}
+		{MaxAngularSpeed %max_angular}             ;deg/s
+		{ByAngularSpeed %accuracy_by_angular}
+		{DisorderTime %disorder_time}              ;s
+		{OrderTime %order_time}                    ;s
+	}
+)
+
+(define "abm_low"
+	("accuracy_by_motion"
+		max_linear(14) accuracy_by_linear(0.2)
+		max_angular(4) accuracy_by_angular(0.6)
+		disorder_time(1.2) order_time(2)
+	)
+)
+
+(define "abm_mgun"
+	("accuracy_by_motion"
+		max_linear(18) accuracy_by_linear(0.5)
+		max_angular(4) accuracy_by_angular(0.8)
+		disorder_time(1.2) order_time(2)
+	)
+)
+
+(define "abm_zenite"
+    ("accuracy_by_motion"
+        max_linear(10) accuracy_by_linear(0.5)
+        max_angular(4) accuracy_by_angular(0.8)
+        disorder_time(1.2) order_time(1.4)
+    )
+)
+
+(define "part"
+	{volume %0
+		{tags "part"}
+		{thickness 2}
+		{able {visible 0}}
+	}
+)
+
+;### WIP
+
+(define "rope_enabled"
+	{placer
+		{place "rope1"
+			{Linkbone "connector1"}
+			{entity "rope"}
+			{handlebone "rope"}
+		}
+		{place "rope2"
+			{Linkbone "connector2"}
+			{entity "rope"}
+			{handlebone "rope"}
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{item "helicopter_rope" 1}
+		}
+	}
+)
+
+(define "box_heavy_enabled"
+	{extender "inventory"
+		{box
+			{item "helicopter_rope_with_box" 3}
+		}
+	}
+	{placer
+		{place "rope1"
+			{Linkbone "connector1"}
+			{entity "rope_with_box_heavy"}
+			{handlebone "basis"}
+		}
+	}
+)

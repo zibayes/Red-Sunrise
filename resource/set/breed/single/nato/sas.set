@@ -1,0 +1,37 @@
+{breed
+	{behaviour soldier}
+	{skin "cw_usa_sas"}
+	{portrait eng_sas}
+	{icon_priority 0}
+	{nationality eng}
+	{armors
+		{head sas_helmet}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"melee" lvl_5
+		}
+		{"mgun" lvl_5
+		}
+		{"smg" lvl_5
+		}
+		{"rifle" lvl_5
+		}
+		{"pistol" lvl_5
+		}
+	}
+	{inventory
+		{item "919_17 ammo" 4}
+		{item "sas_mask"}
+		{item "l1a1" filling "76251_20fn ammo" 20}
+		{item "l9_pistol" filling "919_13 ammo" 13}
+		{in_hands 2}
+	}
+}

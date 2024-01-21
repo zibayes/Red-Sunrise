@@ -1,0 +1,9 @@
+{from "pattern gun"
+	{filling "bullet122 fg" 6}
+	{fireSound "gun/122mm_d49_fire"}
+	{reloadSound "tankgun_r04"}
+	("range_medium_howitzer")	
+	
+	("caliber_maximum")
+	{range 240 252}
+}

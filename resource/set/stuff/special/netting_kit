@@ -1,0 +1,11 @@
+{item
+	{tag "dropboxed fortification itemin2hands"}
+	{entity "vehnet_inventory"}
+	
+	{inventory
+		{size 6 2}
+		{weight 100}
+		{fsm "belt"}
+	}
+	{mass 15}
+}

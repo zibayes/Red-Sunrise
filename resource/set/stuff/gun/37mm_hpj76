@@ -1,0 +1,28 @@
+{from "pattern gun"
+	{filling "bullet37 zenite" 200}	
+	{fireSound "gun/35mm_kda_fire"}
+	{RecoveryTime 0.17}
+	{RechargeTime 3.0}
+	{reloadSound "61k_reload"}
+	{spreading
+		{spreadradius 	1.5}
+		{SpreadXYRatio	3}
+		{SpreadPower	2}
+	}
+	{AimingTolerance 3}
+	{Automatic}
+	{burst
+		{min 1}
+		{short 2.5 1}
+		{long 7 2}
+	}	
+	{speed 90}
+	("speed" s(1175))
+	("caliber_minimum")
+	("range_zenite_long")
+	{projectileDamage 90}
+	("damage" a(101) b(90) c(78) d(65) e(54))
+	{RelaxationTime 0}
+	{range 157 167}
+	("accuracy_zenite_medium")
+}

@@ -1,0 +1,28 @@
+{from "pattern gun"
+	{filling "bullet30 zenite" 1000}	
+	{fireSound "gun/30mm_2a38m_fire"}
+	{RecoveryTime 0.012}
+	{RechargeTime 10.0}
+	{reloadSound "61k_reload"}
+	{spreading
+		{spreadradius 	1.5}
+		{SpreadXYRatio	3}
+		{SpreadPower	2}
+	}
+	{AimingTolerance 3}
+	{Automatic}
+	{burst
+		{min 1}
+		{short 2.5 1}
+		{long 7 2}
+	}	
+	{speed 90}
+	("speed" s(960))
+	("caliber_minimum")
+	("range_zenite_long")
+	{projectileDamage 26}
+	("damage" a(26) b(22) c(18) d(14) e(3))
+	{RelaxationTime 0}
+	{range 157 167}
+	("accuracy_zenite_low")
+}

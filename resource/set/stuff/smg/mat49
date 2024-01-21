@@ -1,0 +1,7 @@
+{from "pattern smg"
+	{filling "ammo 919_30fr" 30}
+	{entity "mat49"}
+	{reloadSound "mat49_reload"}
+	("recoveryTime" r(600))
+ 	("speed" s(800))
+}

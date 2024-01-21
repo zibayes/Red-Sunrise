@@ -1,0 +1,4 @@
+{from "pattern headgear"
+        {desc "Танковый шлем"}
+	{entity "cap_rus_tankman"}
+}

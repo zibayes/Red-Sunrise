@@ -1,0 +1,10 @@
+{from "pattern rpg_weapon"
+	{filling "ammo eryx_rock" 1}
+	{preloaded}
+	{entity "eryx"}
+    {projectileDamage 630}
+	{fireSound "bazooka/rpg7"}
+	{reloadSound "RPG_reload"}
+	("speed" s(260))
+	{range 55 60}
+}

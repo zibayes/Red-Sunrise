@@ -1,0 +1,12 @@
+{from "pattern gun"   ;125mm_2a26
+	{desc "125mm 2a26"}
+	{filling "bullet125" 1}
+	{fireSound "gun/125MM_2A46M-4"}
+	{reloadSound "gun_r04"}
+	{rechargeTime 6}
+	{recoveryTime 3}
+	{range 180 210}
+	{speed 1000}
+	{projectileDamage 323}
+	("damage" a(323) b(290) c(258) d(227) e(195))
+}

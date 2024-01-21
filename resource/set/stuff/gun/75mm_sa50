@@ -1,0 +1,19 @@
+{from "pattern gun"     ;
+	{filling "bullet75"}
+	{fireSound "gun/75mm_sa50_fire"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 4.61}
+	("range_medium")
+	
+	("speed" s(792))
+	("caliber_medium")
+	{projectileDamage 122}                        
+	("damage" a(127) b(115) c(101) d(89) e(76))
+	{parameters "apcr"
+        ("damage" a(152) b(135) c(116) d(99) e(81))
+	}
+	
+	{range 175 185}
+	("accuracy_minimum")
+}
+

@@ -1,0 +1,9 @@
+{from "pattern grenade_smoke"
+	{tag "-missile"}
+	{inventory {size 1 2}}
+	{entity "fsl01"}
+	{mass 0.3}
+	{throw
+		{range 25}
+	}
+}

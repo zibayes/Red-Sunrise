@@ -1,0 +1,6 @@
+;SDL
+(include "post.inc")
+{props "steel" "post"}
+("armor_use_volume_thickness")
+
+{lodclass "decor_small"}

@@ -1,0 +1,16 @@
+{bullet
+	{tag "ammo ap shell dropboxed cumulative pierce"}
+	{inventory
+		{size 4 1}
+		{weight 100}
+		{fsm "stuff"}
+		{size 5 1}
+	}
+	{mass 12.2}
+	{entity "shell_heat_76"}
+	{damage blastwave
+		{energy 1}
+		{area 2 8}
+	}
+	{cumulative 0.07}
+}

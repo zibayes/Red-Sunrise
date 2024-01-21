@@ -1,0 +1,48 @@
+;SDL
+{animation
+
+	;TAKEOFF AND LANDING ANIMATIONS
+
+	{sequence "heli_land"		{smooth 5}}
+	{sequence "heli_takeoff"	{smooth 5}}
+
+	;MEDIUM ALTITUDE ANIMATIONS
+
+	{sequence "med_heli_start"	{smooth 5}}
+	{sequence "med_heli_fast"	{smooth 5}}
+	{sequence "med_heli_stop"	{smooth 5}}
+	{sequence "med_heli_move"	{smooth 5}}
+	{sequence "med_heli_fly"	{smooth 5}}
+	{sequence "med_heli_down"	{smooth 5}}
+	{sequence "med_heli_up"		{smooth 5}}
+	{sequence "med_drop_rope"	{smooth 5}}
+	{sequence "med_fly_with_rope"	{smooth 5}}
+
+	;MINIMUM ALTITUDE ANIMATIONS
+
+	{sequence "min_heli_up"		{smooth 5}}
+	{sequence "min_heli_start"	{smooth 5}}
+	{sequence "min_heli_fast"	{smooth 5}}
+	{sequence "min_heli_stop"	{smooth 5}}
+	{sequence "min_heli_move"	{smooth 5}}
+	{sequence "min_heli_fly"	{smooth 5}}
+	{sequence "min_heli_land"	{smooth 5}}
+	{sequence "min_drop_rope"	{smooth 5}}
+	{sequence "min_fly_with_rope"	{smooth 5}}
+
+	;MAXIMUM ALTITUDE ANIMATIONS
+
+	{sequence "max_heli_start"	{smooth 5}}
+	{sequence "max_heli_fast"	{smooth 5}}
+	{sequence "max_heli_stop"	{smooth 5}}
+	{sequence "max_heli_move"	{smooth 5}}
+	{sequence "max_heli_fly"	{smooth 5}}
+	{sequence "max_heli_down"	{smooth 5}}
+	{sequence "max_heli_land"	{smooth 5}}
+
+	;FALL ANIMATIONS
+
+	{sequence "med_heli_fall"}
+	{sequence "min_heli_fall"}
+	{sequence "max_heli_fall"}
+}

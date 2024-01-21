@@ -1,0 +1,8 @@
+;SDL
+(include "construction.inc")
+{obstacleid "unbreakable" }
+{props "steel" "no_destroyed_stamp"}
+{mass 8000}
+("armor_use_volume_thickness")
+
+{lodclass "decor_big"}

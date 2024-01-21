@@ -1,0 +1,44 @@
+{bullet
+        {desc "M210F Fire"}
+	{tag "big shell fg bomb"}
+	{inventory
+		{size 6 1}
+		{weight 100}
+	}	
+	{mass 42}
+	{entity "m210f_fire"}
+	{view "m210f_fire"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	{damage blastwave	 ; fragmentary
+		{energy 0.7}
+		{area 13 15}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 11 13}
+	}
+	{damage add blastwave	 ; HE, FG anti-APC
+		{energy 2.5}
+		{area 8 9.5}
+	}
+	{damage add blastwave	 ; HE, FG anti-IFV
+		{energy 6.5}
+		{area 6 7}
+	}
+	{damage add blastwave	 ; HE, FG antitank
+		{energy 11}
+		{area 3 4}
+	}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 25}
+		{area 0.1 0.1}
+	}
+	{damage add fire
+			{radius 12}
+			{heating 3.2}
+			{time 6}
+	}
+}

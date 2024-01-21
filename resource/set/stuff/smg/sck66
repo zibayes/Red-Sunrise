@@ -1,0 +1,12 @@
+{from "pattern smg"
+	{filling "ammo 919_30jp" 30}
+	{entity "sck66"}
+	{fireSound	"smg/sck66_fire"}
+	{reloadSound "mp5_reload"}
+	
+	{range 40 45}
+	{healthDamage 180}
+	("recoveryTime" r(465))
+	("burst_short")
+ 	("speed" s(400))
+}

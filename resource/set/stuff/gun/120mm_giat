@@ -1,0 +1,23 @@
+{from "pattern gun"
+	{filling "bullet120"}
+	{fireSound "gun/120mm_cn12025_fire"}
+	{reloadSound "120mm_giat_reload"}
+	{rechargeTime 5}
+	("range_maximum")
+
+	("speed" s(1475))
+	("caliber_maximum")
+	{projectileDamage 560}
+        ("damage" a(660) b(650) c(642) d(630) e(516))
+	{parameters "apcr"
+        ("damage" a(690) b(670) c(662) d(650) e(536))
+	}
+	{parameters "heat"
+		("speed" s(950))
+		("damage_cumulative" a(450))
+		("accuracy_high")
+	}
+	
+	("accuracy_maximum")
+	{range 227 237}
+}

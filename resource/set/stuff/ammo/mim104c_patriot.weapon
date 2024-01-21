@@ -1,0 +1,11 @@
+{from "pattern gun2"
+	{filling "ammo mim104c_patriot" 4}
+	{fillingVisible "rocket"}
+	{fireSound "reactive/katyusha_burst"}
+	{RecoveryTime 2}
+	{rechargeTime 80}
+	{range 700 700}
+	
+	("speed" s(800))
+	("accuracy_minimum")
+}

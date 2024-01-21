@@ -1,0 +1,19 @@
+{from "pattern gun"
+	{filling "bullet76"}
+	{fireSound "gun/76mm_l23a1_fire"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 7.5}
+	("range_long")
+	
+	("speed" s(975))
+	("caliber_medium")              
+	{projectileDamage 177}
+	("damage" a(177) b(161) c(143) d(126) e(98))
+	{parameters "apcr"
+		("speed" s(1231))
+       		("damage" a(231) b(212) c(193) d(163) e(137))
+	}
+	
+	("accuracy_medium")	
+	{range 175 185}	
+}

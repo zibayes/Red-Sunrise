@@ -1,0 +1,26 @@
+{from "pattern rifle"
+	{tag "assaultrifle"}
+	{filling "ammo 55645_20" 20}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	{mass 3.63}
+	{entity "m16_20"}
+	{desc "Barrett M90"}
+	{fireSound "smg/m16a1_burst/"}
+	{reloadSound "m16_reload"}
+	{rechargeTime 3.0}
+	
+	{Automatic}
+	{healthDamage 260}
+	("recoveryTime" r(800))
+	("accuracy_rifle_low")
+	("speed" s(975))
+	{range 60 65}
+	{burst
+		{short 3 0.5}
+		{long 3 0.5}
+	}
+}

@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "ussr_soldier_vdv"}
+	{portrait rus_malash}
+	{icon hero}
+	{icon_priority 2}
+	{nationality rus}
+	{armors
+		{body belt_a}
+	}
+	{perks
+		{"melee" lvl_1
+		}
+		{"avoidance" lvl_1
+		}
+		{"pistol" lvl_1
+		}
+		{"rifle" lvl_1
+		}
+		{"smg" lvl_1
+		}
+		{"mgun" lvl_1
+		}
+		{"vision"}
+	}
+	{inventory
+		{item "ak47" filling "pistol ammo" 30}
+		{in_hands 0}
+	}
+}

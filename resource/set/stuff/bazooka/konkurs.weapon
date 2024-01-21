@@ -1,0 +1,14 @@
+{from "pattern proj_weapon"
+        {tag "gun"}
+	{filling "ammo konkurs" 1}
+	{fillingVisible "rocket"}
+	{fireSound "reactive/konkurs_launch"}
+	{mass 7}
+	{rechargeTime 30}
+	{inventory {noView}}
+	{projectileDamage 0}
+        {cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+        {maxRange 135}
+	{aimRange 135}
+}

@@ -1,0 +1,11 @@
+{from "pattern sniper_rifle"
+	{filling "ammo rifle" 20}
+	{entity "svd12"}
+	{fireSound "rifle/m1carbine_shot"}
+	{reloadSound "m1carbine"}
+
+	{Automatic}
+	{healthDamage 300}
+	{recoveryTime 0.25}
+        {range 125 135}
+}

@@ -1,0 +1,8 @@
+{from "pattern gun"    ;
+	{filling "bullet155" 6}
+	{fireSound "gun/howitzer/155mm_gpf"}
+	{reloadSound "gun_r04"}
+	("range_heavy_howitzer")
+	{range 280 290}	
+	{ZeroingAccuracy 0.70 0.65}
+}

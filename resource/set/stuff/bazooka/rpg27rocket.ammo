@@ -1,0 +1,15 @@
+{from "pattern rpg_ammo"
+	{entity "RPG27-rocket"}
+	{desc "Заряды для РПГ-27"}
+	{tag "pierce"} 
+	{view "RPG27-rocket"
+		{tail "pfaust_tail" "tail"}
+	}
+	{inventory
+		{size 5 1 }
+	}
+	{damage blastwave
+		{energy 1}
+		{area 2 8}
+	}
+}

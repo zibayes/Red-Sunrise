@@ -1,0 +1,20 @@
+{from "pattern gun"
+	{filling "bullet90"}
+	{fireSound "gun/85to100_cal/90mm_m3"}
+	{reloadSound "tankgun_r02"}
+	{rechargeTime 7.5}
+	("range_long")
+
+	("speed" s(680))
+	("caliber_large")
+	{parameters "heat"
+		("speed" s(650))
+		("damage_cumulative" a(350))
+		{spreading 7.4
+			{SpreadPower	1}
+		}
+	}
+	
+	("accuracy_medium") 
+	{range 192 202}
+}

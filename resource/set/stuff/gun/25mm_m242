@@ -1,0 +1,21 @@
+{from "pattern gun"
+	{filling "bullet25 zenite" 200}	
+	{fireSound "gun/25mm_m242_fire"}
+	{rechargeTime 5.5}
+	{RecoveryTime 0.29}
+	{automatic}
+	{AimingTolerance 20}
+	{burst
+		{min 1}
+		{short 2}
+		{long 10}
+	}
+	
+	("range_autocannon")
+	{projectileDamage 30}
+	("speed" s(1100))
+	("caliber_zenite")
+	("damage" a(50) b(45) c(33) d(21) e(13))
+	{range 175 185}
+	("accuracy_zenite_high")
+}

@@ -1,0 +1,6 @@
+{from "pattern pistol"
+	{filling "ammo 76217_9" 9}
+	{entity "type67_pistol"}
+	{fireSound	"pistol/silent/"}
+	{reloadSound "tt"}
+}

@@ -1,0 +1,36 @@
+{breed
+	{behaviour soldier}
+	{skin "rus-specnaz_hp"}
+	{portrait "rus_scout"}
+	{icon "scouts"}
+	{icon_priority 2}
+	{nationality rus}
+	{armors
+		{body belt_a}
+		{head rus_cap_flora}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"stealth"}
+		{"melee" expert
+		}
+		{"avoidance" advanced
+		}
+		{"pistol" basic
+		}
+		{"smg" expert
+		}
+		{"mgun" none
+		}
+		{"rifle" none
+		}
+	}
+	{inventory
+		{item "ak74" filled}
+		{item "makarov" filled}
+		{item "knife_ger"}
+		{item "f1 grenade" 3}
+		{in_hands 0}
+	}
+}

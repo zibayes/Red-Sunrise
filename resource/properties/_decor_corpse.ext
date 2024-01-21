@@ -1,0 +1,34 @@
+;SDL
+(include "building.inc")
+{obstacleid "stuff"}
+{props "flesh" "no_destroyed_stamp" "inventory_box" "spread_items"}
+("armor_use_volume_thickness")
+
+{extender "inventory"
+	{box
+		{Size 4 6}
+		{Weight 100}
+	}
+}
+
+{Volume "head"
+	{able {obstacle 0} {contact 0}}
+}	
+{Volume "body"
+	{able {obstacle 0} {contact 0}}
+	{able {touch}}
+}
+{Volume "foot1l"
+	{able {obstacle 0} {contact 0}}
+}	
+{Volume "foot2l"
+	{able {obstacle 0} {contact 0}}
+}
+{Volume "foot1r"
+	{able {obstacle 0} {contact 0}}
+}		
+{Volume "foot2r"
+	{able {obstacle 0} {contact 0}}
+}	
+
+{lodclass "zombie"}

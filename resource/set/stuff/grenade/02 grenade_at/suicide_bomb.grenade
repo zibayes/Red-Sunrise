@@ -1,0 +1,35 @@
+{from "pattern grenade_at"
+	{inventory {size 2 1}}
+	{entity "grenade_rpg43"}
+	{tag "proximity_charge" "kamikaze" "size_maximum"}
+		
+	{inventory 
+		{size 2 2}
+		{weight 10}
+	}
+	{mass 15}
+	{damage cumulative
+		{damage 5000}
+		{distance 3}
+	}	
+	{special
+		{PrepareTime 0.01}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+	{damage blastwave
+		{energy 1}
+		{area 6 10}
+	}
+	{damage add blastwave
+		{energy 35}
+		{area 4 5}
+	}
+	{throw
+		{range 6}
+		{startAngle 30}
+		{constantSpeed 6}
+	}
+	{possibleDamageRadius 6}
+
+}

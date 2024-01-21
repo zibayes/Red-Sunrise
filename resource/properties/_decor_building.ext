@@ -1,0 +1,7 @@
+;SDL
+(include "building.inc")
+{obstacleid "unbreakable"}
+{props "concrete" "no_destroyed_stamp"}
+("armor_use_volume_thickness")
+
+{lodclass "decor_big"}

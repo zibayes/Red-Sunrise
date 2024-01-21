@@ -1,0 +1,10 @@
+{from "pattern gun2"
+	{filling "ammo roland" 2}
+	{fireSound "reactive/katyusha_burst"}
+	{RecoveryTime 2}
+	{rechargeTime 40}
+	{range 350 350}
+	
+	("speed" s(500))
+	("accuracy_minimum")
+}

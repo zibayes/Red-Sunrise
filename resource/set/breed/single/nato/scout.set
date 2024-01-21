@@ -1,0 +1,12 @@
+{breed
+	{behaviour soldier}
+	{skin "soldier_mp1_1_multicam"}
+	{portrait nato_scout}
+	{icon_priority 0}
+	{nationality usa}
+	{inventory
+		{item "m16a1_dmr"}
+		{item "l96a1" filling "76251_10aw ammo" 10}
+		{in_hands 1}
+	}
+}

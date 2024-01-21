@@ -1,0 +1,36 @@
+{breed
+	{skin "rus_pilot"}
+	{portrait "rus_pilot"}
+	{icon "soldier"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head rus_shlemofon_new}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"power" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"pistol" basic
+		}
+		{"smg" basic
+		}
+		{"mgun" none
+		}
+		{"rifle" none
+		}
+		{"rocketlauncher" none
+		}
+		{"melee" advanced
+		}
+	}
+	{inventory
+		{item "ak74"}
+		{in_hands 0}
+	}
+}

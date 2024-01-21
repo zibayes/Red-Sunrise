@@ -1,0 +1,33 @@
+{breed
+	{skin "ussr_soldier"}
+	{portrait "rus_rifle"}
+	{icon "rifleman"}
+	{icon_priority 1}
+	{nationality rus}
+	{armors
+		{body belt_a}
+		{head rus_afg_sh68}
+	}
+	{perks
+		{"melee" expert
+		}
+		{"avoidance" advanced
+		}
+		{"pistol" basic
+		}
+		{"rifle" none
+		}
+		{"smg" expert
+		}
+		{"mgun" none
+		}
+	}
+	{inventory
+		{item "ak74" filled}
+		{item "pistol ammo" 500}
+		{item "bandage" 5}
+		{item "grenade f1" 4}
+		{item "sandbag_kit"}
+		{in_hands 0}
+	}
+}

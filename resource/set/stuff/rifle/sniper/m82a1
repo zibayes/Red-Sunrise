@@ -1,0 +1,26 @@
+{from "pattern sniper_rifle"
+	{filling "ammo 12799_10" 10}
+	{inventory
+		{size 7 2 }
+	}
+	{entity "m82a1"}
+	{fireSound "rifle/M82_Shot"}
+	{reloadSound "M82_Reload"}
+	{special
+		{PrepareTime 2.7}	
+		{accuracy 2.0}
+		{damage 2.0}
+	}
+	{healthDamage 200}
+	{recoveryTime 1.85}
+
+	{rechargeTime 6.85}	
+	("speed" s(853))
+	{range 120 120}
+	{calibre 12}
+	{curve "gun_light"}
+   	{RelaxationTime 3}
+	{projectileDamageTable {0 31} {10 30} {50 26} {115 22} {120 15} {121 0}}
+	{projectileDamageThreshold 1}
+	("accuracy_rifle")
+}

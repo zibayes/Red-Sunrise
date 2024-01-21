@@ -1,0 +1,40 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_officer_m"}
+	{portrait nato_officer_1}
+	{icon officer}
+	{icon_priority 1}
+	{nationality jap}
+	{armors
+		{body jap_elis1}
+		{head jap_officercap}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"vision" mp_soldier
+		}
+		{"pistol" lvl_1
+		}
+		{"speed" 0.9
+		}
+		{"smg" lvl_1
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_1
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_1
+		}
+	}
+	{inventory
+		{item "jap64smg" filling "76251_20jp ammo" 20}
+		{item "bandage" 4}
+		{item "76251_20jp ammo" 5}
+		{item "p22" filling "919_15 ammo" 15}
+		{item "919_15 ammo"}
+		{in_hands 0}
+	}
+}

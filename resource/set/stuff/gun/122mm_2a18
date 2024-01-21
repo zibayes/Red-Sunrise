@@ -1,0 +1,9 @@
+{from "pattern gun"
+        {desc "120mm 2A18"}
+	{filling "bullet122 fg" 1}
+	{fireSound "gun/howitzer/150mm_sfh18"}
+	{reloadSound "gun_r04"}
+	{rechargeTime 7}
+	{range 220 230}
+	{ZeroingAccuracy 1.00 0.60 0.40}
+}

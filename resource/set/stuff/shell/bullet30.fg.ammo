@@ -1,0 +1,10 @@
+{from "pattern fg"
+	{tag "size_minimum"}
+	{inventory
+		{size 2 1}
+	}
+	("fg" args 0.5)
+	{mass 4}
+	{entity "pd_l_ammo"}
+	{view "pd_l_ammo"} 
+}

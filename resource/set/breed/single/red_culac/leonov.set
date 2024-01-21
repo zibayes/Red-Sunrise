@@ -1,0 +1,40 @@
+{breed
+	{hero}
+	{skin "rus-specnaz_hp"}
+	{portrait ussr_leonov}
+	{icon snipers}
+	{icon_priority 2}
+	{tags "sniper"}
+	{nationality rus}
+	{armors
+		{body belt_a_sniper}
+	}
+	{perks
+		{"health" "100%"
+		}
+		{"vision" mp_sniper
+		}
+		{"telescope"}
+		{"speed" 1.1
+		}
+		{"pistol" lvl_1
+		}
+		{"smg" lvl_1
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_1
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_1
+		}
+	}
+	{inventory
+		{item "svd" filling "76254_10 ammo" 10}
+		{item "f1 grenade" 2}
+		{item "knife_ger"}
+		{item "smoke grenade" 3}
+		{in_hands 0}
+	}
+}

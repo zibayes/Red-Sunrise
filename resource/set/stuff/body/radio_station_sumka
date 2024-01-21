@@ -1,0 +1,13 @@
+{from "pattern armor"
+	{entity "radio_station_sumka"}
+	{desc "Радио-сумка"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+	}
+	                        
+}
+
+
+
+

@@ -1,0 +1,10 @@
+(include "construction.inc")
+{props "explosive_barrel" "steel" "stuff"}
+{obstacleID "stuff"}
+{collider "particle.small"}
+
+{simulation {able 1}}
+{constrain ground}
+("armor_use_volume_thickness")
+
+{lodclass "decor_small"}

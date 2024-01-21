@@ -1,0 +1,33 @@
+{breed
+	{skin "ussr_soldier_vdv"}
+	{portrait "rus_vdv_soilder"}
+	{icon scouts}
+	{icon_priority 2}
+	{nationality rus}
+	{armors
+		{body belt_a}
+		{head beret_vdv}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"vision" mp_specnaz
+		}
+		{"stealth"}
+		{"speed" 1.2
+		}
+		{"melee"}
+		{"avoidance"}
+		{"pistol"}
+		{"smg"}
+		{"rifle"}
+		{"mgun"}
+		{"rocketlauncher"}
+	}
+	{inventory
+		{item "aks74u" filled}
+		{item "f1 grenade" 3}
+		{item "rgd grenade" 2}
+		{in_hands 0}
+	}
+}

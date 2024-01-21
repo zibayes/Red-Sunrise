@@ -1,0 +1,26 @@
+{from "pattern gun"
+	{filling "bullet152"}
+	{fireSound "gun/howitzer/152mm_ml20"}
+	{reloadSound "tankgun_r04"}
+	("range_maximum")
+	{rechargeTime 13}
+	{projectileDamage 350}
+	("damage" a(382) b(370) c(358) d(332) e(324))
+	
+	("accuracy_low")
+	{range 210 220}
+	{parameters "shillelagh"
+		{bullet_view "shillelagh_ammo"
+			{tail "rocket_smoke" "tail"}
+		}
+		("damage_cumulative" a(390))
+		{range 265 275}
+		("speed" s(320))
+		{gravity 0}
+		{spreading 4.5
+			{SpreadPower	1}
+		}
+		{cursor "cannon_on_atgm"}
+		{cursorReloading "cannon_reload_atgm"}
+	}
+}

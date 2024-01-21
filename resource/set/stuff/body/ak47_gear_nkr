@@ -1,0 +1,9 @@
+{from "pattern overcoat"
+	{tag "armor"}
+        {mass 2.0}
+	{inventory
+		{size 2 2}
+		{weight 100}
+	}
+	{entity "ak47_gear_nkr"}
+}

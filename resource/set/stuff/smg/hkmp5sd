@@ -1,0 +1,10 @@
+{from "pattern smg"
+    {tag "silenced_small"}
+	{filling "ammo 919_30" 30}
+	{entity "hkmp5sd"}
+	{fireSound	"pistol/silent/silent_01"}
+	{reloadSound "mp5_reload"}
+	("recoveryTime" r(800))
+ 	("speed" s(800))
+	{healthDamage 300}	
+}

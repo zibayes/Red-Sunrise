@@ -1,0 +1,23 @@
+{from "pattern sniper_rifle"
+	{filling "ammo 76251_20m14" 20}
+	{inventory
+		{size 6 2 }
+	}
+	{entity "m21"}
+	{fireSound "rifle/m14_burst/"}
+	{reloadSound "m14_reload"}
+	{range 100 100}
+	{healthDamage 270}
+	{recoveryTime 1.0}
+	{mass 4.3}
+	{special
+		{mode aim}
+		{PrepareTime 1.00}	
+		{PrepareCursor "aimed_shot"}
+		{accuracy 2.5}
+		{damage 0.60}
+		{throw_off}
+	}	
+	("speed" s(850))
+	("accuracy_rifle_high")	
+}

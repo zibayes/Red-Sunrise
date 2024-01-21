@@ -1,0 +1,17 @@
+{from "pattern rifle"
+	{tag "autorifle"}
+	{filling "ammo 76251_20fn" 20}
+	{mass 4.43}
+	{entity "l1a1"}
+	{desc "L1A1"}
+	{fireSound "small_arms/fal/"}
+	{reloadSound "fal_reload"}
+	{rechargeTime 3.5}
+	
+	{healthDamage 360}
+	{recoveryTime 0.15}
+	("accuracy_rifle_high")
+	("speed" s(820))
+	{range 90 90}
+	("burst_assault_rifle")
+}

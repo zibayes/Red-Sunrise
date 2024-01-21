@@ -1,0 +1,11 @@
+{from "pattern rpg_weapon"
+	{filling "ammo rpg7rocket" 1}
+	{fillingVisible "rpg7rocket"}
+	{preloaded}
+	{entity "rpg7"}
+    {projectileDamage 350}
+	{fireSound "bazooka/rpg7"}
+	{reloadSound "RPG_reload"}
+	("speed" s(120))
+	{range 25 40}
+}

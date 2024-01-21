@@ -1,0 +1,10 @@
+{from "pattern gun"
+        {desc "73לל 2א28"}
+	{filling "bullet73" 1}
+	{fireSound "gun/cannon_medium/"}
+	{reloadSound "gun_r03"}
+	{speed 665}
+	{range 150 160}
+	{rechargeTime 6}
+	{projectileDamage 300}
+}

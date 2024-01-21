@@ -1,0 +1,9 @@
+{breed
+	{behaviour soldier}
+	{skin "usa_tankmen2"}
+	{icon_priority 0}
+	{nationality usa}
+	{inventory
+		{item "rpg7 weapon" filling "rpg7rocket ammo" 1}
+	}
+}

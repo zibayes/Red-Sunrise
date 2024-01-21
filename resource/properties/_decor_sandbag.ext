@@ -1,0 +1,6 @@
+;SDL
+(include "construction.inc")
+{props "sand" "sand_bag_big"}
+("armor_use_volume_thickness")
+
+{lodclass "decor_small"}

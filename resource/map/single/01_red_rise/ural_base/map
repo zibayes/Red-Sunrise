@@ -1,0 +1,5035 @@
+{map
+	{Land
+		{Position 0 0}
+	}
+	{Clips
+		{"[auto]"
+			{world -4000 -4000 4000 4000}
+			{camera -4000 -4000 4000 4000}
+			{pather -4000 -4000 4000 4000}
+			{distance 200 800}
+			{viewAngle 20 50}
+		}
+	}
+	{Ocean
+		{active 0}
+		{state calm}
+		{zlevel 0}
+		{waveamount 8}
+		{wavedir 50}
+	}
+	{Entity "new_poplar" 0x1
+		{Position 5176.16 -806.23}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar1" 0x2
+		{Position 5323.48 -834.95}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar2" 0x3
+		{Position 5415.62 -856.73}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1" 0x4
+		{Position 5537 -874.85}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1_big" 0x5
+		{Position 5698.15 -879.59}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1a" 0x6
+		{Position 5865.5 -872.07}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1b" 0x7
+		{Position 5977.01 -851.41}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree2" 0x8
+		{Position 4838.61 -1566.29}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree2" 0x9
+		{Position 4968.26 -1551.57}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree3" 0xa
+		{Position 5119.46 -1564.14}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree33" 0xb
+		{Position 5276.13 -1557.92}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "poplar6" 0xc
+		{Position 5407.76 -1548.68}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_evr" 0xd
+		{Position 5507.09 -1533.81}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3" 0xe
+		{Position 5634.49 -1522.06}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3a" 0xf
+		{Position 5780.86 -1507.36}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "topol02" 0x10
+		{Position 5894.51 -1483.1}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "tree_attach" 0x11
+		{Position 6019.68 -1484.47}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "dried2" 0x12
+		{Position 6157.77 -1423.33}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "dried3" 0x13
+		{Position 6255.91 -1384.62}
+		{xform zl 39.03}
+		{TexMod "aut"}
+	}
+	{Entity "pine_broken" 0x14
+		{Position 5363.87 -124.15}
+		{xform zl 25.63}
+		{Volume "body_vol1"
+			{able {float 1}}
+		}
+	}
+	{Entity "stub_broken" 0x15
+		{Position 5510.39 -114.73}
+		{xform zl 25.63}
+	}
+	{Entity "stub_root" 0x16
+		{Position 5588.17 -99.84}
+		{xform zl 25.63}
+	}
+	{Entity "stub_tree" 0x17
+		{Position 5662.29 -79.14}
+		{xform zl 25.63}
+	}
+	{Entity "stub_tree_small" 0x18
+		{Position 5715.84 -75.09}
+		{xform zl 25.63}
+	}
+	{Entity "fir" 0x19
+		{Position 5799.54 -66.89}
+		{xform zl 25.63}
+		{TexMod "1"}
+		{Volume "crown"
+			{able {visible 1}}
+		}
+	}
+	{Entity "fir_bush" 0x1a
+		{Position 5884.92 -68.82}
+		{xform zl 25.63}
+		{TexMod "1"}
+	}
+	{Entity "fir_small" 0x1b
+		{Position 5956.78 -54.72}
+		{xform zl 25.63}
+		{TexMod "1"}
+		{Volume "crown"
+			{able {visible 1}}
+		}
+	}
+	{Entity "new_fir2" 0x1c
+		{Position 6043.42 -52.1}
+		{xform zl 25.63}
+		{TexMod "1"}
+	}
+	{Entity "pine" 0x1d
+		{Position 6149.53 -43.99}
+		{xform zl 25.63}
+		{TexMod "1"}
+	}
+	{Entity "pine_small" 0x1e
+		{Position 6249.31 -56.51}
+		{xform zl 25.63}
+		{TexMod "1"}
+	}
+	{Entity "pine_smallest" 0x1f
+		{Position 6340.12 -65.41}
+		{xform zl 25.63}
+		{TexMod "1"}
+	}
+	{Entity "alder_little" 0x20
+		{Position 5052.49 298.04}
+		{xform zl 25.63}
+		{TexMod "aut"}
+	}
+	{Entity "alder_little1" 0x21
+		{Position 5153.82 284.57}
+		{xform zl 25.63}
+		{TexMod "aut"}
+	}
+	{Entity "bush10" 0x22
+		{Position 5259.14 313.53}
+		{xform zl 25.63}
+	}
+	{Entity "bush10a" 0x23
+		{Position 5338.39 317.6}
+		{xform zl 25.63}
+	}
+	{Entity "bush10b" 0x24
+		{Position 5431.49 324.73}
+		{xform zl 25.63}
+	}
+	{Entity "bush2" 0x25
+		{Position 5524.44 336.47}
+		{xform zl 25.63}
+		{TexMod "autlate"}
+	}
+	{Entity "bush2a" 0x26
+		{Position 5613.98 340.98}
+		{xform zl 25.63}
+		{TexMod "autlate"}
+	}
+	{Entity "bush8" 0x27
+		{Position 5698.73 338.08}
+		{xform zl 25.63}
+		{TexMod "autlate"}
+	}
+	{Entity "bush8a" 0x28
+		{Position 5802.5 355.96}
+		{xform zl 25.63}
+		{TexMod "aut"}
+	}
+	{Entity "bush9" 0x29
+		{Position 5881.8 351.47}
+		{xform zl 25.63}
+		{TexMod "aut1"}
+	}
+	{Entity "bush9_a" 0x2a
+		{Position 5954.62 339.57}
+		{xform zl 25.63}
+		{TexMod "aut1"}
+	}
+	{Entity "bush9b" 0x2b
+		{Position 6029.62 339.85}
+		{xform zl 25.63}
+		{TexMod "aut1"}
+	}
+	{Entity "bush_curly" 0x2c
+		{Position 6133.59 327.62}
+		{xform zl 25.63}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_a" 0x2d
+		{Position 6210.52 332.73}
+		{xform zl 25.63}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_b" 0x2e
+		{Position 6276.03 330.74}
+		{xform zl 25.63}
+		{TexMod "aut"}
+	}
+	{Entity "delphinium" 0x2f
+		{Position 6365.65 319.58}
+		{xform zl 25.63}
+		{TexMod "autlate"}
+	}
+	{Entity "grass3" 0x30
+		{Position 5106.64 772.95}
+		{xform zl 25.63}
+		{TexMod "aut"}
+	}
+	{Entity "grass3a" 0x31
+		{Position 5203.85 770.31}
+		{xform zl 25.63}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1" 0x32
+		{Position 5296.81 771.88}
+		{xform zl 25.63}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1a" 0x33
+		{Position 5387.49 753.29}
+		{xform zl 25.63}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush5" 0x34
+		{Position 5482.18 746.67}
+		{xform zl 25.63}
+	}
+	{Entity "new_grass0c2" 0x35
+		{Position 5552.96 732.95}
+		{xform zl 25.63}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass2" 0x36
+		{Position 5611.86 719.59}
+		{xform zl 25.63}
+		{TexMod "1"}
+	}
+	{Entity "new_grass1" 0x37
+		{Position 5691.4 705.16}
+		{xform zl 25.63}
+		{TexMod "1"}
+	}
+	{Entity "new_grass2" 0x38
+		{Position 5740.85 688.67}
+		{xform zl 25.63}
+		{TexMod "1"}
+	}
+	{Entity "new_grass3" 0x39
+		{Position 5811.43 666.19}
+		{xform zl 25.63}
+		{TexMod "1"}
+	}
+	{Entity "pla01" 0x3a
+		{Position 5895.3 654.55}
+		{xform zl 25.63}
+		{TexMod "aut"}
+	}
+	{Entity "pla01b" 0x3b
+		{Position 5984.75 638.26}
+		{xform zl 25.63}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass3" 0x3c
+		{Position 5833.81 749.13}
+		{xform zl 25.63}
+	}
+	{Entity "new_grass1" 0x3d
+		{Position 5699.19 790}
+		{xform zl 25.63}
+	}
+	{Entity "new_poplar" 0x4000
+		{Position 5149.23 -553.95}
+		{xform zl 39.03}
+		{TexMod "1"}
+	}
+	{Entity "new_poplar1" 0x4001
+		{Position 5296.54 -582.67}
+		{xform zl 39.03}
+		{TexMod "1"}
+	}
+	{Entity "new_poplar2" 0x4002
+		{Position 5388.7 -604.45}
+		{xform zl 39.03}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1" 0x4003
+		{Position 5510.06 -622.57}
+		{xform zl 39.03}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1_big" 0x4004
+		{Position 5671.22 -627.31}
+		{xform zl 39.03}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1a" 0x4005
+		{Position 5838.56 -619.79}
+		{xform zl 39.03}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1b" 0x4006
+		{Position 5950.08 -599.12}
+		{xform zl 39.03}
+		{TexMod "1"}
+	}
+	{Entity "new_tree2" 0x4007
+		{Position 6087.2 -585.92}
+		{xform zl 39.03}
+		{TexMod "2"}
+	}
+	{Entity "new_tree2" 0x4008
+		{Position 4941.32 -1299.29}
+		{xform zl 39.03}
+		{TexMod "2"}
+	}
+	{Entity "new_tree3" 0x4009
+		{Position 5092.53 -1311.86}
+		{xform zl 39.03}
+		{TexMod "2"}
+	}
+	{Entity "new_tree33" 0x400a
+		{Position 5249.19 -1305.63}
+		{xform zl 39.03}
+		{TexMod "2"}
+	}
+	{Entity "poplar6" 0x400b
+		{Position 5380.82 -1296.4}
+		{xform zl 39.03}
+		{TexMod "1"}
+	}
+	{Entity "poplar_evr" 0x400c
+		{Position 5480.14 -1281.52}
+		{xform zl 39.03}
+		{TexMod "2"}
+	}
+	{Entity "poplar_white3" 0x400d
+		{Position 5607.55 -1269.78}
+		{xform zl 39.03}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3a" 0x400e
+		{Position 5753.91 -1255.08}
+		{xform zl 39.03}
+		{TexMod "1"}
+	}
+	{Entity "topol02" 0x400f
+		{Position 5867.57 -1230.82}
+		{xform zl 39.03}
+		{TexMod "1"}
+	}
+	{Entity "tree_attach" 0x4010
+		{Position 5992.75 -1232.18}
+		{xform zl 39.03}
+		{TexMod "2"}
+	}
+	{Entity "fir_small" 0x4011
+		{Position -3457.85 -3296.02}
+		{TexMod "1"}
+		{Volume "crown"
+			{able {visible 1}}
+		}
+	}
+	{Entity "new_fir2" 0x4012
+		{Position -3777.85 -3003.94}
+		{TexMod "1"}
+	}
+	{Entity "pine" 0x4013
+		{Position -3613.53 -3597.16}
+		{TexMod "1"}
+	}
+	{Entity "pine_small" 0x4014
+		{Position -3861.94 -3662.76}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3" 0x4015
+		{Position -3343.09 -3421.74}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3a" 0x4016
+		{Position -2985.15 -3463.14}
+		{TexMod "aut"}
+	}
+	{Entity "topol02" 0x4019
+		{Position -3343.08 -3819.08}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1_big" 0x401c
+		{Position -3734.87 -3225.99}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1" 0x401e
+		{Position -3605.25 -2689.36}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1_big" 0x401f
+		{Position -2680.58 -3718.83}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_a" 0x4021
+		{Position -3601.69 -2633.18}
+		{TexMod "aut"}
+	}
+	{Entity "delphinium" 0x4023
+		{Position -3135.59 -3776.62}
+		{TexMod "autlate"}
+	}
+	{Entity "new_bush1" 0x4026
+		{Position -2858.7 -3381.24}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush5" 0x4028
+		{Position -3655.43 -3842.27}
+	}
+	{Entity "new_grass1" 0x402b
+		{Position -3723.65 -3077.41}
+		{TexMod "1"}
+	}
+	{Entity "new_grass3" 0x402d
+		{Position -3287.94 -3591.91}
+		{TexMod "1"}
+	}
+	{Entity "pla01" 0x402e
+		{Position -3695.37 -3454.32}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass3" 0x402f
+		{Position -2688.1 -3646.33}
+	}
+	{Entity "new_grass1" 0x4030
+		{Position -3494.4 -3183.04}
+	}
+	{Entity "delphinium" 0x4031
+		{Position -3663.09 -3587.98}
+		{TexMod "autlate"}
+	}
+	{Entity "new_poplar" 0x4033
+		{Position -2325.58 -3104.3}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar2" 0x4035
+		{Position -2474.21 -3394.52}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar1" 0x4037
+		{Position -1763.45 -2869.45}
+		{TexMod "1"}
+	}
+	{Entity "new_poplar2" 0x4038
+		{Position -2061.51 -3477}
+		{TexMod "1"}
+	}
+	{Entity "fir_small" 0x4039
+		{Position -2338.51 -3761.96}
+		{TexMod "1"}
+		{Volume "crown"
+			{able {visible 1}}
+		}
+	}
+	{Entity "pine" 0x403a
+		{Position -1939.52 -3192.32}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3" 0x403b
+		{Position -1592.21 -3292.99}
+		{TexMod "aut"}
+	}
+	{Entity "pla01" 0x403c
+		{Position -2020.05 -3138.7}
+		{TexMod "aut"}
+	}
+	{Entity "delphinium" 0x403d
+		{Position -2257.57 -3104.34}
+		{TexMod "autlate"}
+	}
+	{Entity "new_tree1a" 0x403f
+		{Position -3741.93 -2135.61}
+		{xform zl 162.5}
+		{TexMod "aut"}
+	}
+	{Entity "grass3a" 0x4044
+		{Position -3839.88 -1972.35}
+		{xform zl 162.5}
+		{TexMod "aut"}
+	}
+	{Entity "pine_broken" 0x4046
+		{Position -1108.57 -2892.68}
+		{Volume "body_vol1"
+			{able {float 1}}
+		}
+	}
+	{Entity "stub_broken" 0x4047
+		{Position -1030.15 -2636.1}
+		{xform zl 42.43}
+	}
+	{Entity "stub_root" 0x4048
+		{Position -1158.05 -3175.51}
+	}
+	{Entity "stub_tree" 0x4049
+		{Position -964.17 -2918.97}
+	}
+	{Entity "pine_small" 0x405e
+		{Position -3794.24 -1022.83}
+		{xform zl -30.97}
+		{TexMod "1"}
+	}
+	{Entity "new_bush5" 0x405f
+		{Position -3686.17 -1141.23}
+		{xform zl -30.97}
+	}
+	{Entity "pine" 0x4062
+		{Position -1537.8 -2790.47}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3a" 0x4074
+		{Position -3728.64 -1770.29}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1" 0x4078
+		{Position -3586.12 1917.9}
+		{xform zl -81.93}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar" 0x40b4
+		{Position -1749.25 3054.13}
+		{xform zl 78.53}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar1" 0x40b5
+		{Position -2528.64 3871.39}
+		{xform zl 78.53}
+		{TexMod "1"}
+	}
+	{Entity "new_poplar2" 0x40b6
+		{Position -2099.63 3702.83}
+		{xform zl -152.39}
+		{TexMod "1"}
+	}
+	{Entity "pine" 0x40b7
+		{Position -2075.79 3394.04}
+		{xform zl -152.39}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3" 0x40b8
+		{Position -1725.64 3773.03}
+		{xform zl 78.53}
+		{TexMod "aut"}
+	}
+	{Entity "pla01" 0x40b9
+		{Position -1979.58 3383.85}
+		{xform zl -152.39}
+		{TexMod "aut"}
+	}
+	{Entity "delphinium" 0x40ba
+		{Position -1753.18 3463.48}
+		{xform zl -152.39}
+		{TexMod "autlate"}
+	}
+	{Entity "new_fir2" 0x40bb
+		{Position -3000.14 3762.33}
+		{xform zl 78.53}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3" 0x40be
+		{Position -2696.17 3653.55}
+		{xform zl 78.53}
+		{TexMod "1"}
+	}
+	{Entity "new_poplar2" 0x40bf
+		{Position -1067.45 3372.88}
+		{xform zl 153.87}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1" 0x40c0
+		{Position -1285.4 3686.38}
+		{xform zl 153.87}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1a" 0x40c1
+		{Position -467.17 3683.51}
+		{xform zl 28.05}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1" 0x40c2
+		{Position -646.22 3366.57}
+		{xform zl 153.87}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1a" 0x40c3
+		{Position -325.64 3929.05}
+		{xform zl 28.05}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_a" 0x40c4
+		{Position -674.16 3317.7}
+		{xform zl 153.87}
+		{TexMod "aut"}
+	}
+	{Entity "grass3" 0x40c5
+		{Position -656.7 3821.07}
+		{xform zl 28.05}
+		{TexMod "aut"}
+	}
+	{Entity "grass3a" 0x40c6
+		{Position -282.04 3639.09}
+		{xform zl 28.05}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass0c2" 0x40c7
+		{Position -692.11 3165.36}
+		{xform zl 153.87}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass2" 0x40c8
+		{Position -671.59 3210.64}
+		{xform zl 153.87}
+		{TexMod "1"}
+	}
+	{Entity "new_grass2" 0x40c9
+		{Position -1084.18 3422.37}
+		{xform zl 153.87}
+		{TexMod "1"}
+	}
+	{Entity "pla01" 0x40ca
+		{Position -387.19 3942.8}
+		{xform zl 28.05}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1a" 0x40cb
+		{Position -702.96 2880.88}
+		{xform zl -43.63}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1a" 0x40cc
+		{Position -1219.81 3023.78}
+		{xform zl -147.89}
+		{TexMod "1"}
+	}
+	{Entity "grass3a" 0x40cd
+		{Position -686.94 2691.17}
+		{xform zl -43.63}
+		{TexMod "aut"}
+	}
+	{Entity "pla01" 0x40ce
+		{Position -1157.45 3014.43}
+		{xform zl -147.89}
+		{TexMod "aut"}
+	}
+	{Entity "bush8a" 0x40cf
+		{Position -1340.6 3341.07}
+		{xform zl -166.29}
+		{TexMod "aut"}
+	}
+	{Entity "bush9" 0x40d0
+		{Position -1383.37 3553.1}
+		{xform zl -166.29}
+		{TexMod "aut1"}
+	}
+	{Entity "bush9_a" 0x40d1
+		{Position -1102.93 2712.67}
+		{xform zl 153.87}
+		{TexMod "aut1"}
+	}
+	{Entity "bush9b" 0x40d2
+		{Position -1026.67 2660.74}
+		{xform zl 153.87}
+		{TexMod "aut1"}
+	}
+	{Entity "poplar_white3a" 0x40d9
+		{Position -875.81 2558.77}
+		{xform zl 153.87}
+		{TexMod "aut"}
+	}
+	{Entity "topol02" 0x40e2
+		{Position 991.59 3578.34}
+		{xform zl 99.67}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1a" 0x40e3
+		{Position 1153.81 3778.35}
+		{xform zl 99.67}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar1" 0x40e4
+		{Position 1365.93 3101.07}
+		{xform zl 158.22}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar1" 0x40e5
+		{Position 542.65 2368.05}
+		{xform zl -101.22}
+		{TexMod "aut"}
+	}
+	{Entity "new_fir2" 0x40e6
+		{Position 1150.23 2524.8}
+		{xform zl -42.98}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1" 0x40e7
+		{Position 971.51 3066.34}
+		{xform zl -116.87}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_a" 0x40e8
+		{Position 1020.02 3037.77}
+		{xform zl -116.87}
+		{TexMod "aut"}
+	}
+	{Entity "grass3" 0x40e9
+		{Position 873.88 3066.32}
+		{xform zl -116.87}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly" 0x40ea
+		{Position 98.54 3807.24}
+		{xform zl 134.53}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_a" 0x40eb
+		{Position 628.59 2819.17}
+		{xform zl 105.47}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_b" 0x40ec
+		{Position 645.67 2866.64}
+		{xform zl 105.47}
+		{TexMod "aut"}
+	}
+	{Entity "delphinium" 0x40ed
+		{Position 700.12 2834.81}
+		{xform zl 105.47}
+		{TexMod "autlate"}
+	}
+	{Entity "grass3" 0x40ee
+		{Position 248.07 3121.23}
+		{xform zl 51.23}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1" 0x40ef
+		{Position 390.11 3071.55}
+		{xform zl 51.23}
+		{TexMod "aut"}
+	}
+	{Entity "new_fir2" 0x40f0
+		{Position 169.34 3797.65}
+		{xform zl -167.23}
+		{TexMod "1"}
+	}
+	{Entity "new_fir2" 0x40f1
+		{Position 41.26 2689.29}
+		{xform zl 51.23}
+		{TexMod "1"}
+	}
+	{Entity "new_bush1a" 0x40f2
+		{Position 1374.89 2689.7}
+		{xform zl -178.11}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3" 0x40f3
+		{Position 261.48 2453.2}
+		{xform zl 51.23}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3a" 0x40f4
+		{Position 359.85 3130.23}
+		{xform zl 51.23}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_b" 0x40f5
+		{Position 239.24 3786.79}
+		{xform zl 134.53}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar2" 0x40f6
+		{Position 488.32 3508.72}
+		{xform zl 6.15}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass0c2" 0x40f7
+		{Position 991.25 3750.78}
+		{xform zl -166.91}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass2" 0x40f8
+		{Position 528.89 3475.81}
+		{xform zl 6.15}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1a" 0x40f9
+		{Position 668.26 3812.87}
+		{xform zl 64.39}
+		{TexMod "1"}
+	}
+	{Entity "pla01" 0x40fa
+		{Position 610.54 3787.48}
+		{xform zl 64.39}
+		{TexMod "aut"}
+	}
+	{Entity "bush8a" 0x40fb
+		{Position 702.25 3681.51}
+		{xform zl 45.99}
+		{TexMod "aut"}
+	}
+	{Entity "topol02" 0x40fc
+		{Position 147.11 3493.39}
+		{xform zl -60.08}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_a" 0x40fd
+		{Position -105.89 3221.09}
+		{xform zl -174.93}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_b" 0x40fe
+		{Position -149.49 3246.46}
+		{xform zl -174.93}
+		{TexMod "aut"}
+	}
+	{Entity "grass3" 0x40ff
+		{Position -187.64 2859.67}
+		{xform zl -174.93}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1" 0x4100
+		{Position -250.19 2996.53}
+		{xform zl -174.93}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3a" 0x4101
+		{Position -271.55 2934.07}
+		{xform zl -174.93}
+		{TexMod "1"}
+	}
+	{Entity "topol02" 0x4102
+		{Position -435.47 2559.73}
+		{xform zl 73.76}
+		{TexMod "1"}
+	}
+	{Entity "fir" 0x4103
+		{Position -193.45 2263.02}
+		{xform zl 133.16}
+		{Volume "crown"
+			{able {visible 1}}
+		}
+	}
+	{Entity "new_tree1" 0x4104
+		{Position 1733.19 2887.95}
+		{xform zl -55.42}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar1" 0x4105
+		{Position 1912.61 2617.28}
+		{xform zl 152.13}
+		{TexMod "aut"}
+	}
+	{Entity "new_fir2" 0x4106
+		{Position 1823.92 2366.67}
+		{xform zl -149.63}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1" 0x4107
+		{Position 2120.71 2231.02}
+		{xform zl 82.24}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_a" 0x4108
+		{Position 2065.52 2242.14}
+		{xform zl 82.24}
+		{TexMod "aut"}
+	}
+	{Entity "grass3" 0x4109
+		{Position 2212.95 2263}
+		{xform zl 82.24}
+		{TexMod "aut"}
+	}
+	{Entity "bush9" 0x410a
+		{Position 1883.84 2956.27}
+		{xform zl -15.58}
+		{TexMod "aut1"}
+	}
+	{Entity "bush_curly" 0x410b
+		{Position 2367.07 2896.56}
+		{xform zl -55.42}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_a" 0x410c
+		{Position 2363.82 2576.83}
+		{xform zl -55.42}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_b" 0x410d
+		{Position 2363.22 2526.39}
+		{xform zl -55.42}
+		{TexMod "aut"}
+	}
+	{Entity "delphinium" 0x410e
+		{Position 2301.35 2538.64}
+		{xform zl -55.42}
+		{TexMod "autlate"}
+	}
+	{Entity "grass3" 0x410f
+		{Position 2718.61 2683.72}
+		{xform zl -55.42}
+		{TexMod "aut"}
+	}
+	{Entity "grass3a" 0x4110
+		{Position 1615.96 2513.26}
+		{xform zl -55.42}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1" 0x4111
+		{Position 2630.32 2561.87}
+		{xform zl -55.42}
+		{TexMod "aut"}
+	}
+	{Entity "new_fir2" 0x4112
+		{Position 2299 2918.24}
+		{xform zl 2.82}
+		{TexMod "1"}
+	}
+	{Entity "new_fir2" 0x4113
+		{Position 2459.36 1974.57}
+		{xform zl -55.42}
+		{TexMod "1"}
+	}
+	{Entity "new_bush1a" 0x4114
+		{Position 1982.24 1933.03}
+		{xform zl 75.24}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3" 0x4115
+		{Position 2170.08 1831.22}
+		{xform zl -55.42}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3a" 0x4116
+		{Position 2695.21 2574.05}
+		{xform zl -55.42}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_b" 0x4117
+		{Position 2232.02 2941.01}
+		{xform zl -55.42}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1a" 0x4118
+		{Position 2775.52 2224.23}
+		{xform zl 144.68}
+		{TexMod "1"}
+	}
+	{Entity "pla01" 0x4119
+		{Position 2790.82 2163.06}
+		{xform zl 144.68}
+		{TexMod "aut"}
+	}
+	{Entity "bush8a" 0x411a
+		{Position 2910.73 2235.59}
+		{xform zl 126.28}
+		{TexMod "aut"}
+	}
+	{Entity "topol02" 0x411b
+		{Position 3104.09 2673.82}
+		{xform zl -166.73}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_a" 0x411c
+		{Position 2915.69 2994.24}
+		{xform zl 78.42}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_b" 0x411d
+		{Position 2952.49 3028.74}
+		{xform zl 78.42}
+		{TexMod "aut"}
+	}
+	{Entity "grass3" 0x411e
+		{Position 2592.85 3176.1}
+		{xform zl 78.42}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1" 0x411f
+		{Position 2741.89 3196.82}
+		{xform zl 78.42}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3a" 0x4120
+		{Position 2688.17 3235.18}
+		{xform zl 78.42}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1a" 0x4121
+		{Position 2928.34 3573.9}
+		{xform zl -81.48}
+		{TexMod "1"}
+	}
+	{Entity "topol02" 0x4122
+		{Position 2376.48 3499.48}
+		{xform zl -32.89}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3a" 0x4126
+		{Position 3360.91 2078.54}
+		{xform zl 121.92}
+		{TexMod "aut"}
+	}
+	{Entity "topol02" 0x4128
+		{Position 3852.28 1962.91}
+		{xform zl 121.92}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1_big" 0x4129
+		{Position 3416.92 2472.24}
+		{xform zl 121.92}
+		{TexMod "1"}
+	}
+	{Entity "delphinium" 0x412a
+		{Position 3706.54 2116.58}
+		{xform zl 121.92}
+		{TexMod "autlate"}
+	}
+	{Entity "new_grass3" 0x412e
+		{Position 3630.3 1889.61}
+		{xform zl 121.92}
+		{TexMod "1"}
+	}
+	{Entity "new_grass3" 0x412f
+		{Position 3625.4 230.9}
+		{xform zl 67.42}
+	}
+	{Entity "new_poplar" 0x4131
+		{Position 3284.12 3098.45}
+		{xform zl 56.13}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar2" 0x4132
+		{Position 3475 525.08}
+		{xform zl 67.42}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar" 0x4133
+		{Position 2929.58 666.16}
+		{xform zl 67.42}
+		{TexMod "1"}
+	}
+	{Entity "new_poplar1" 0x4134
+		{Position 3263.05 1382.95}
+		{xform zl 67.42}
+		{TexMod "1"}
+	}
+	{Entity "new_poplar2" 0x4135
+		{Position 3740.74 3110.02}
+		{xform zl 56.13}
+		{TexMod "1"}
+	}
+	{Entity "fir_small" 0x4136
+		{Position 3822.99 2721.22}
+		{xform zl 56.13}
+		{TexMod "1"}
+		{Volume "crown"
+			{able {visible 1}}
+		}
+	}
+	{Entity "pine" 0x4137
+		{Position 3572.35 3369.96}
+		{xform zl 56.13}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3" 0x4138
+		{Position 3849.48 3602.24}
+		{xform zl 56.13}
+		{TexMod "aut"}
+	}
+	{Entity "pla01" 0x4139
+		{Position 3482.95 3332.97}
+		{xform zl 56.13}
+		{TexMod "aut"}
+	}
+	{Entity "delphinium" 0x413a
+		{Position 3322.05 3154.9}
+		{xform zl 56.13}
+		{TexMod "autlate"}
+	}
+	{Entity "stub_broken" 0x413c
+		{Position 1001.15 -2852.51}
+		{xform zl 109.85}
+	}
+	{Entity "stub_root" 0x413d
+		{Position 1143.29 -3317.66}
+		{xform zl 67.42}
+	}
+	{Entity "new_fir2" 0x413f
+		{Position 2779.37 1366.75}
+		{xform zl 67.42}
+		{TexMod "1"}
+	}
+	{Entity "pine" 0x4140
+		{Position 3276.75 1621.64}
+		{xform zl 67.42}
+		{TexMod "1"}
+	}
+	{Entity "new_bush1a" 0x4141
+		{Position 3073.04 988.43}
+		{xform zl -161.92}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3" 0x4142
+		{Position 3056.69 1201.46}
+		{xform zl 67.42}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1" 0x4143
+		{Position 1606.65 3813.05}
+		{xform zl 82.24}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_a" 0x4144
+		{Position 1551.46 3824.17}
+		{xform zl 82.24}
+		{TexMod "aut"}
+	}
+	{Entity "grass3" 0x4145
+		{Position 1698.89 3845.03}
+		{xform zl 82.24}
+		{TexMod "aut"}
+	}
+	{Entity "new_fir2" 0x4146
+		{Position 1945.3 3556.6}
+		{xform zl -55.42}
+		{TexMod "1"}
+	}
+	{Entity "new_bush1a" 0x4147
+		{Position 1468.18 3515.06}
+		{xform zl 75.24}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3" 0x4148
+		{Position 1656.02 3413.25}
+		{xform zl -55.42}
+		{TexMod "1"}
+	}
+	{Entity "new_poplar1" 0x4149
+		{Position 3384.42 3796.93}
+		{xform zl -70.11}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3" 0x414a
+		{Position 2366.46 3817.68}
+		{xform zl 82.34}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1a" 0x2004
+		{Position 3799.55 1256.5}
+		{xform zl 176.2}
+		{TexMod "aut"}
+	}
+	{Entity "grass3a" 0x2006
+		{Position 3665.74 1391.92}
+		{xform zl 176.2}
+		{TexMod "aut"}
+	}
+	{Entity "grass3" 0x200e
+		{Position 3390.22 942.72}
+		{xform zl 44.9}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1" 0x200f
+		{Position 3525.92 877.68}
+		{xform zl 44.9}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3a" 0x2010
+		{Position 3502.32 939.33}
+		{xform zl 44.9}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1a" 0x2013
+		{Position 2413.73 1596.34}
+		{xform zl -4.17}
+		{TexMod "aut"}
+	}
+	{Entity "grass3a" 0x2014
+		{Position 2546.68 1460.06}
+		{xform zl -4.17}
+		{TexMod "aut"}
+	}
+	{Entity "bush9_a" 0x2015
+		{Position 2211.85 1212.26}
+		{xform zl -166.67}
+		{TexMod "aut1"}
+	}
+	{Entity "bush9b" 0x2016
+		{Position 2303.73 1220.64}
+		{xform zl -166.67}
+		{TexMod "aut1"}
+	}
+	{Entity "new_bush1a" 0x2017
+		{Position 1427.87 2183.84}
+		{xform zl 4.43}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar2" 0x2018
+		{Position 1764.8 1904.35}
+		{xform zl 4.43}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3" 0x201b
+		{Position 1531.25 2166.79}
+		{xform zl -126.23}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3a" 0x201c
+		{Position 2485.01 1237.8}
+		{xform zl -166.67}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1" 0x201d
+		{Position 2470.7 -2345.6}
+		{xform zl -55.42}
+		{TexMod "aut"}
+	}
+	{Entity "bush9" 0x201e
+		{Position 2621.35 -2277.28}
+		{xform zl -15.58}
+		{TexMod "aut1"}
+	}
+	{Entity "bush_curly" 0x201f
+		{Position 3104.58 -2336.99}
+		{xform zl -55.42}
+		{TexMod "aut"}
+	}
+	{Entity "grass3" 0x2020
+		{Position 3456.12 -2549.83}
+		{xform zl -55.42}
+		{TexMod "aut"}
+	}
+	{Entity "new_fir2" 0x2021
+		{Position 3036.51 -2315.31}
+		{xform zl 2.82}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_b" 0x2022
+		{Position 2969.53 -2292.54}
+		{xform zl -55.42}
+		{TexMod "aut"}
+	}
+	{Entity "topol02" 0x2023
+		{Position 3841.6 -2559.73}
+		{xform zl -166.73}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_a" 0x2024
+		{Position 3653.2 -2239.31}
+		{xform zl 78.42}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_b" 0x2025
+		{Position 3690 -2204.81}
+		{xform zl 78.42}
+		{TexMod "aut"}
+	}
+	{Entity "grass3" 0x2026
+		{Position 3330.36 -2057.45}
+		{xform zl 78.42}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1" 0x2027
+		{Position 3479.4 -2036.73}
+		{xform zl 78.42}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3a" 0x2028
+		{Position 3425.68 -1998.37}
+		{xform zl 78.42}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1a" 0x2029
+		{Position 3665.85 -1659.65}
+		{xform zl -81.48}
+		{TexMod "1"}
+	}
+	{Entity "topol02" 0x202a
+		{Position 3113.99 -1734.07}
+		{xform zl -32.89}
+		{TexMod "1"}
+	}
+	{Entity "new_fir2" 0x202b
+		{Position 2682.81 -1676.95}
+		{xform zl -55.42}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3" 0x202c
+		{Position 3103.97 -1415.87}
+		{xform zl 82.34}
+		{TexMod "1"}
+	}
+	{Entity "pine_small" 0x202d
+		{Position 3221.31 -2793.42}
+		{xform zl 67.42}
+		{TexMod "1"}
+	}
+	{Entity "new_fir2" 0x202e
+		{Position 2498.01 -2870.33}
+		{xform zl -14.52}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3a" 0x202f
+		{Position 3030.89 -2979.73}
+		{xform zl -14.52}
+		{TexMod "1"}
+	}
+	{Entity "new_fir2" 0x2030
+		{Position 2714.21 -3611.08}
+		{xform zl -55.42}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3" 0x2031
+		{Position 3135.37 -3350}
+		{xform zl 82.34}
+		{TexMod "1"}
+	}
+	{Entity "new_poplar1" 0x2032
+		{Position 3667.91 -3552.28}
+		{xform zl 151.29}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar1" 0x2033
+		{Position 2208.33 -2728.89}
+		{xform zl -48.84}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1" 0x2034
+		{Position 2153.39 -2298.75}
+		{xform zl 77.74}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_a" 0x2035
+		{Position 2089.33 -2272.96}
+		{xform zl 77.74}
+		{TexMod "aut"}
+	}
+	{Entity "grass3" 0x2036
+		{Position 2247.85 -2274.12}
+		{xform zl 77.74}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly" 0x2037
+		{Position 1323.57 -2769.52}
+		{xform zl -164.21}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_a" 0x2038
+		{Position 1360.62 -3099.67}
+		{xform zl -81.93}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_b" 0x2039
+		{Position 1337.57 -3144.54}
+		{xform zl -81.93}
+		{TexMod "aut"}
+	}
+	{Entity "delphinium" 0x203a
+		{Position 1287.67 -3105.96}
+		{xform zl -81.93}
+		{TexMod "autlate"}
+	}
+	{Entity "grass3" 0x203b
+		{Position 1527.58 -2826.65}
+		{xform zl 69.52}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1" 0x203c
+		{Position 1678.03 -2829.25}
+		{xform zl 69.52}
+		{TexMod "aut"}
+	}
+	{Entity "new_fir2" 0x203d
+		{Position 1288.48 -2715.34}
+		{xform zl 79.57}
+		{TexMod "1"}
+	}
+	{Entity "new_fir2" 0x203e
+		{Position 3295.25 -3833.65}
+		{xform zl 44.3}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3a" 0x203f
+		{Position 1630.89 -2783.03}
+		{xform zl 69.52}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_b" 0x2040
+		{Position 1250.96 -2775.31}
+		{xform zl 21.33}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar2" 0x2041
+		{Position 1598.18 -3543.38}
+		{xform zl 59.93}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass0c2" 0x2042
+		{Position 1564.16 -3754.67}
+		{xform zl 59.93}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass2" 0x2043
+		{Position 1648.7 -3530.09}
+		{xform zl 59.93}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1a" 0x2044
+		{Position 3567.65 -3055.56}
+		{xform zl 118.17}
+		{TexMod "1"}
+	}
+	{Entity "pla01" 0x2045
+		{Position 3554.03 -3117.13}
+		{xform zl 118.17}
+		{TexMod "aut"}
+	}
+	{Entity "bush8a" 0x2046
+		{Position 3693.71 -3105.75}
+		{xform zl 99.77}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3a" 0x2047
+		{Position 2101.62 -3325.01}
+		{xform zl -168.18}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1" 0x2048
+		{Position 1994.62 -3431.06}
+		{xform zl -168.18}
+		{TexMod "aut"}
+	}
+	{Entity "topol02" 0x2049
+		{Position 1953.82 -2962.85}
+		{xform zl 166.76}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_a" 0x204a
+		{Position 1928.25 -2592.03}
+		{xform zl 51.91}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_b" 0x204b
+		{Position 1976.58 -2577.58}
+		{xform zl 51.91}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1a" 0x41
+		{Position 3711.98 577.73}
+		{xform zl -161.92}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1a" 0x42
+		{Position 3629.81 606.9}
+		{xform zl -82.93}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1a" 0x43
+		{Position 3728.16 650.64}
+		{xform zl -66.47}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass3" 0x44
+		{Position 3646.95 2649.48}
+		{xform zl 123.76}
+		{TexMod "1"}
+	}
+	{Entity "grass3a" 0x45
+		{Position 3832.13 2358.86}
+		{xform zl 176.2}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_a" 0x46
+		{Position 2737.41 3463.23}
+		{xform zl 78.42}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_b" 0x47
+		{Position 2774.21 3497.73}
+		{xform zl 78.42}
+		{TexMod "aut"}
+	}
+	{Entity "grass3" 0x48
+		{Position 2988.95 3231.48}
+		{xform zl -55.42}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1a" 0x49
+		{Position 1178.12 3424.11}
+		{xform zl -48.49}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3" 0x4a
+		{Position 1226.85 3331.36}
+		{xform zl -179.15}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1a" 0x4b
+		{Position 948.08 2285.79}
+		{xform zl -48.47}
+		{TexMod "1"}
+	}
+	{Entity "grass3" 0x4c
+		{Position 820.97 2513.69}
+		{xform zl -48.47}
+		{TexMod "aut"}
+	}
+	{Entity "pla01" 0x4d
+		{Position 947.1 2348.85}
+		{xform zl -48.47}
+		{TexMod "aut"}
+	}
+	{Entity "new_fir2" 0x4e
+		{Position 702.65 2641.89}
+		{xform zl 51.23}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1a" 0x4f
+		{Position 367.04 2771.56}
+		{xform zl 81.07}
+		{TexMod "aut"}
+	}
+	{Entity "grass3a" 0x50
+		{Position 431.44 2636.36}
+		{xform zl 81.07}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1a" 0x51
+		{Position -902.15 3672.45}
+		{xform zl 141.19}
+		{TexMod "1"}
+	}
+	{Entity "pla01" 0x52
+		{Position -890.61 3610.46}
+		{xform zl 141.19}
+		{TexMod "aut"}
+	}
+	{Entity "pla01" 0x53
+		{Position -932.47 3920.83}
+		{xform zl 44.15}
+		{TexMod "aut"}
+	}
+	{Entity "delphinium" 0x54
+		{Position -1126.83 3780.03}
+		{xform zl 44.15}
+		{TexMod "autlate"}
+	}
+	{Entity "barrier3" 0x5d
+		{Position -418.66 -5966.28}
+		{xform zl -0.85}
+	}
+	{Entity "bags1" 0x413b
+		{Position -211.1 -5975.67}
+		{xform zl -0.85}
+	}
+	{Entity "bags2" 0x413e
+		{Position -197.97 -5961.28}
+		{xform zl -0.85}
+	}
+	{Entity "bags_big" 0x414b
+		{Position -143.62 -5974.22}
+		{xform zl -0.85}
+	}
+	{Entity "bags_big2" 0x414c
+		{Position -72.03 -5972.44}
+		{xform zl -0.85}
+	}
+	{Entity "barrel_fuel" 0x414d
+		{Position 129.75 -5950.78}
+		{xform zl -0.85}
+	}
+	{Entity "barrel_small" 0x414e
+		{Position 379.95 -5927.98}
+		{xform zl -0.85}
+	}
+	{Entity "barrels_trash" 0x414f
+		{Position 307.26 -5777.23}
+		{xform zl -0.85}
+	}
+	{Entity "barrel_water" 0x204c
+		{Position 478.2 -5753.17}
+		{xform zl -0.85}
+	}
+	{Entity "beam" 0x1000
+		{Position -89.46 -5831.12}
+		{xform zl -0.85}
+	}
+	{Entity "beam1" 0x1001
+		{Position -178.07 -5825.98}
+		{xform zl -0.85}
+	}
+	{Entity "beam_big" 0x1002
+		{Position -3.93 -5736.38}
+		{xform zl -0.85}
+	}
+	{Entity "beam_piles1" 0x1003
+		{Position 73.18 -5746.02}
+		{xform zl -0.85}
+	}
+	{Entity "beam_piles2" 0x1004
+		{Position 103.08 -5743.12}
+		{xform zl -0.85}
+	}
+	{Entity "block_tree" 0x1005
+		{Position 164.66 -5747.47}
+		{xform zl -0.85}
+	}
+	{Entity "bomb_cart" 0x1006
+		{Position 245.66 -5685.37}
+		{xform zl -0.85}
+	}
+	{Entity "coaster_ship_crate1" 0x100d
+		{Position 374.88 -5619.46}
+		{xform zl -0.85}
+	}
+	{Entity "coaster_ship_crate2" 0x100e
+		{Position 471.59 -5617.24}
+		{xform zl -0.85}
+	}
+	{Entity "coaster_ship_crate3" 0x100f
+		{Position 574.29 -5614.43}
+		{xform zl -0.85}
+	}
+	{Entity "coil1" 0x1010
+		{Position 284.96 -5594.84}
+		{xform zl -0.85}
+	}
+	{Entity "coil3" 0x1011
+		{Position 240.03 -5590.25}
+		{xform zl -0.85}
+	}
+	{Entity "coil6" 0x1012
+		{Position 185.36 -5584.98}
+		{xform zl -0.85}
+	}
+	{Entity "coil_tros" 0x1013
+		{Position 113.45 -5582}
+		{xform zl -0.85}
+	}
+	{Entity "container1" 0x1014
+		{Position -45.84 -5587.36}
+		{xform zl -0.85}
+	}
+	{Entity "container2" 0x1015
+		{Position -202.56 -5590.16}
+		{xform zl -0.85}
+	}
+	{Entity "container3" 0x1016
+		{Position -388.05 -5599.98}
+		{xform zl -0.85}
+	}
+	{Entity "cover_gun" 0x1017
+		{Position -209.47 -5437.83}
+		{xform zl -0.85}
+	}
+	{Entity "cover_gun_h" 0x1018
+		{Position -101.8 -5436.49}
+		{xform zl -0.85}
+	}
+	{Entity "crosstie1" 0x1019
+		{Position 49.98 -5439.65}
+		{xform zl -0.85}
+	}
+	{Entity "crosstie" 0x101a
+		{Position 155.43 -5445.5}
+		{xform zl -0.85}
+	}
+	{Entity "dynamite_fuse" 0x101b
+		{Position 222.73 -5457.79}
+		{xform zl -0.85}
+	}
+	{Entity "dzot1" 0x101c
+		{Position 315.98 -5455.8}
+		{xform zl -0.85}
+	}
+	{Entity "eg" 0x101d
+		{Position 437.32 -5458.65}
+		{xform zl -0.85}
+	}
+	{Entity "eg1" 0x101e
+		{Position 493.95 -5460.6}
+		{xform zl -0.85}
+	}
+	{Entity "fire_board" 0x101f
+		{Position 567.18 -5463.74}
+		{xform zl -0.85}
+	}
+	{Entity "firebox" 0x1020
+		{Position 611.83 -5464.38}
+		{xform zl -0.85}
+	}
+	{Entity "firewood" 0x1021
+		{Position 696.35 -5462}
+		{xform zl -0.85}
+	}
+	{Entity "firewood1" 0x1022
+		{Position 757.2 -5463.9}
+		{xform zl -0.85}
+	}
+	{Entity "flag_ger" 0x1023
+		{Position 639.68 -5549.32}
+		{xform zl -0.85}
+	}
+	{Entity "fuel_hose" 0x1024
+		{Position 756.12 -5590.51}
+		{xform zl -0.85}
+	}
+	{Entity "ladder_wood_middle" 0x5000
+		{Position -307 -5437.54}
+		{xform zl -0.85}
+	}
+	{Entity "ladder_wood_big" 0x5001
+		{Position -393.43 -5447.93}
+		{xform zl -0.85}
+	}
+	{Entity "ladder_small" 0x5002
+		{Position -361.28 -5389.2}
+		{xform zl -0.85}
+	}
+	{Entity "kitchen" 0x5003
+		{Position -295.6 -5369.32}
+		{xform zl -0.85}
+		{Player 0}
+		{MID 10001}
+	}
+	{Entity "mts-fuel" 0x3000
+		{Position -370.13 -5300.49}
+		{xform zl -0.85}
+	}
+	{Entity "netting" 0x3001
+		{Position -216.66 -5274.27}
+		{xform zl -0.85}
+	}
+	{Entity "netting1" 0x3002
+		{Position -60.9 -5251.07}
+		{xform zl -0.85}
+	}
+	{Entity "netting_broken" 0x3003
+		{Position 94.77 -5299.66}
+		{xform zl -0.85}
+	}
+	{Entity "netting_broken1" 0x3004
+		{Position 229.92 -5270.3}
+		{xform zl -0.85}
+	}
+	{Entity "rail_ring" 0x3005
+		{Position 313.24 -5298.46}
+		{xform zl -0.85}
+	}
+	{Entity "sack_3" 0x3006
+		{Position 374.16 -5310.7}
+		{xform zl -0.85}
+	}
+	{Entity "sack_1" 0x3007
+		{Position 405.97 -5307.96}
+		{xform zl -0.85}
+	}
+	{Entity "scaling-ladder" 0x3008
+		{Position 476.25 -5310.47}
+		{xform zl -0.85}
+	}
+	{Entity "scaling-ladder2" 0x3009
+		{Position 526.53 -5313.54}
+		{xform zl -0.85}
+	}
+	{Entity "searchlight1" 0x300a
+		{Position 599.35 -5326.11}
+		{xform zl -0.85}
+	}
+	{Entity "searchlight_direct" 0x300b
+		{Position 658.63 -5327.31}
+		{xform zl -0.85}
+	}
+	{Entity "searchlight_round" 0x300c
+		{Position 712.44 -5325.71}
+		{xform zl -0.85}
+	}
+	{Entity "stuff4" 0x300d
+		{Position 784.66 -5325.54}
+		{xform zl -0.85}
+	}
+	{Entity "stuff_box" 0x300e
+		{Position -395 -5387.7}
+		{xform zl -0.85}
+	}
+	{Entity "tent" 0x300f
+		{Position 909.61 -5331.82}
+		{xform zl -0.85}
+	}
+	{Entity "tent_fuel_take_off" 0x3010
+		{Position 1040.9 -5311.84}
+		{xform zl -0.85}
+	}
+	{Entity "timber" 0x3011
+		{Position -386.13 -5122.46}
+		{xform zl -0.85}
+	}
+	{Entity "trafficator" 0x301a
+		{Position -299.35 -5117.4}
+		{xform zl -0.85}
+	}
+	{Entity "trafficator1" 0x301b
+		{Position -250.28 -5120.18}
+		{xform zl -0.85}
+	}
+	{Entity "trafficator2" 0x301c
+		{Position -195.01 -5129.03}
+		{xform zl -0.85}
+	}
+	{Entity "trafficator_af_1" 0x301d
+		{Position -137.29 -5126.04}
+		{xform zl -0.85}
+	}
+	{Entity "trafficator_af_2" 0x301e
+		{Position -65.22 -5125.96}
+		{xform zl -0.85}
+	}
+	{Entity "trafficator_af_3" 0x3020
+		{Position 1.77 -5140.5}
+		{xform zl -0.85}
+	}
+	{Entity "trailer" 0x7000
+		{Position 93.26 -5140.65}
+		{xform y 1.64 zw -0.85}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10002}
+	}
+	{Entity "transformer2" 0x7001
+		{Position 218.03 -5129.48}
+		{xform zl -0.85}
+	}
+	{Entity "transformer_part1" 0x7002
+		{Position 351.92 -5126.56}
+		{xform zl -0.85}
+	}
+	{Entity "transformer_part2" 0x7003
+		{Position 544.03 -5135.71}
+		{xform zl -0.85}
+	}
+	{Entity "trash1" 0x7004
+		{Position 636.96 -5143.9}
+		{xform zl -0.85}
+	}
+	{Entity "trash2" 0x7005
+		{Position 714.1 -5143.89}
+		{xform zl -0.85}
+	}
+	{Entity "trash3" 0x7006
+		{Position 799.04 -5140.71}
+		{xform zl -0.85}
+	}
+	{Entity "tube01" 0x7007
+		{Position 904.58 -5155.17}
+		{xform zl -0.85}
+	}
+	{Entity "viaduct" 0x7008
+		{Position 1138.41 -5177.13 -22}
+		{xform zl -0.85}
+	}
+	{Entity "watch_tower_2" 0x700c
+		{Position 994.71 -5047.35}
+		{xform zl -0.85}
+	}
+	{Entity "mg34_tower" 0x700d
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10004}
+	}
+	{Entity "weapon_shelve" 0x700f
+		{Position 870.79 -5036.8}
+		{xform zl -0.85}
+	}
+	{Entity "weapon_shelves_large" 0x7010
+		{Position 765.73 -5037.78}
+		{xform zl -0.85}
+	}
+	{Entity "wheel" 0x7011
+		{Position 679.2 -5040.28}
+		{xform zl -0.85}
+	}
+	{Entity "wood_stick1" 0x7012
+		{Position 620.64 -5033.21}
+		{xform zl -0.85}
+	}
+	{Entity "wood_toilet" 0x7014
+		{Position 557.61 -4984.95 -2}
+		{xform zl -0.85}
+	}
+	{Entity "woods1" 0x800
+		{Position 433.2 -4977.15}
+		{xform zl -0.85}
+	}
+	{Entity "gate_depot" 0x801
+		{Position -20.78 -4791.37}
+		{xform zl -0.85}
+	}
+	{Entity "gate_wire" 0x802
+		{Position -237.97 -4775.2}
+		{xform zl 0.09}
+		{AreaDisable "left"}
+		{AreaDisable "right"}
+	}
+	{Entity "wire" 0x803
+		{Position -197.28 -4670.85 26.5}
+		{xform zl -0.85}
+	}
+	{Entity "fence_wire" 0x4800
+		{Position -514.53 -4771.59}
+		{xform zl -0.85}
+	}
+	{Entity "fence_wire1" 0x4801
+		{Position -737.87 -4780.73}
+		{xform zl -0.85}
+	}
+	{Entity "fence_wire10" 0x4802
+		{Position -501.32 -4695.36}
+		{xform zl -0.85}
+	}
+	{Entity "fence_wire1_broken" 0x4803
+		{Position -492.9 -4634.36}
+		{xform zl -0.85}
+	}
+	{Entity "fence_wire3" 0x4804
+		{Position -685.4 -4678.16}
+		{xform zl -0.85}
+	}
+	{Entity "fence_wire4" 0x4805
+		{Position -512.07 -4559.9}
+		{xform zl -0.85}
+	}
+	{Entity "fence_wire5" 0x4806
+		{Position -670.51 -4569.39}
+		{xform zl -0.85}
+	}
+	{Entity "fence_wire6" 0x4807
+		{Position -335.45 -4482.73}
+		{xform zl -0.85}
+	}
+	{Entity "fence_wire8" 0x4808
+		{Position -575.68 -4484.26}
+		{xform zl -0.85}
+	}
+	{Entity "fence_wire9" 0x4809
+		{Position -170.08 -4487.66}
+		{xform zl -0.85}
+	}
+	{Entity "angar" 0x6e
+		{Position 1045.88 -4754.07 -3}
+		{xform zl -0.85}
+	}
+	{Entity "box_weapon" 0x70
+		{Position 1050.73 -4640.3 -3}
+		{xform zl -0.85}
+	}
+	{Entity "coaster_ship_inventory" 0x4150
+		{Position 1124.1 -4634.25 -3}
+		{xform zl -0.85}
+	}
+	{Entity "barrier3" 0x2058
+		{Position -46.64 -2511.46}
+		{xform zl -0.85}
+	}
+	{Entity "eg1" 0x2059
+		{Position -210.3 -2517.5}
+		{xform zl -0.85}
+	}
+	{Entity "bags1" 0x6014
+		{Position 104.61 -2392.71}
+		{xform zl 35.98}
+	}
+	{Entity "bags2" 0x6015
+		{Position 142.22 -2390.17}
+		{xform zl -149.71}
+	}
+	{Entity "bags_big" 0x6016
+		{Position 125.5 -2361.54}
+		{xform zl -0.85}
+	}
+	{Entity "bags_big2" 0x6017
+		{Position 197.09 -2359.76}
+		{xform zl -0.85}
+	}
+	{Entity "cover_gun_h" 0x6019
+		{Position -392.04 -2367.79 -4.5}
+		{xform zl -92.59}
+		{TexMod "1"}
+	}
+	{Entity "sandbag" 0x1007
+		{Position 421.51 -2400.58}
+		{TexMod "2"}
+	}
+	{Entity "sandbag2" 0x1008
+		{Position -533.88 -2352.39}
+		{xform zl -159.13}
+		{TexMod "2"}
+	}
+	{Entity "sandbag2_round" 0x1009
+		{Position -392.16 -2392.95}
+		{xform zl -84.47}
+		{TexMod "2"}
+	}
+	{Entity "sandbag3" 0x100a
+		{Position 310.94 -2416.72}
+		{TexMod "2"}
+	}
+	{Entity "sandbag3" 0x1029
+		{Position 375.17 -2417.2}
+		{TexMod "2"}
+	}
+	{Entity "dshk_stan" 0x5004
+		{Position 342.59 -2397.19 0}
+		{xform zl 180 y 0.34 zw 88.22}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+			{State "seat1" {Disable}}
+			{State "seat2" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{AreaDisable "close"}
+		{Player 0}
+		{MID 10012}
+	}
+	{Entity "road_slush_clay1" 0x4157
+		{Position -60.59 -2567.12}
+		{xform zl -26}
+	}
+	{Entity "road_slush_clay1" 0x3012
+		{Position -138.07 -2555.81}
+		{xform zl 152.29}
+	}
+	{Entity "road_slush_clay1" 0x3013
+		{Position -64.14 -2918.63}
+		{xform zl -26}
+	}
+	{Entity "road_slush_clay1" 0x3014
+		{Position -134.35 -2918.38}
+		{xform zl -30.29}
+	}
+	{Entity "road_slush_clay1" 0x3015
+		{Position -143.77 -3241.59}
+		{xform zl 154.99}
+	}
+	{Entity "road_slush_clay1" 0x3016
+		{Position -73.57 -3240.63}
+		{xform zl 150.7}
+	}
+	{Entity "road_slush_clay1" 0x3017
+		{Position -69.38 -3593.41}
+		{xform zl -26}
+	}
+	{Entity "road_slush_clay1" 0x3018
+		{Position -146.86 -3582.1}
+		{xform zl 152.29}
+	}
+	{Entity "road_slush_clay1" 0x3019
+		{Position -142.44 -3918.53}
+		{xform zl 154.99}
+	}
+	{Entity "road_slush_clay1" 0x301f
+		{Position -72.24 -3917.57}
+		{xform zl 150.7}
+	}
+	{Entity "road_slush_clay1" 0x3027
+		{Position -54.68 -2209.24}
+		{xform zl -26}
+	}
+	{Entity "road_slush_clay1" 0x3028
+		{Position -132.16 -2197.93}
+		{xform zl 152.29}
+	}
+	{Entity "watch_tower_3" 0x4155
+		{Position 1486.89 -2125.9}
+		{xform zl -174.91}
+	}
+	{Entity "dshk_tower" 0x4156
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10019}
+	}
+	{Entity "dshk_tower" 0x4161
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10022}
+	}
+	{Entity "watch_tower_3" 0x4162
+		{Position 1500.43 1758.41}
+	}
+	{Entity "jersey_barrier" 0x4164
+		{Position -376.76 -2482.25}
+		{xform zl 90.23}
+	}
+	{Entity "jersey_barrier_dmg" 0x4165
+		{Position -444.73 -2482.44}
+		{xform zl -91.4}
+	}
+	{Entity "jersey_barrier" 0x4166
+		{Position -548.6 -2483.56}
+		{xform zl -88.62}
+	}
+	{Entity "jersey_barrier_dmg" 0x4167
+		{Position -480.63 -2482}
+		{xform zl 89.75}
+	}
+	{Entity "trench_ground_exit2" 0x1030
+		{Position -668.39 -2462.74 2.03}
+		{xform zl -89.73}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground" 0x416c
+		{Position -758.51 -2463.11 0}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground_exit2" 0x804
+		{Position 1006.83 -2330.04 2.18}
+		{xform zl 2.1}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground_mgun" 0x805
+		{Position 1189.95 -2410.85 16}
+		{xform zl -179.9}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground_t" 0x806
+		{Position 1008.06 -2410.07 16}
+		{TexMod "9"}
+	}
+	{Entity "trench_incline_01" 0x807
+		{Position 1103.09 -2410.5 11}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground_exit2" 0x808
+		{Position 568.63 -2409.26 2.72}
+		{xform zl 92.53}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground" 0x809
+		{Position 878.61 -2409.66 32}
+		{xform zl -179.84}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground_mgun" 0x80a
+		{Position 768.61 -2408.1 32}
+		{xform zl -179.9}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground" 0x80b
+		{Position 1299.77 -2410.51 16}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground" 0x80c
+		{Position 658.18 -2407.91 48}
+		{xform zl -179.84}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground_turn" 0x80d
+		{Position 1724.86 -2411.47 16}
+		{xform zl -178.7}
+		{TexMod "9"}
+	}
+	{Entity "trench_incline_01" 0x80e
+		{Position 1401.55 -2410.56 22}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground" 0x80f
+		{Position 1504.46 -2412.29 48}
+		{xform zl -179.84}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground_mgun" 0x810
+		{Position 1613.15 -2413.19 48}
+		{xform zl -179.9}
+		{TexMod "9"}
+	}
+	{Entity "trench_incline_01" 0x811
+		{Position 1727.49 -2314.42 33}
+		{xform zl 88.55}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground_exit2" 0x812
+		{Position 1731.84 -2118.57 5.53}
+		{xform zl -1.36}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground" 0x813
+		{Position 1730.19 -2209.1 64}
+		{xform zl -91.29}
+		{TexMod "9"}
+	}
+	{Entity "fence_wire" 0x6021
+		{Position 693.46 -2213.64}
+		{xform zl -0.84}
+	}
+	{Entity "fence_wire" 0x6022
+		{Position 888.25 -2216.61}
+		{xform zl -0.84}
+	}
+	{Entity "fence_wire" 0x6023
+		{Position 1083.56 -2220.3}
+		{xform zl -0.84}
+	}
+	{Entity "fence_wire" 0x6024
+		{Position 1278.35 -2223.27}
+		{xform zl -0.84}
+	}
+	{Entity "fence_wire" 0x6025
+		{Position 498.73 -2210.84}
+		{xform zl -0.84}
+	}
+	{Entity "fence_wire" 0x6026
+		{Position 303.96 -2207.87}
+		{xform zl -0.84}
+	}
+	{Entity "fence_wire" 0x6027
+		{Position 109.14 -2205.11}
+		{xform zl -0.84}
+	}
+	{Entity "fence_wire" 0x6028
+		{Position 1472.89 -2226.02}
+		{xform zl -0.84}
+	}
+	{Entity "fence_wire" 0x6036
+		{Position 1572.74 -2130.2}
+		{xform zl 89.82}
+	}
+	{Entity "fence_wire" 0x6042
+		{Position 1591.11 1571.61}
+		{xform zl 89.65}
+	}
+	{Entity "fence_wire" 0x6044
+		{Position 1592.42 1766.41}
+		{xform zl 89.65}
+	}
+	{Entity "fence_wire" 0x6047
+		{Position 911.07 1870.57}
+		{xform zl 179.6 scale 1.013}
+	}
+	{Entity "fence_wire" 0x6048
+		{Position 713.16 1871.41}
+		{xform zl 179.6 scale 1.017}
+	}
+	{Entity "fence_wire" 0x604a
+		{Position 1106.81 1869.17}
+		{xform zl 179.6 scale 0.99}
+	}
+	{Entity "fence_wire" 0x604b
+		{Position 1300.6 1867.77}
+		{xform zl 179.6}
+	}
+	{Entity "fence_wire" 0x604c
+		{Position 1495.44 1866.5}
+		{xform zl 179.6}
+	}
+	{Entity "dshk_trenoga" 0x303b
+		{Position -393.6 -2362.98}
+		{xform zl -90.3}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10005}
+	}
+	{Entity "ptur_konkurs" 0x6056
+		{Position -293.07 -2393.04}
+		{xform zl -76.15}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10006}
+	}
+	{Entity "sandbags_small_curve" 0x303c
+		{Position -291.28 -2409.94 -2.5}
+		{xform zl 98.59}
+		{TexMod "brown"}
+	}
+	{Entity "dshk_tower" 0x415c
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10003}
+	}
+	{Entity "topol02" 0x4017
+		{Position -2958.5 -2896.37}
+		{TexMod "aut"}
+	}
+	{Entity "tree_attach" 0x4018
+		{Position -3112.47 -3216.56}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar2" 0x401a
+		{Position -3462.02 -2323.12}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1" 0x401b
+		{Position -3128.27 -2508.57}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1a" 0x401d
+		{Position -3458.54 -2986.96}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1a" 0x4020
+		{Position -3218.18 -2836.8}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_b" 0x4022
+		{Position -2995.5 -2843.59}
+		{TexMod "aut"}
+	}
+	{Entity "grass3" 0x4024
+		{Position -3561.13 -2776.44}
+		{TexMod "aut"}
+	}
+	{Entity "grass3a" 0x4025
+		{Position -3316.04 -3113.21}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1a" 0x4027
+		{Position -2788.59 -3089.88}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass0c2" 0x4029
+		{Position -3661.92 -2399.53}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass2" 0x402a
+		{Position -3651.16 -2538.2}
+		{TexMod "1"}
+	}
+	{Entity "new_grass2" 0x402c
+		{Position -3425.21 -2360.18}
+		{TexMod "1"}
+	}
+	{Entity "pla01" 0x4032
+		{Position -3266.03 -2795.73}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar1" 0x4034
+		{Position -2821.64 -2608.02}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar" 0x4036
+		{Position -2553.34 -2836.73}
+		{TexMod "1"}
+	}
+	{Entity "new_fir2" 0x403e
+		{Position -2860.37 -2345.02}
+		{xform zl 58.24}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1" 0x4040
+		{Position -2367.46 -2562.34}
+		{xform zl 137.66}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1a" 0x4041
+		{Position -3250.53 -2039.99}
+		{xform zl 58.24}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_a" 0x4042
+		{Position -2407.93 -2601.47}
+		{xform zl 137.66}
+		{TexMod "aut"}
+	}
+	{Entity "grass3" 0x4043
+		{Position -2341.43 -2468.25}
+		{xform zl 137.66}
+		{TexMod "aut"}
+	}
+	{Entity "pla01" 0x4045
+		{Position -3310.64 -2059.06}
+		{xform zl 58.24}
+		{TexMod "aut"}
+	}
+	{Entity "bush8a" 0x404a
+		{Position -3230.81 -2174.24}
+		{xform zl 39.84}
+		{TexMod "aut"}
+	}
+	{Entity "bush9" 0x404b
+		{Position -3099.02 -2345.76}
+		{xform zl 39.84}
+		{TexMod "aut1"}
+	}
+	{Entity "bush9_a" 0x404c
+		{Position -3492.5 -1812.17}
+		{TexMod "aut1"}
+	}
+	{Entity "bush9b" 0x404d
+		{Position -3548.28 -1795.39}
+		{TexMod "aut1"}
+	}
+	{Entity "bush_curly" 0x404e
+		{Position -2775.6 -1981.78}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_a" 0x404f
+		{Position -2514.2 -2165.92}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_b" 0x4050
+		{Position -2473.01 -2195.04}
+		{TexMod "aut"}
+	}
+	{Entity "delphinium" 0x4051
+		{Position -2518.21 -2239.03}
+		{TexMod "autlate"}
+	}
+	{Entity "grass3" 0x4052
+		{Position -2889.2 -1991}
+		{TexMod "aut"}
+	}
+	{Entity "grass3a" 0x4053
+		{Position -2770.51 -2075.18}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1" 0x4054
+		{Position -2867.37 -2079.85}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3a" 0x4055
+		{Position -2834.3 -1586.4}
+		{xform zl 130.66}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1_big" 0x4056
+		{Position -2838.78 -1188.76}
+		{xform zl 130.66}
+		{TexMod "1"}
+	}
+	{Entity "delphinium" 0x4057
+		{Position -2498.47 -1496.28}
+		{xform zl 130.66}
+		{TexMod "autlate"}
+	}
+	{Entity "new_bush1" 0x4058
+		{Position -2978.82 -1543.84}
+		{xform zl 130.66}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1a" 0x4059
+		{Position -3245.53 -1680.49}
+		{xform zl 130.66}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass3" 0x405a
+		{Position -2888.88 -1241.7}
+		{xform zl 130.66}
+	}
+	{Entity "new_poplar2" 0x405b
+		{Position -3219.26 -1243.51}
+		{xform zl 130.66}
+		{TexMod "aut"}
+	}
+	{Entity "new_fir2" 0x405c
+		{Position -2832.09 -2025.52}
+		{xform zl 58.24}
+		{TexMod "1"}
+	}
+	{Entity "pine" 0x405d
+		{Position -3517.5 -1378.07}
+		{xform zl -30.97}
+		{TexMod "1"}
+	}
+	{Entity "delphinium" 0x4060
+		{Position -3555.27 -1344.69}
+		{xform zl -30.97}
+		{TexMod "autlate"}
+	}
+	{Entity "new_fir2" 0x4061
+		{Position -1964.11 -2429.06}
+		{TexMod "1"}
+	}
+	{Entity "new_bush1a" 0x4063
+		{Position -2200.69 -2845.47}
+		{xform zl 130.66}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3" 0x4064
+		{Position -3465.05 -648.47}
+		{xform zl 25.06}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3a" 0x4065
+		{Position -2789.89 -454.11}
+		{xform zl 25.06}
+		{TexMod "aut"}
+	}
+	{Entity "topol02" 0x4066
+		{Position -2901.01 81.97}
+		{xform zl -135.58}
+		{TexMod "aut"}
+	}
+	{Entity "tree_attach" 0x4067
+		{Position -3343.03 -364.92}
+		{xform zl 25.06}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1a" 0x4068
+		{Position -3599.63 -65.67}
+		{xform zl 25.06}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_b" 0x4069
+		{Position -2837.64 70.17}
+		{xform zl -135.58}
+		{TexMod "aut"}
+	}
+	{Entity "delphinium" 0x406a
+		{Position -3126.78 -882.07 -75.17}
+		{xform zl 25.06}
+		{TexMod "autlate"}
+	}
+	{Entity "grass3a" 0x406b
+		{Position -3118.16 -321.33}
+		{xform zl 25.06}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1" 0x406c
+		{Position -2710.03 -326.36}
+		{xform zl 25.06}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1a" 0x406d
+		{Position -3157.81 101.25}
+		{xform zl -135.58}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass3" 0x406e
+		{Position -3343.02 -779.26}
+		{xform zl 25.06}
+		{TexMod "1"}
+	}
+	{Entity "pla01" 0x406f
+		{Position -3660.37 -48.73}
+		{xform zl 25.06}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar1" 0x4070
+		{Position -3337.3 309.52}
+		{xform zl 25.06}
+		{TexMod "aut"}
+	}
+	{Entity "pine" 0x4071
+		{Position -3046.58 -324.71}
+		{xform zl -30.97}
+		{TexMod "1"}
+	}
+	{Entity "delphinium" 0x4072
+		{Position -3565.21 -129.59}
+		{xform zl -30.97}
+		{TexMod "autlate"}
+	}
+	{Entity "poplar_white3" 0x4073
+		{Position -3292.89 -1587.03}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3" 0x4075
+		{Position -2010.26 -2748.59}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3a" 0x4076
+		{Position -2346.78 -1863.43}
+		{TexMod "1"}
+	}
+	{Entity "topol02" 0x4077
+		{Position -2563.05 -772.77}
+		{TexMod "1"}
+	}
+	{Entity "new_poplar1" 0x4079
+		{Position -3546.38 1595.6}
+		{xform zl 125.62}
+		{TexMod "aut"}
+	}
+	{Entity "new_fir2" 0x407a
+		{Position -3737.61 1410.93}
+		{xform zl -176.14}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1" 0x407b
+		{Position -3532.57 1157.07}
+		{xform zl 55.73}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_a" 0x407c
+		{Position -3577 1191.65}
+		{xform zl 55.73}
+		{TexMod "aut"}
+	}
+	{Entity "grass3" 0x407d
+		{Position -3435.76 1144.51}
+		{xform zl 55.73}
+		{TexMod "aut"}
+	}
+	{Entity "bush9" 0x407e
+		{Position -3420.81 1911.79}
+		{xform zl -42.09}
+		{TexMod "aut1"}
+	}
+	{Entity "bush_curly" 0x407f
+		{Position -3015.04 1642.66}
+		{xform zl -81.93}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_a" 0x4080
+		{Position -3160.67 1358}
+		{xform zl -81.93}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_b" 0x4081
+		{Position -3183.72 1313.13}
+		{xform zl -81.93}
+		{TexMod "aut"}
+	}
+	{Entity "delphinium" 0x4082
+		{Position -3233.62 1351.71}
+		{xform zl -81.93}
+		{TexMod "autlate"}
+	}
+	{Entity "grass3" 0x4083
+		{Position -2795.47 1295.28}
+		{xform zl -81.93}
+		{TexMod "aut"}
+	}
+	{Entity "grass3a" 0x4084
+		{Position -3858.27 1634.93}
+		{xform zl -81.93}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1" 0x4085
+		{Position -2928.87 1225.66}
+		{xform zl -81.93}
+		{TexMod "aut"}
+	}
+	{Entity "new_fir2" 0x4086
+		{Position -3066.28 1692.45}
+		{xform zl -23.69}
+		{TexMod "1"}
+	}
+	{Entity "new_fir2" 0x4087
+		{Position -3344 776.42}
+		{xform zl -81.93}
+		{TexMod "1"}
+	}
+	{Entity "new_bush1a" 0x4088
+		{Position -3789.49 952.22}
+		{xform zl 48.73}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3" 0x4089
+		{Position -3666.85 777.27}
+		{xform zl -81.93}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3a" 0x408a
+		{Position -2865.37 1207.59}
+		{xform zl -81.93}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_b" 0x408b
+		{Position -3116.05 1742.72}
+		{xform zl -81.93}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar2" 0x408c
+		{Position -2810.58 533.83}
+		{xform zl 59.93}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass0c2" 0x408d
+		{Position -2844.6 322.54}
+		{xform zl 59.93}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass2" 0x408e
+		{Position -2760.06 547.12}
+		{xform zl 59.93}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1a" 0x408f
+		{Position -2949.64 858.71}
+		{xform zl 118.17}
+		{TexMod "1"}
+	}
+	{Entity "pla01" 0x4090
+		{Position -2963.26 797.14}
+		{xform zl 118.17}
+		{TexMod "aut"}
+	}
+	{Entity "bush8a" 0x4091
+		{Position -2823.58 808.52}
+		{xform zl 99.77}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3a" 0x4092
+		{Position -2307.14 752.2}
+		{xform zl -168.18}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1" 0x4093
+		{Position -2414.14 646.15}
+		{xform zl -168.18}
+		{TexMod "aut"}
+	}
+	{Entity "topol02" 0x4094
+		{Position -2454.94 1114.36}
+		{xform zl 166.76}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1" 0x4095
+		{Position -2429.32 -54.36}
+		{xform zl 83.2}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar1" 0x4096
+		{Position -2294.29 238.35}
+		{xform zl 83.2}
+		{TexMod "aut"}
+	}
+	{Entity "new_fir2" 0x4097
+		{Position -2560.02 231.01}
+		{xform zl 141.44}
+		{TexMod "1"}
+	}
+	{Entity "bush9" 0x4098
+		{Position -2587.53 -6.05}
+		{xform zl 123.04}
+		{TexMod "aut1"}
+	}
+	{Entity "poplar_white3a" 0x4099
+		{Position -2163.21 2720.23}
+		{xform zl -3.95}
+		{TexMod "aut"}
+	}
+	{Entity "topol02" 0x409a
+		{Position -3454.47 2311.08}
+		{xform zl 119.76}
+		{TexMod "aut"}
+	}
+	{Entity "tree_attach" 0x409b
+		{Position -2603.69 3066.49}
+		{xform zl -3.95}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_b" 0x409c
+		{Position -3481.93 2252.77}
+		{xform zl 119.76}
+		{TexMod "aut"}
+	}
+	{Entity "grass3a" 0x409d
+		{Position -3789.67 2623.25}
+		{xform zl -79.6}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1" 0x409e
+		{Position -2031.42 2793.22}
+		{xform zl -3.95}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1a" 0x409f
+		{Position -3370.82 2554.64}
+		{xform zl 119.76}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar1" 0x40a0
+		{Position -3123.9 2675.57}
+		{xform zl -79.6}
+		{TexMod "aut"}
+	}
+	{Entity "pine" 0x40a1
+		{Position -3811.06 2554.85}
+		{xform zl -135.63}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_a" 0x40a2
+		{Position -2480.51 1485.18}
+		{xform zl 51.91}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_b" 0x40a3
+		{Position -2432.18 1499.63}
+		{xform zl 51.91}
+		{TexMod "aut"}
+	}
+	{Entity "grass3" 0x40a4
+		{Position -2688.23 1792.03}
+		{xform zl 51.91}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1" 0x40a5
+		{Position -2545.61 1744.04}
+		{xform zl 51.91}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3a" 0x40a6
+		{Position -2576.56 1802.35}
+		{xform zl 51.91}
+		{TexMod "1"}
+	}
+	{Entity "new_poplar2" 0x40a7
+		{Position -3201.4 3175.79}
+		{xform zl -127.16}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass0c2" 0x40a8
+		{Position -3141.57 3381.27}
+		{xform zl -127.16}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass2" 0x40a9
+		{Position -3253.17 3168.84}
+		{xform zl -127.16}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1a" 0x40aa
+		{Position -2210.45 1998.25}
+		{xform zl -107.99}
+		{TexMod "1"}
+	}
+	{Entity "pla01" 0x40ab
+		{Position -2156.61 2031.07}
+		{xform zl -107.99}
+		{TexMod "aut"}
+	}
+	{Entity "bush8a" 0x40ac
+		{Position -2261.57 2123.94}
+		{xform zl -126.39}
+		{TexMod "aut"}
+	}
+	{Entity "poplar_white3a" 0x40ad
+		{Position -2578.66 2535.44}
+		{xform zl -34.34}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1" 0x40ae
+		{Position -3608.67 3113.24}
+		{xform zl 4.73}
+		{TexMod "aut"}
+	}
+	{Entity "topol02" 0x40af
+		{Position -2737.5 2177.98}
+		{xform zl -59.4}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1" 0x40b0
+		{Position -3507.18 3806.52}
+		{xform zl -103.89}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar1" 0x40b1
+		{Position -3677.29 3532.71}
+		{xform zl -103.89}
+		{TexMod "aut"}
+	}
+	{Entity "new_fir2" 0x40b2
+		{Position -3412.69 3507.21}
+		{xform zl -45.65}
+		{TexMod "1"}
+	}
+	{Entity "bush9" 0x40b3
+		{Position -3356.14 3739.06}
+		{xform zl -64.05}
+		{TexMod "aut1"}
+	}
+	{Entity "pine" 0x40bc
+		{Position -2887.61 3265.15}
+		{xform zl 78.53}
+		{TexMod "1"}
+	}
+	{Entity "new_bush1a" 0x40bd
+		{Position -2639.1 3447.65}
+		{xform zl -150.81}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1" 0x40d3
+		{Position -1682.28 2698.04}
+		{xform zl -75.47}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1a" 0x40d4
+		{Position -1382.65 2703.24}
+		{xform zl -75.47}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar2" 0x40d5
+		{Position -1598.71 2322.51}
+		{xform zl -75.47}
+		{TexMod "aut"}
+	}
+	{Entity "pine" 0x40d6
+		{Position -1271.7 2311.94}
+		{xform zl 122.9}
+		{TexMod "1"}
+	}
+	{Entity "delphinium" 0x40d7
+		{Position -1252.49 2265.34}
+		{xform zl 122.9}
+		{TexMod "autlate"}
+	}
+	{Entity "poplar_white3" 0x40d8
+		{Position -1381.3 2598.47}
+		{xform zl 153.87}
+		{TexMod "aut"}
+	}
+	{Entity "fir" 0x40da
+		{Position -3119.48 2204.39}
+		{Volume "crown"
+			{able {visible 1}}
+		}
+	}
+	{Entity "fir_bush" 0x40db
+		{Position -3836.8 3156.34}
+		{TexMod "1"}
+	}
+	{Entity "fir_small" 0x40dc
+		{Position -3451.54 2804.81}
+		{Volume "crown"
+			{able {visible 1}}
+		}
+	}
+	{Entity "alder_little" 0x40dd
+		{Position -2811 2761.26}
+		{xform zl 69.36}
+		{TexMod "aut"}
+	}
+	{Entity "alder_little1" 0x40de
+		{Position -2779.13 2850.77}
+		{xform zl 69.36}
+		{TexMod "aut"}
+	}
+	{Entity "bush10" 0x40df
+		{Position -2665.69 2414.75}
+	}
+	{Entity "bush10a" 0x40e0
+		{Position -2592.47 2384.14}
+	}
+	{Entity "alder_little1" 0x40e1
+		{Position -2891.7 2799.15}
+		{xform zl 32.82}
+		{TexMod "aut"}
+	}
+	{Entity "pine" 0x4123
+		{Position 3224.7 -604.73}
+		{xform zl 67.42}
+		{TexMod "1"}
+	}
+	{Entity "pine_small" 0x4124
+		{Position 3189.91 -859.29}
+		{xform zl 67.42}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3" 0x4125
+		{Position 3166.56 -287.67}
+		{xform zl 67.42}
+		{TexMod "aut"}
+	}
+	{Entity "tree_attach" 0x4127
+		{Position 3065.64 4.05}
+		{xform zl 67.42}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1" 0x412b
+		{Position 3315.13 175.15}
+		{xform zl 67.42}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush1a" 0x412c
+		{Position 3073.01 351.75}
+		{xform zl 67.42}
+		{TexMod "aut"}
+	}
+	{Entity "new_bush5" 0x412d
+		{Position 3434.94 -737.52}
+		{xform zl 67.42}
+	}
+	{Entity "delphinium" 0x4130
+		{Position 3197.2 -646.97}
+		{xform zl 67.42}
+		{TexMod "autlate"}
+	}
+	{Entity "new_tree1" 0x2000
+		{Position 2801.81 -31.22}
+		{xform zl 88.12}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_a" 0x2001
+		{Position 2745.78 -25.82}
+		{xform zl 88.12}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass0c2" 0x2002
+		{Position 2599.51 -72.01}
+		{xform zl 88.12}
+		{TexMod "aut"}
+	}
+	{Entity "new_grass2" 0x2003
+		{Position 2649.22 -72.13}
+		{xform zl 88.12}
+		{TexMod "1"}
+	}
+	{Entity "new_tree1a" 0x2005
+		{Position 2253.71 350.99}
+		{xform zl 146.36}
+		{TexMod "1"}
+	}
+	{Entity "pla01" 0x2007
+		{Position 2270.79 290.29}
+		{xform zl 146.36}
+		{TexMod "aut"}
+	}
+	{Entity "bush9_a" 0x2008
+		{Position 2018.04 116.66}
+		{xform zl 88.12}
+		{TexMod "aut1"}
+	}
+	{Entity "bush9b" 0x2009
+		{Position 2002.01 25.8}
+		{xform zl 88.12}
+		{TexMod "aut1"}
+	}
+	{Entity "new_fir2" 0x200a
+		{Position 2466.61 -936.2}
+		{xform zl -14.52}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3" 0x200b
+		{Position 2341.78 -1233.94}
+		{xform zl -14.52}
+		{TexMod "1"}
+	}
+	{Entity "poplar_white3a" 0x200c
+		{Position 2999.49 -1045.6}
+		{xform zl -14.52}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_b" 0x200d
+		{Position 2896.29 -533.46}
+		{xform zl 119.32}
+		{TexMod "aut"}
+	}
+	{Entity "topol02" 0x2011
+		{Position 2152.7 -554.73}
+		{xform zl 8.01}
+		{TexMod "1"}
+	}
+	{Entity "pine" 0x2019
+		{Position 2336.25 795.62}
+		{xform zl 162.36}
+		{TexMod "1"}
+	}
+	{Entity "delphinium" 0x201a
+		{Position 2380.7 771.85}
+		{xform zl 162.36}
+		{TexMod "autlate"}
+	}
+	{Entity "bush_curly_a" 0x3e
+		{Position 2636.24 387.57}
+		{xform zl -18.14}
+		{TexMod "aut"}
+	}
+	{Entity "bush_curly_b" 0x3f
+		{Position 2666.31 347.08}
+		{xform zl -18.14}
+		{TexMod "aut"}
+	}
+	{Entity "delphinium" 0x40
+		{Position 2609.66 319.35}
+		{xform zl -18.14}
+		{TexMod "autlate"}
+	}
+	{Entity "new_tree1" 0x55
+		{Position -2305.94 3156.09}
+		{xform zl 129.9}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_a" 0x56
+		{Position -2351.33 3122.79}
+		{xform zl 129.9}
+		{TexMod "aut"}
+	}
+	{Entity "grass3" 0x57
+		{Position -2267.44 3245.8}
+		{xform zl 129.9}
+		{TexMod "aut"}
+	}
+	{Entity "new_poplar1" 0x58
+		{Position -3709.18 2856.06}
+		{xform zl 125.62}
+		{TexMod "aut"}
+	}
+	{Entity "new_tree1" 0x59
+		{Position -3322.07 2962.75}
+		{xform zl 55.73}
+		{TexMod "1"}
+	}
+	{Entity "bush_curly_a" 0x5a
+		{Position -3366.5 2997.33}
+		{xform zl 55.73}
+		{TexMod "aut"}
+	}
+	{Entity "grass3" 0x5b
+		{Position -3225.26 2950.19}
+		{xform zl 55.73}
+		{TexMod "aut"}
+	}
+	{Entity "tree_attach" 0x5c
+		{Position -3085.01 3488.55}
+		{xform zl 62.45}
+		{TexMod "aut"}
+	}
+	{Entity "barrel_fuel" 0x204d
+		{Position 863.88 459.86}
+		{xform zl -0.85}
+	}
+	{Entity "barrel_small" 0x204e
+		{Position 862.72 1102.43}
+		{xform zl -0.85}
+	}
+	{Entity "tent_fuel_take_off" 0x2066
+		{Position 484.33 273.96}
+		{xform zl -54.01}
+	}
+	{Entity "viaduct" 0x2067
+		{Position 402.25 -74.7 -2}
+		{xform zl -44.69}
+	}
+	{Entity "coil1" 0x2068
+		{Position 579.46 -337.04}
+		{xform zl -0.85}
+	}
+	{Entity "coil3" 0x2069
+		{Position 569.97 -306.24}
+		{xform zl -31.48}
+	}
+	{Entity "coil6" 0x206a
+		{Position 589.1 -50.3}
+		{xform zl 40.38}
+	}
+	{Entity "crosstie1" 0x206c
+		{Position 544.27 -116.8}
+		{xform zl 93.04}
+	}
+	{Entity "crosstie" 0x206d
+		{Position 542.95 -11.2}
+		{xform zl 93.04}
+	}
+	{Entity "dynamite_fuse" 0x206e
+		{Position 591.03 -201.97}
+		{xform zl -0.85}
+	}
+	{Entity "beam" 0x2071
+		{Position 678.95 276.74}
+		{xform zl 84.83}
+	}
+	{Entity "ladder_small" 0x2078
+		{Position 357.72 -105.64}
+		{xform zl -0.85}
+	}
+	{Entity "stuff_box" 0x2079
+		{Position 362.45 -105.74 23.5}
+		{xform zl -19.29}
+	}
+	{Entity "trailer" 0x207a
+		{Position 682.42 168.53 1.67}
+		{xform y 1.64 zw 36.81}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10009}
+	}
+	{Entity "coaster_ship_crate2" 0x2081
+		{Position -992.25 429.53}
+		{xform zl -89.37}
+	}
+	{Entity "coaster_ship_crate1" 0x2083
+		{Position -1146.53 -186.38}
+		{xform zl 90.63}
+	}
+	{Entity "bomb_cart" 0x2084
+		{Position -1336.64 -105.6}
+		{xform zl 41.82}
+	}
+	{Entity "box_weapon" 0x2085
+		{Position -1161.07 394.93 -3}
+		{xform zl 91.22}
+	}
+	{Entity "coaster_ship_inventory" 0x2086
+		{Position -845.94 -174.89 -3}
+		{xform zl -0.85}
+	}
+	{Entity "angar" 0x2087
+		{Position -892.69 447.71 -3}
+		{xform zl 1.91}
+		{TexMod "1"}
+	}
+	{Entity "fence_wire" 0x2088
+		{Position -1078.39 -239.68}
+		{xform zl -0.85}
+	}
+	{Entity "fence_wire" 0x2089
+		{Position -883.6 -242.68}
+		{xform zl -0.85}
+	}
+	{Entity "fence_wire" 0x208a
+		{Position -1273.12 -236.85}
+		{xform zl -0.85}
+	}
+	{Entity "fence_wire" 0x208b
+		{Position -1467.9 -233.84}
+		{xform zl -0.85}
+	}
+	{Entity "fence_wire" 0x208c
+		{Position -1564.77 59.5}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x208d
+		{Position -1567.23 -135.3}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x208e
+		{Position -1562.49 254.24}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x208f
+		{Position -1560.03 449.02}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x2090
+		{Position -1267.53 554.37}
+		{xform zl -179.12}
+	}
+	{Entity "fence_wire" 0x2091
+		{Position -1462.33 551.5}
+		{xform zl -179.12}
+	}
+	{Entity "fence_wire" 0x2092
+		{Position -1072.8 557.42}
+		{xform zl -179.12}
+	}
+	{Entity "fence_wire" 0x2093
+		{Position -878.03 560.28}
+		{xform zl -179.12}
+	}
+	{Entity "fence_wire" 0x2094
+		{Position -776.97 464.55}
+		{xform zl 90.23}
+	}
+	{Entity "fence_wire" 0x2095
+		{Position -786.82 -143.62}
+		{xform zl 90.23}
+	}
+	{Entity "angar" 0x2096
+		{Position -1088.84 438.51 -3}
+		{xform zl 1.91}
+		{TexMod "1"}
+	}
+	{Entity "coaster_ship_inventory" 0x6000
+		{Position -849.74 -108.53 -3}
+		{xform zl 87.66}
+	}
+	{Entity "coaster_ship_inventory" 0x6001
+		{Position -908.99 -181.98 -3}
+		{xform zl 177.95}
+	}
+	{Entity "coaster_ship_inventory" 0x6002
+		{Position -922.37 -112.35 -3}
+		{xform zl -93.91}
+	}
+	{Entity "coaster_ship_inventory" 0x6003
+		{Position -993.21 -121.01 -3}
+		{xform zl 85.71}
+	}
+	{Entity "coaster_ship_inventory" 0x6004
+		{Position -1059.68 -120.82 -3}
+		{xform zl 174.22}
+	}
+	{Entity "coaster_ship_inventory" 0x6005
+		{Position -989.92 -184.37 -3}
+		{xform zl -95.49}
+	}
+	{Entity "coaster_ship_inventory" 0x6006
+		{Position -1060.22 -193.55 -3}
+		{xform zl -7.35}
+	}
+	{Entity "coaster_ship_crate1" 0x6007
+		{Position -1145.55 -112.6}
+		{xform zl 90.63}
+	}
+	{Entity "coaster_ship_crate1" 0x6008
+		{Position -1227.73 -187.34}
+		{xform zl 90.63}
+	}
+	{Entity "coaster_ship_crate1" 0x6009
+		{Position -1226.75 -113.56}
+		{xform zl 90.63}
+	}
+	{Entity "box_weapon" 0x600a
+		{Position -1161.15 438.41 -3}
+		{xform zl 91.22}
+	}
+	{Entity "box_weapon" 0x600b
+		{Position -1162.68 483.32 -3}
+		{xform zl 91.22}
+	}
+	{Entity "container1" 0x600c
+		{Position -1375.44 438.1}
+		{xform zl -85.68}
+	}
+	{Entity "container2" 0x600d
+		{Position -1455.42 291.01}
+		{xform zl 170.72}
+	}
+	{Entity "container3" 0x600e
+		{Position -1477.79 413.48}
+		{xform zl -86.54}
+	}
+	{Entity "mts-fuel" 0x600f
+		{Position 766.81 -58.24}
+		{xform zl -92.11}
+	}
+	{Entity "container1" 0x6010
+		{Position -1261.01 442.45}
+		{xform zl -94.53}
+	}
+	{Entity "container2" 0x6011
+		{Position -1448.71 100.79}
+		{xform zl 0.99}
+	}
+	{Entity "uaz469" 0x6012
+		{Position -1074.7 302.14 0}
+		{Player 0}
+		{MID 10010}
+	}
+	{Entity "zis5eng" 0x6013
+		{Position -1474.1 27.91 0}
+		{xform y 0.03 zw 165.7}
+		{Extender "enumerator"
+			{number 166}
+		}
+		{Player 0}
+		{MID 10011}
+	}
+	{Entity "sandbag_woodbeam1" 0x100c
+		{Position -800.77 -2358.57 -1.5}
+		{xform zl -85.73}
+		{TexMod "2"}
+	}
+	{Entity "sandbag_woodbeam1_round" 0x1025
+		{Position -583.45 -1870.1}
+		{xform zl -93.55}
+		{TexMod "2"}
+	}
+	{Entity "sb_mound" 0x1027
+		{Position -682.04 -2062.99 0}
+	}
+	{Entity "sandbag2" 0x102a
+		{Position -600.98 -2353.5}
+		{xform zl 159.98}
+		{TexMod "2"}
+	}
+	{Entity "searchlight2" 0x5006
+		{Position -276.79 -2236.77}
+		{xform zl 112.33}
+		{Extender "bone_rotator"
+			{watchBone gun}
+		}
+		{Player 0}
+		{MID 10013}
+	}
+	{Entity "svarka_move" 0x5007
+		{Position 583.26 181.64 0}
+		{xform zl -179.99 y 1.54 zw 179.99}
+		{Placer
+			{State "driver" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{AreaDisable "obstacle1"}
+		{Player 0}
+		{MID 10014}
+	}
+	{Entity "degtyarev_stan" 0x5009
+		{Position -679.87 -2097.8}
+		{xform zl -81.14}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Extender "shield"
+			{on}
+		}
+		{Player 0}
+		{MID 10016}
+	}
+	{Entity "road_slush_clay1a" 0x4158
+		{Position -782.65 76.29}
+		{xform zl 58.92}
+	}
+	{Entity "road_slush_clay1" 0x3025
+		{Position -129.07 -1857.42}
+		{xform zl 154.99}
+	}
+	{Entity "road_slush_clay1" 0x3026
+		{Position -58.87 -1856.46}
+		{xform zl 150.7}
+	}
+	{Entity "road_slush_clay1a" 0x3029
+		{Position -760.89 123.02}
+		{xform zl 58.92}
+	}
+	{Entity "road_slush_clay1a" 0x302a
+		{Position 444.17 79.42}
+		{xform zl 83.02}
+	}
+	{Entity "road_slush_clay1a" 0x302b
+		{Position 419.9 133.38}
+		{xform zl 83.02}
+	}
+	{Entity "road_slush_clay1" 0x3030
+		{Position -39.42 209.14}
+		{xform zl -26}
+	}
+	{Entity "road_slush_clay1" 0x3031
+		{Position -116.9 220.45}
+		{xform zl 152.29}
+	}
+	{Entity "road_slush_clay1" 0x3032
+		{Position -42.97 -142.37}
+		{xform zl -26}
+	}
+	{Entity "road_slush_clay1" 0x3033
+		{Position -113.18 -142.12}
+		{xform zl -30.29}
+	}
+	{Entity "road_slush_clay1a" 0x3034
+		{Position 162.27 -19.13}
+		{xform zl 110.92}
+	}
+	{Entity "road_slush_clay1a" 0x3035
+		{Position 115.57 17.2}
+		{xform zl 110.92}
+	}
+	{Entity "road_slush_clay1a" 0x3036
+		{Position 4.01 -161.86}
+		{xform zl 137.52}
+	}
+	{Entity "road_slush_clay1a" 0x3037
+		{Position -525.57 -66.98}
+		{xform zl 35.89}
+	}
+	{Entity "road_slush_clay1a" 0x3038
+		{Position -502.55 -12.49}
+		{xform zl 35.89}
+	}
+	{Entity "road_slush_clay1a" 0x3039
+		{Position -330.43 -278.03}
+		{xform zl 23.41}
+	}
+	{Entity "road_slush_clay1a" 0x303a
+		{Position -296.17 -229.8}
+		{xform zl 23.41}
+	}
+	{Entity "road_slush_clay1" 0x7013
+		{Position -1124.13 188.13}
+		{xform zl 61.5}
+	}
+	{Entity "road_slush_clay1" 0x7015
+		{Position -1138.81 111.21}
+		{xform zl -120.21}
+	}
+	{Entity "road_slush_clay1" 0x701c
+		{Position -40.18 872.8}
+		{xform zl -26}
+	}
+	{Entity "road_slush_clay1" 0x701d
+		{Position -117.66 884.11}
+		{xform zl 152.29}
+	}
+	{Entity "road_slush_clay1" 0x701e
+		{Position -113.24 547.68}
+		{xform zl 154.99}
+	}
+	{Entity "road_slush_clay1" 0x701f
+		{Position -43.04 548.64}
+		{xform zl 150.7}
+	}
+	{Entity "watch_tower_3" 0x7e
+		{Position -1489.98 -2080.37}
+		{xform zl -174.91}
+	}
+	{Entity "dshk_tower" 0x200
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10007}
+	}
+	{Entity "dshk_tower" 0x4154
+		{Position 3314.11 13.75}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10018}
+	}
+	{Entity "watch_tower_4" 0x415b
+		{Position 136.85 -2082.41}
+		{xform zl -179.09}
+	}
+	{Entity "watch_tower_3" 0x415e
+		{Position -1441.7 1809.95}
+	}
+	{Entity "dshk_tower" 0x201
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10008}
+	}
+	{Entity "sandbags_big" 0x4168
+		{Position -1190.62 -2331.18}
+		{xform zl -87.53}
+		{TexMod "brown"}
+	}
+	{Entity "sandbags_big_curve" 0x4169
+		{Position -1265.74 -2338.68}
+		{xform zl 92.67}
+		{TexMod "brown"}
+	}
+	{Entity "sandbags_small" 0x416a
+		{Position -1333.54 -2329.66}
+		{xform zl 90.11}
+		{TexMod "brown"}
+	}
+	{Entity "sandbags_small_curve" 0x416b
+		{Position -1397.29 -2339.69}
+		{xform zl 91.66}
+		{TexMod "brown"}
+	}
+	{Entity "trench_ground_exit2" 0x1026
+		{Position -980.66 -2384.27 0}
+		{xform zl 2.1}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground_mgun" 0x1028
+		{Position -868.33 -2463.45 0}
+		{xform zl -179.9}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground_t" 0x102c
+		{Position -979.43 -2464.3 0}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground_turn" 0x102d
+		{Position -1813.42 -2458.72 0}
+		{xform zl 88.31}
+		{TexMod "9"}
+	}
+	{Entity "trench_incline_01" 0x102e
+		{Position -1082.52 -2463.38 0}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground" 0x1031
+		{Position -1179.67 -2462.26 16}
+		{xform zl -179.84}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground_exit2" 0x1032
+		{Position -1805.69 -2169.57 3.23}
+		{xform zl -1.36}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground_mgun" 0x6018
+		{Position -1289.67 -2460.7 16}
+		{xform zl -179.9}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground" 0x7800
+		{Position -1400.1 -2460.51 32}
+		{xform zl -179.84}
+		{TexMod "9"}
+	}
+	{Entity "trench_incline_01" 0x7801
+		{Position -1501.73 -2459.64 11}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground" 0x7802
+		{Position -1598.88 -2458.52 32}
+		{xform zl -179.84}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground_mgun" 0x7803
+		{Position -1708.77 -2458.53 32}
+		{xform zl -179.9}
+		{TexMod "9"}
+	}
+	{Entity "trench_ground" 0x7804
+		{Position -1807.34 -2260.1 48}
+		{xform zl -91.29}
+		{TexMod "9"}
+	}
+	{Entity "trench_incline_01" 0x7805
+		{Position -1810.79 -2361.67 22}
+		{xform zl 88.55}
+		{TexMod "9"}
+	}
+	{Entity "container1" 0x816
+		{Position -1449.73 192.78}
+		{xform zl 1.27}
+	}
+	{Entity "fuel_basis" 0x84
+		{Position 591.05 669.77}
+	}
+	{Entity "fuel_hose" 0x4159
+		{Position 545.01 480.38}
+		{xform zl -11.35}
+	}
+	{Entity "barrel_fuel" 0x415a
+		{Position 861.68 795.09}
+		{xform zl -0.85}
+	}
+	{Entity "coaster_ship_inventory" 0x415d
+		{Position -849.82 -28.69 -3}
+		{xform zl -0.55}
+	}
+	{Entity "coaster_ship_inventory" 0x4160
+		{Position -912.83 -36.11 -3}
+		{xform zl 178.25}
+	}
+	{Entity "coaster_ship_inventory" 0x4163
+		{Position -993.74 -38.92 -3}
+		{xform zl -95.19}
+	}
+	{Entity "coaster_ship_inventory" 0x416d
+		{Position -1063.99 -48.47 -3}
+		{xform zl -7.05}
+	}
+	{Entity "coaster_ship_crate1" 0x416e
+		{Position -1153.08 -32.98}
+		{xform zl 90.63}
+	}
+	{Entity "coaster_ship_crate1" 0x416f
+		{Position -1234.28 -33.94}
+		{xform zl 90.63}
+	}
+	{Entity "weapon_shelve" 0x4170
+		{Position -1412.04 -175.52}
+		{xform zl -177.82}
+	}
+	{Entity "weapon_shelves_large" 0x4171
+		{Position -1483.96 -179.64}
+		{xform zl -0.85}
+	}
+	{Entity "ak74" 0x4173
+		{Position -1424.34 -173.73 19.5}
+		{xform zl 173 y 89.9 zw -173.44}
+	}
+	{Entity "ak74" 0x4174
+		{Position -1421.55 -174.04 19.5}
+		{xform zl 173 y 89.9 zw -173.44}
+	}
+	{Entity "ak74" 0x4175
+		{Position -1416.26 -173.55 19.5}
+		{xform zl 173 y 89.9 zw -173.44}
+	}
+	{Entity "ak74" 0x4176
+		{Position -1418.89 -173.79 19.5}
+		{xform zl 173 y 89.9 zw -173.44}
+	}
+	{Entity "ak74" 0x4177
+		{Position -1405.45 -173.14 19.5}
+		{xform zl 173 y 89.9 zw -173.44}
+	}
+	{Entity "ak74" 0x4178
+		{Position -1410.78 -173.16 19.5}
+		{xform zl 173 y 89.9 zw -173.44}
+	}
+	{Entity "ak74" 0x4179
+		{Position -1408.14 -173.19 19.5}
+		{xform zl 173 y 89.9 zw -173.44}
+	}
+	{Entity "ak74" 0x417a
+		{Position -1413.49 -173.54 19.5}
+		{xform zl 173 y 89.9 zw -173.44}
+	}
+	{Entity "ak74" 0x417b
+		{Position -1399.91 -172.87 19.5}
+		{xform zl 173 y 89.9 zw -173.44}
+	}
+	{Entity "ak74" 0x417c
+		{Position -1402.6 -172.92 19.5}
+		{xform zl 173 y 89.9 zw -173.44}
+	}
+	{Entity "svd" 0x417d
+		{Position -1420.01 -174.43 8}
+	}
+	{Entity "aks74u" 0x417e
+		{Position -1467.16 -179.13 8.5}
+	}
+	{Entity "aks74u" 0x417f
+		{Position -1485.22 -178.61 8.5}
+	}
+	{Entity "aks74u" 0x4180
+		{Position -1504.66 -178.44 8.5}
+	}
+	{Entity "rpk74" 0x4181
+		{Position -1477.24 -180.63 19.5}
+		{xform zl -100.15 y 92.54 zw 89.09}
+	}
+	{Entity "rpk74" 0x4182
+		{Position -1503.85 -180.42 19.5}
+		{xform zl -100.15 y 92.54 zw 89.09}
+	}
+	{Entity "rpg-18" 0x4183
+		{Position -1471.94 -179.11 30}
+		{xform zl 90.88 y 93.87 zw -90.99}
+	}
+	{Entity "rpg-18" 0x4184
+		{Position -1499.81 -179.02 30}
+		{xform zl 90.88 y 93.87 zw -90.99}
+	}
+	{Entity "svd12" 0x4185
+		{Position -1504.62 -178.32 40}
+	}
+	{Entity "svd12" 0x4186
+		{Position -1476.17 -178.74 40}
+	}
+	{Entity "weapon_shelve" 0x205a
+		{Position -1526.28 -37.08}
+		{xform zl 89.06}
+	}
+	{Entity "weapon_shelves_large" 0x205b
+		{Position -1528.15 -111.55}
+		{xform zl -89.67}
+	}
+	{Entity "ak74" 0x205c
+		{Position -1523.83 -24.89 19.5}
+		{xform zl 173 y 89.9 zw 93.44}
+	}
+	{Entity "ak74" 0x205d
+		{Position -1524.29 -27.66 19.5}
+		{xform zl 173 y 89.9 zw 93.44}
+	}
+	{Entity "ak74" 0x205e
+		{Position -1524.09 -32.97 19.5}
+		{xform zl 173 y 89.9 zw 93.44}
+	}
+	{Entity "ak74" 0x205f
+		{Position -1524.18 -30.33 19.5}
+		{xform zl 173 y 89.9 zw 93.44}
+	}
+	{Entity "ak74" 0x2060
+		{Position -1524.26 -43.79 19.5}
+		{xform zl 173 y 89.9 zw 93.44}
+	}
+	{Entity "ak74" 0x2061
+		{Position -1523.99 -38.46 19.5}
+		{xform zl 173 y 89.9 zw 93.44}
+	}
+	{Entity "ak74" 0x2062
+		{Position -1524.17 -41.1 19.5}
+		{xform zl 173 y 89.9 zw 93.44}
+	}
+	{Entity "ak74" 0x2063
+		{Position -1524.23 -35.74 19.5}
+		{xform zl 173 y 89.9 zw 93.44}
+	}
+	{Entity "ak74" 0x2064
+		{Position -1524.3 -49.33 19.5}
+		{xform zl 173 y 89.9 zw 93.44}
+	}
+	{Entity "ak74" 0x2065
+		{Position -1524.2 -46.64 19.5}
+		{xform zl 173 y 89.9 zw 93.44}
+	}
+	{Entity "svd" 0x207b
+		{Position -1524.76 -29.18 8}
+		{xform zl -93.12}
+	}
+	{Entity "aks74u" 0x207c
+		{Position -1527.3 -128.33 8.5}
+		{xform zl -88.82}
+	}
+	{Entity "aks74u" 0x207d
+		{Position -1527.15 -110.27 8.5}
+		{xform zl -88.82}
+	}
+	{Entity "aks74u" 0x207e
+		{Position -1527.38 -90.83 8.5}
+		{xform zl -88.82}
+	}
+	{Entity "rpk74" 0x207f
+		{Position -1529 -118.29 19.5}
+		{xform zl -100.15 y 92.54 zw 0.27}
+	}
+	{Entity "rpk74" 0x2080
+		{Position -1529.34 -91.68 19.5}
+		{xform zl -100.15 y 92.54 zw 0.27}
+	}
+	{Entity "rpg-18" 0x2082
+		{Position -1527.37 -123.55 30}
+		{xform zl 90.88 y 93.87 zw -179.81}
+	}
+	{Entity "rpg-18" 0x2097
+		{Position -1527.86 -95.69 30}
+		{xform zl 90.88 y 93.87 zw -179.81}
+	}
+	{Entity "svd12" 0x2098
+		{Position -1527.26 -90.86 40}
+		{xform zl -88.82}
+	}
+	{Entity "svd12" 0x2099
+		{Position -1527.09 -119.32 40}
+		{xform zl -88.82}
+	}
+	{Entity "box_weapon" 0x209a
+		{Position -1483.2 -145.39 -3}
+		{xform zl -0.4}
+	}
+	{Entity "box_weapon" 0x209b
+		{Position -1444.28 -143.49 -3}
+		{xform zl 1.33}
+	}
+	{Entity "fence_wire" 0x209e
+		{Position -1571.97 -524.93}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x209f
+		{Position -1569.51 -330.15}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x20a1
+		{Position -1586.15 -1693.61}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x20a4
+		{Position -1589.32 -1888.92}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x20a5
+		{Position -1591.78 -2083.72}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x601a
+		{Position -910.78 -2192.9}
+		{xform zl -0.84}
+	}
+	{Entity "fence_wire" 0x601b
+		{Position -715.99 -2195.87}
+		{xform zl -0.84}
+	}
+	{Entity "fence_wire" 0x601c
+		{Position -1105.51 -2190.1}
+		{xform zl -0.84}
+	}
+	{Entity "fence_wire" 0x601d
+		{Position -520.68 -2199.56}
+		{xform zl -0.84}
+	}
+	{Entity "fence_wire" 0x601e
+		{Position -325.89 -2202.53}
+		{xform zl -0.84}
+	}
+	{Entity "fence_wire" 0x601f
+		{Position -1300.28 -2187.13}
+		{xform zl -0.84}
+	}
+	{Entity "fence_wire" 0x6020
+		{Position -1495.1 -2184.37}
+		{xform zl -0.84}
+	}
+	{Entity "fence_wire" 0x6029
+		{Position 1579.72 12.58}
+		{xform zl 89.82}
+	}
+	{Entity "fence_wire" 0x602a
+		{Position 1581.14 207.91}
+		{xform zl 89.82}
+	}
+	{Entity "fence_wire" 0x602b
+		{Position 1581.86 402.73}
+		{xform zl 89.82}
+	}
+	{Entity "fence_wire" 0x6037
+		{Position -1550.77 1228.45}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x6038
+		{Position -1553.23 1033.65}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x6039
+		{Position -1548.49 1423.19}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x603a
+		{Position -1546.03 1617.97}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x603b
+		{Position -1557.93 644.05}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x603c
+		{Position -1555.47 838.83}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x603d
+		{Position -1541.27 1812.95}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x603e
+		{Position 1588.7 1181.97}
+		{xform zl 89.65}
+	}
+	{Entity "fence_wire" 0x603f
+		{Position 1590.01 1376.78}
+		{xform zl 89.65}
+	}
+	{Entity "fence_wire" 0x6040
+		{Position 1587.56 987.22}
+		{xform zl 89.65}
+	}
+	{Entity "fence_wire" 0x6041
+		{Position 1586.24 792.43}
+		{xform zl 89.65}
+	}
+	{Entity "fence_wire" 0x6043
+		{Position 1582.63 597.43}
+		{xform zl 89.65}
+	}
+	{Entity "fence_wire" 0x6045
+		{Position 317.89 1874.4}
+		{xform zl 179.6 scale 1.01}
+	}
+	{Entity "fence_wire" 0x6046
+		{Position 120.39 1875.72}
+		{xform zl 179.6 scale 1.007}
+	}
+	{Entity "fence_wire" 0x6049
+		{Position 515.09 1872.81}
+		{xform zl 179.6 scale 1.013}
+	}
+	{Entity "fence_wire" 0x604d
+		{Position -1245.06 1903.98}
+		{xform zl 177.61}
+	}
+	{Entity "fence_wire" 0x604e
+		{Position -1440.03 1909.67}
+		{xform zl 179.37}
+	}
+	{Entity "fence_wire" 0x604f
+		{Position -659.96 1886.5}
+		{xform zl 179.02}
+	}
+	{Entity "fence_wire" 0x6050
+		{Position -854.74 1889.95}
+		{xform zl 179.02}
+	}
+	{Entity "fence_wire" 0x6051
+		{Position -1050.42 1895.72}
+		{xform zl 177.61}
+	}
+	{Entity "fence_wire" 0x6052
+		{Position -465.73 1881.43}
+		{xform zl 178.01}
+	}
+	{Entity "fence_wire" 0x6053
+		{Position -270.35 1877.33}
+		{xform zl 179.6}
+	}
+	{Entity "fence_wire" 0x6054
+		{Position -74.99 1876.8}
+		{xform zl 179.6}
+	}
+	{Entity "2b14" 0x6055
+		{Position -581.47 -1871}
+		{xform zl -92.01}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10015}
+	}
+	{Entity "dok_build2" 0x6134
+		{Position 1162.08 -80.76}
+		{xform zl -91.55}
+		{Placer
+			{State "06" {Unlinked}}
+		}
+	}
+	{Entity "transformer" 0x501
+		{Position 1285.04 -131.63}
+		{xform zl 88.89}
+	}
+	{Entity "transformer_part1" 0x5408
+		{Position 1305.34 -100.27}
+		{xform zl -0.5}
+	}
+	{Entity "transformer" 0x4fd
+		{Position 1284.89 -49.92}
+		{xform zl 89.75}
+	}
+	{Entity "transformer2" 0x5407
+		{Position 1291.45 46.57}
+		{xform zl 2.7}
+	}
+	{Entity "ekpp_119c" 0x1422
+		{Position -302.69 -2057.52 0}
+		{xform zl -86.58}
+	}
+	{Entity "air_force_kaserne" 0x486
+		{Position -1105.47 -1247.16}
+		{xform zl -89.41}
+	}
+	{Entity "antena1" 0x436e
+		{Position 450.15 1271.52}
+		{xform zl 174.19}
+	}
+	{Entity "strand_cable_cond2" 0x85
+		{Position 397.83 1321.29}
+		{xform zl -25.99}
+	}
+	{Entity "barrels2" 0x540
+		{Position -1318.98 -184.29}
+		{xform zl -178.1}
+	}
+	{Entity "air_force_transformer" 0x436d
+		{Position 342.43 1337.02 -1.5}
+		{xform zl -91.82}
+	}
+	{Entity "stuff1_b" 0x540e
+		{Position -1280.64 305.39}
+		{xform zl -75.26}
+	}
+	{Entity "stuff2_b" 0x540d
+		{Position -1198.41 302.7}
+		{xform zl -36.97}
+	}
+	{Entity "road_slush_clay1a" 0x700e
+		{Position -146.08 -458.39}
+		{xform zl 12.33}
+	}
+	{Entity "fence_wire" 0x209c
+		{Position -1574.25 -719.67}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x209d
+		{Position -1576.71 -914.47}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x20a0
+		{Position -1583.69 -1498.81}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x20a2
+		{Position -1581.41 -1304.07}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x20a3
+		{Position -1578.95 -1109.29}
+		{xform zl -90.69}
+	}
+	{Entity "fence_wire" 0x6034
+		{Position 1574 -1740.65}
+		{xform zl 89.82}
+	}
+	{Entity "fence_wire" 0x6035
+		{Position 1573.46 -1935.4}
+		{xform zl 89.82}
+	}
+	{Entity "kaserne1_n" 0x1402
+		{Position 179.46 -1745.95}
+		{xform zl 90.52}
+	}
+	{Entity "fir" 0x2012
+		{Position 1981.56 -897.25}
+		{xform zl 67.41}
+		{Volume "crown"
+			{able {visible 1}}
+		}
+	}
+	{Entity "angar_military" 0x6f
+		{Position 823.83 -87.51 -1.5}
+		{xform zl 89.26}
+	}
+	{Entity "tent" 0x2054
+		{Position 968.07 -1577.98}
+		{xform zl 50.59}
+	}
+	{Entity "tent" 0x2055
+		{Position 671.65 -1612.15}
+		{xform zl 50.59}
+	}
+	{Entity "tent" 0x2056
+		{Position 977.29 -1852.98}
+		{xform zl 50.59}
+	}
+	{Entity "tent" 0x2057
+		{Position 680.87 -1887.15}
+		{xform zl 50.59}
+	}
+	{Entity "coil_tros" 0x206b
+		{Position 497.02 -482.58}
+		{xform zl -0.85}
+	}
+	{Entity "eg" 0x206f
+		{Position 623.94 -377.18}
+		{xform zl -0.85}
+	}
+	{Entity "barrels_trash" 0x2070
+		{Position 473.96 -346.55}
+		{xform zl -10.81}
+	}
+	{Entity "eg" 0x2072
+		{Position 596.6 -386.05}
+		{xform zl 58.61}
+	}
+	{Entity "eg" 0x2073
+		{Position 635.66 -414.15}
+		{xform zl -18.44}
+	}
+	{Entity "eg" 0x2074
+		{Position 686.91 -414.89}
+		{xform zl 177.18}
+	}
+	{Entity "eg" 0x2075
+		{Position 714.54 -406.97}
+		{xform zl -123.36}
+	}
+	{Entity "eg" 0x2076
+		{Position 676.47 -377.54}
+		{xform zl 159.59}
+	}
+	{Entity "eg" 0x2077
+		{Position 724.78 -375.74}
+		{xform zl 172.68}
+	}
+	{Entity "road_slush_clay1" 0x3023
+		{Position -49.44 -1534.46}
+		{xform zl -26}
+	}
+	{Entity "road_slush_clay1" 0x3024
+		{Position -119.65 -1534.21}
+		{xform zl -30.29}
+	}
+	{Entity "fence_wire" 0x602c
+		{Position 1579 -182.23}
+		{xform zl 89.82}
+	}
+	{Entity "fence_wire" 0x602d
+		{Position 1578.46 -376.99}
+		{xform zl 89.82}
+	}
+	{Entity "fence_wire" 0x602e
+		{Position 1577.74 -571.78}
+		{xform zl 89.82}
+	}
+	{Entity "fence_wire" 0x602f
+		{Position 1576.52 -961.43}
+		{xform zl 89.82}
+	}
+	{Entity "fence_wire" 0x6030
+		{Position 1577.24 -766.61}
+		{xform zl 89.82}
+	}
+	{Entity "fence_wire" 0x6031
+		{Position 1575.98 -1156.18}
+		{xform zl 89.82}
+	}
+	{Entity "fence_wire" 0x6032
+		{Position 1575.26 -1350.97}
+		{xform zl 89.82}
+	}
+	{Entity "fence_wire" 0x6033
+		{Position 1574.72 -1545.84}
+		{xform zl 89.82}
+	}
+	{Entity "road_slush_clay1" 0x302c
+		{Position -45.79 -486.9}
+		{xform zl -26}
+	}
+	{Entity "road_slush_clay1" 0x302d
+		{Position -123.27 -475.59}
+		{xform zl 152.29}
+	}
+	{Entity "road_slush_clay1a" 0x700b
+		{Position -188.97 -499.14}
+		{xform zl 12.33}
+	}
+	{Entity "road_slush_clay1" 0x3021
+		{Position -45.89 -1182.95}
+		{xform zl -26}
+	}
+	{Entity "road_slush_clay1" 0x3022
+		{Position -123.37 -1171.64}
+		{xform zl 152.29}
+	}
+	{Entity "road_slush_clay1" 0x302e
+		{Position -49.34 -838.41}
+		{xform zl -26}
+	}
+	{Entity "road_slush_clay1" 0x302f
+		{Position -119.55 -838.16}
+		{xform zl -30.29}
+	}
+	{Entity "dok_build1" 0xe1
+		{Position 206.42 1447.05 0}
+		{xform zl 178.59}
+		{ZClipVisibility 0}
+	}
+	{Entity "stuff_b" 0xe2
+		{Position -16.37 1524.38}
+		{xform zl 89.22}
+	}
+	{Entity "sandbag2" 0xe3
+		{Position 199.78 1214.22 -4.94}
+		{xform zl 121.67}
+	}
+	{Entity "post_light11" 0x276
+		{Position 182.49 1251.32}
+		{xform zl 89.22}
+	}
+	{Entity "barrel6" 0x2bd
+		{Position 205.23 1550.2}
+		{xform zl -60.85}
+	}
+	{Entity "barrel6" 0x2be
+		{Position 182.95 1554.16}
+		{xform zl -162.91}
+	}
+	{Entity "barrel6_a" 0x2bf
+		{Position 207.1 1569.37}
+		{xform zl 86.29}
+	}
+	{Entity "barrel6" 0x2c0
+		{Position 165.27 1552.67}
+		{xform zl -150.75}
+	}
+	{Entity "barrel6" 0x2c1
+		{Position 231.1 1550.54}
+		{xform zl -161.76}
+	}
+	{Entity "barrel6" 0x2c2
+		{Position 361.91 1549.74}
+		{xform zl 120.98}
+	}
+	{Entity "barrel6_a" 0x2c4
+		{Position 364.81 1525.92 -1.49}
+		{xform zl 178.25 y 5.97 zw -5.34}
+	}
+	{Entity "barrel6" 0x2c5
+		{Position 378.57 1491.51 7.24}
+		{xform zl -148.49 y 90.96 zw 148.79}
+	}
+	{Entity "barrel6" 0x2c6
+		{Position 342.01 1548.9}
+		{xform zl 20.07}
+	}
+	{Entity "barrel6" 0x2c7
+		{Position 364.6 1376.81}
+		{xform zl -145.52}
+	}
+	{Entity "barrel6" 0x2c8
+		{Position 364.19 1379.93 6.97}
+		{xform zl -167.92 y 90.84 zw -99.84}
+	}
+	{Entity "barrel6_a" 0x2c9
+		{Position 382.62 1379.33}
+		{xform zl 7.37}
+	}
+	{Entity "barrel6" 0x2ca
+		{Position 368.69 1424.37 -0.9}
+		{xform zl 112.31 y 0.72 zw 15.7}
+	}
+	{Entity "barrel6" 0x2cb
+		{Position 367.34 1351.09}
+		{xform zl 113.57}
+	}
+	{Entity "barrel3" 0x4af
+		{Position 49.81 1359.5}
+		{xform zl -173.05}
+	}
+	{Entity "trash7" 0x7e2
+		{Position 61.33 1345.83}
+		{xform zl 89.22}
+	}
+	{Entity "trash7" 0x7e6
+		{Position 129.31 1328.67 6.92}
+		{xform zl 177.49}
+	}
+	{Entity "sandbag" 0xe4
+		{Position 71.16 1322.61}
+		{xform zl 177.77}
+		{TexMod "1"}
+	}
+	{Entity "barrel6" 0x4b0
+		{Position 338.96 1202.5 7.11}
+		{xform zl 117.99 y 89.76 zw 125.5}
+	}
+	{Entity "control_tower" 0xe5
+		{Position -331.68 1451.09 0}
+		{xform zl 179.24}
+		{Placer
+			{State "19" {Unlinked}}
+			{State "20" {Unlinked}}
+			{State "21" {Unlinked}}
+			{State "26" {Unlinked}}
+			{State "27" {Unlinked}}
+		}
+		{Impregnability full}
+	}
+	{Entity "sandbag" 0xb03
+		{Position -255.61 1323.57}
+		{xform zl -178.37}
+		{TexMod "1"}
+	}
+	{Entity "sandbag" 0xb04
+		{Position -197.33 1321.93}
+		{xform zl -178.37}
+		{TexMod "1"}
+	}
+	{Entity "sandbag" 0xb05
+		{Position -112.83 1270.82}
+		{xform zl -91.14}
+		{TexMod "1"}
+	}
+	{Entity "sandbag" 0xb0b
+		{Position -279.72 1233.6}
+		{xform zl 177.77}
+	}
+	{Entity "sandbag" 0xb0c
+		{Position -152.09 1234.74}
+		{xform zl 177.77}
+		{TexMod "1"}
+	}
+	{Entity "sandbag2" 0xb0e
+		{Position -233.97 1384.63 118.93}
+		{xform zl -156.71}
+		{TexMod "1"}
+	}
+	{Entity "sandbag" 0xb10
+		{Position -277.49 1515.56}
+		{xform zl 90.93}
+		{TexMod "1"}
+	}
+	{Entity "sandbag" 0xb11
+		{Position -225.08 1516.16}
+		{xform zl -90.67}
+		{TexMod "1"}
+	}
+	{Entity "barrels1" 0x703b
+		{Position -495.18 1468.76}
+		{xform zl -99.07}
+	}
+	{Entity "barrels1" 0x703c
+		{Position -494.75 1396.54}
+		{xform zl -99.07}
+	}
+	{Entity "antena1" 0xb01
+		{Position -346.47 1448.94}
+		{xform zl 89.22}
+		{Impregnability full}
+	}
+	{Entity "sandbag2" 0xb02
+		{Position -442.45 1397.23 118.93}
+		{xform zl 132.17}
+		{TexMod "1"}
+	}
+	{Entity "sandbag" 0xb0d
+		{Position -382.55 1519.67}
+		{xform zl -90.67}
+		{TexMod "1"}
+	}
+	{Entity "sandbag" 0xb0f
+		{Position -434.95 1519.06}
+		{xform zl 90.93}
+		{TexMod "1"}
+	}
+	{Entity "barrel5" 0x703d
+		{Position -522.46 1428.5}
+		{xform zl 89.22}
+	}
+	{Entity "barrel3_a" 0x703e
+		{Position -528.94 1410.03}
+		{xform zl 66.9}
+	}
+	{Entity "barrel6" 0x345
+		{Position -447.28 1626.71}
+		{xform zl -6.83}
+	}
+	{Entity "barrel6" 0x340
+		{Position -422.71 1569.23}
+		{xform zl -6.83}
+	}
+	{Entity "barrel6_a" 0x341
+		{Position -392.83 1564.23}
+		{xform zl 103.96}
+	}
+	{Entity "barrel6" 0x342
+		{Position -439.61 1555.98}
+		{xform zl 140.06}
+	}
+	{Entity "barrel6_a" 0x343
+		{Position -466.39 1564.04}
+		{xform zl -75.2}
+	}
+	{Entity "barrel6" 0x344
+		{Position -362.9 1560.4}
+		{xform zl 74.83}
+	}
+	{Entity "stuff1_b" 0xe6
+		{Position -143.28 1571.32}
+		{xform zl 89.22}
+	}
+	{Entity "air_force_kaserne" 0x100
+		{Position -1105.34 -969.29}
+		{xform zl -89.4}
+	}
+	{Entity "air_force_kaserne" 0x11a
+		{Position -1102.7 -672.31}
+		{xform zl -89.4}
+	}
+	{Entity "ue_condition" 0x281d
+		{Extender "bone_rotator"
+			{"ue_fan"
+				{on}
+				{speed 100}
+			}
+		}
+	}
+	{Entity "ue_condition" 0x108e
+		{Extender "bone_rotator"
+			{"ue_fan"
+				{on}
+				{speed 100}
+			}
+		}
+	}
+	{Entity "transformer" 0x131
+		{Position 1257.1 -1049.16}
+		{xform zl -177.6}
+	}
+	{Entity "netting" 0x132
+		{Position 1268.8 -1005.87}
+		{xform zl -177.6}
+	}
+	{Entity "transformer" 0x18d8
+		{Position 1253.86 -956.33}
+		{xform zl -177.6}
+	}
+	{Entity "transformer" 0x18d9
+		{Position 1363.23 -1047.74}
+		{xform zl -177.6}
+	}
+	{Entity "transformer" 0x18da
+		{Position 1358.93 -950.67}
+		{xform zl -177.6}
+	}
+	{Entity "transformer" 0x18db
+		{Position 1252.7 -859.77}
+		{xform zl -177.6}
+	}
+	{Entity "transformer" 0x18dc
+		{Position 1356.49 -853.17}
+		{xform zl -177.6}
+	}
+	{Entity "netting" 0x18e1
+		{Position 1263.71 -883.8}
+		{xform zl -177.6}
+	}
+	{Entity "netting" 0x18e2
+		{Position 1368.73 -1003.42}
+		{xform zl -177.6}
+	}
+	{Entity "netting" 0x18e3
+		{Position 1364.33 -887.9}
+		{xform zl -177.6}
+	}
+	{Entity "transformer2" 0x133
+		{Position 1164.89 -1053.88}
+		{xform zl -175.46}
+	}
+	{Entity "transformer2" 0x18dd
+		{Position 1158.85 -840.98}
+		{xform zl -175.46}
+	}
+	{Entity "strand_cable_cond2" 0x134
+		{Position 1185.45 -904.52}
+		{xform zl 132.91}
+	}
+	{Entity "strand_cable_cond2" 0x135
+		{Position 1222.7 -1001.01}
+		{xform zl -119.92}
+	}
+	{Entity "dok_build1" 0x136
+		{Position -1311.32 873.34 0}
+		{xform zl 89.86}
+		{ZClipVisibility 0}
+	}
+	{Entity "air_force_kaserne2" 0x2c01
+		{Position 698.33 -1105.61}
+		{xform zl -0.8}
+		{Placer
+			{State "2r" {Entity "air_force_kaserne2_c2"}}
+			{State "3r" {Entity "air_force_kaserne2_c3"}}
+			{State "5r" {Entity "air_force_kaserne2_c3"}}
+			{State "7r" {Entity "air_force_kaserne2_c3"}}
+			{State "2l" {Entity "air_force_kaserne2_c2"}}
+			{State "4l" {Entity "air_force_kaserne2_c2"}}
+			{State "5l" {Entity "air_force_kaserne2_c2"}}
+			{State "6l" {Entity "air_force_kaserne2_c2"}}
+			{State "7l" {Entity "air_force_kaserne2_c2"}}
+			{State "2rl" {Entity "air_force_kaserne2_roof2"}}
+			{State "4rl" {Entity "air_force_kaserne2_roof2"}}
+			{State "6rl" {Entity "air_force_kaserne2_roof2"}}
+			{State "3rr" {Entity "air_force_kaserne2_roof2"}}
+			{State "5rr" {Entity "air_force_kaserne2_roof2"}}
+			{State "1bsl" {Unlinked}}
+			{State "2bsl" {Unlinked}}
+			{State "3bsl" {Unlinked}}
+			{State "4bsl" {Unlinked}}
+			{State "5bsl" {Unlinked}}
+			{State "6bsl" {Unlinked}}
+			{State "1bsr" {Unlinked}}
+			{State "2bsr" {Unlinked}}
+			{State "3bsr" {Unlinked}}
+			{State "4bsr" {Unlinked}}
+			{State "5bsr" {Unlinked}}
+			{State "6bsr" {Unlinked}}
+			{State "light2" {Unlinked}}
+			{State "light3" {Entity "wire"}}
+			{State "light4" {Unlinked}}
+			{State "light5" {Entity "wire"}}
+			{State "light6" {Unlinked}}
+			{State "light7" {Entity "wire"}}
+			{State "light8" {Unlinked}}
+			{State "light9" {Unlinked}}
+			{State "light12" {Unlinked}}
+			{State "light13" {Unlinked}}
+			{State "light14" {Unlinked}}
+			{State "light18" {Unlinked}}
+			{State "light19" {Unlinked}}
+			{State "light21" {Unlinked}}
+			{State "light22" {Unlinked}}
+			{State "light23" {Unlinked}}
+			{State "light24" {Unlinked}}
+		}
+	}
+	{Entity "markbench_structure" 0x2b9
+		{Position 554.07 -1185.9}
+		{xform zl -15.94}
+		{Placer
+			{State "2" {Unlinked}}
+			{State "3" {Unlinked}}
+			{State "4" {Unlinked}}
+		}
+	}
+	{Entity "bucket" 0x137
+		{Position 518.28 -1184.56}
+		{xform zl -96.14}
+	}
+	{Entity "bucket" 0x138
+		{Position 498.69 -1188.41}
+		{xform zl 29.12}
+	}
+	{Entity "bucket" 0x139
+		{Position 634.97 -1196.14}
+		{xform zl -114.44}
+	}
+	{Entity "bucket" 0x13a
+		{Position 613.44 -1201.85}
+		{xform zl -61.25}
+	}
+	{Entity "feeding_rack" 0x13b
+		{Position 614.19 -1177.33}
+		{xform zl -90.03}
+	}
+	{Entity "bucket" 0x13c
+		{Position 605.67 -1173.52}
+		{xform zl -124.93 y 89.94 zw -27.45}
+	}
+	{Entity "netting" 0x13d
+		{Position 568.78 -1207.07}
+		{xform zl 89.77}
+	}
+	{Entity "netting" 0x13e
+		{Position 686.06 -1208.91}
+		{xform zl 89.42}
+	}
+	{Entity "air_force_kaserne_bed" 0x13f
+		{Position 642.82 -1127.52}
+		{xform zl 87.84}
+	}
+	{Entity "markbench_structure" 0x140
+		{Position 670.23 -1188.94}
+		{xform zl -177.65}
+		{Placer
+			{State "2" {Unlinked}}
+			{State "3" {Unlinked}}
+			{State "4" {Unlinked}}
+		}
+	}
+	{Entity "barrel1a" 0x38bf
+		{Position 909.21 -1171.1}
+		{xform zl -61.43}
+	}
+	{Entity "barrel3" 0x38c0
+		{Position 879.7 -1178.2}
+		{xform zl -61.43}
+	}
+	{Entity "barrel4_a" 0x38c1
+		{Position 837.79 -1178.03}
+		{xform zl 44.35}
+	}
+	{Entity "barrel5" 0x38c2
+		{Position 861.99 -1170.79}
+		{xform zl -61.43}
+	}
+	{Entity "air_force_kaserne_bed" 0x141
+		{Position 916.98 -1132.44}
+		{xform zl 87.87}
+	}
+	{Entity "air_force_kaserne_bed" 0x142
+		{Position 842.14 -1133.75}
+		{xform zl 89.13}
+	}
+	{Entity "pool_benz" 0x7032
+		{Position 872.22 -1193.19}
+		{xform zl 164.65}
+	}
+	{Entity "air_force_kaserne_bed" 0x143
+		{Position 842.78 -1055.03}
+		{xform zl -91.33}
+	}
+	{Entity "wood_floor1b1a" 0x4218
+		{Position 733.3 -1094.55}
+		{xform zl 179.85}
+	}
+	{Entity "air_force_kaserne_bed" 0x144
+		{Position 776.17 -1054.87}
+		{xform zl -91.33}
+	}
+	{Entity "air_force_kaserne_bed" 0x145
+		{Position 774.27 -1130.12}
+		{xform zl 88.58}
+	}
+	{Entity "air_force_kaserne_bed" 0x146
+		{Position 701.69 -1127.94}
+		{xform zl 87.78}
+	}
+	{Entity "air_force_kaserne_bed" 0x147
+		{Position 703.76 -1052.08}
+		{xform zl -91.33}
+	}
+	{Entity "wood_floor1b1b" 0x46f
+		{Position 614.8 -1095.55}
+		{xform zl -179.62}
+	}
+	{Entity "air_force_kaserne_bed" 0x148
+		{Position 644.29 -1049.47}
+		{xform zl -91.33}
+	}
+	{Entity "air_force_kaserne_bed" 0x149
+		{Position 916.74 -1055.84}
+		{xform zl -91.33}
+	}
+	{Entity "woods1" 0x38be
+		{Position 936.79 -1000.45}
+		{xform zl 179.25}
+	}
+	{Entity "air_force_kaserne2" 0x1e33
+		{Position 696.84 -859.33}
+		{xform zl -1.21}
+		{Placer
+			{State "2r" {Entity "air_force_kaserne2_c2"}}
+			{State "3r" {Entity "air_force_kaserne2_c2"}}
+			{State "5r" {Entity "air_force_kaserne2_c2"}}
+			{State "6r" {Entity "air_force_kaserne2_c2"}}
+			{State "7r" {Entity "air_force_kaserne2_c2"}}
+			{State "2l" {Entity "air_force_kaserne2_c2"}}
+			{State "3l" {Entity "air_force_kaserne2_c3"}}
+			{State "5l" {Entity "air_force_kaserne2_c3"}}
+			{State "6l" {Entity "air_force_kaserne2_c3"}}
+			{State "3rl" {Entity "air_force_kaserne2_roof2"}}
+			{State "4rl" {Entity "air_force_kaserne2_roof2"}}
+			{State "5rl" {Entity "air_force_kaserne2_roof2"}}
+			{State "2rr" {Entity "air_force_kaserne2_roof2"}}
+			{State "3rr" {Entity "air_force_kaserne2_roof2"}}
+			{State "6rr" {Entity "air_force_kaserne2_roof2"}}
+			{State "7rr" {Entity "air_force_kaserne2_roof2"}}
+			{State "1bsl" {Unlinked}}
+			{State "2bsl" {Unlinked}}
+			{State "3bsl" {Unlinked}}
+			{State "4bsl" {Unlinked}}
+			{State "5bsl" {Unlinked}}
+			{State "6bsl" {Unlinked}}
+			{State "1bsr" {Unlinked}}
+			{State "2bsr" {Unlinked}}
+			{State "3bsr" {Unlinked}}
+			{State "4bsr" {Unlinked}}
+			{State "5bsr" {Unlinked}}
+			{State "6bsr" {Unlinked}}
+			{State "light10" {Unlinked}}
+			{State "light11" {Entity "wire"}}
+			{State "light12" {Unlinked}}
+			{State "light13" {Entity "wire"}}
+			{State "light14" {Unlinked}}
+			{State "light15" {Entity "wire"}}
+			{State "light16" {Entity "wire"}}
+			{State "light17" {Unlinked}}
+			{State "light18" {Unlinked}}
+			{State "light19" {Unlinked}}
+			{State "light20" {Unlinked}}
+			{State "light21" {Unlinked}}
+			{State "light22" {Unlinked}}
+			{State "light23" {Unlinked}}
+			{State "light24" {Unlinked}}
+		}
+	}
+	{Entity "barrels1" 0x2829
+		{Position 811.53 -747.47}
+		{xform zl 166.22}
+	}
+	{Entity "barrels2" 0x282a
+		{Position 915.83 -735.75}
+		{xform zl -3.96}
+	}
+	{Entity "air_force_kaserne_bed" 0x4bf
+		{Position 843.13 -807.2}
+		{xform zl -91.33}
+	}
+	{Entity "beam_big" 0x480b
+		{Position 653.4 -722.83}
+		{xform zl -80.19}
+	}
+	{Entity "barrel1a" 0x505d
+		{Position 514.06 -946.55}
+		{xform zl -96.14}
+	}
+	{Entity "barrel3" 0x505e
+		{Position 507.24 -925.86}
+		{xform zl -96.14}
+	}
+	{Entity "barrel4_a" 0x505f
+		{Position 475.01 -947.39}
+		{xform zl -43.16}
+	}
+	{Entity "barrel5" 0x5060
+		{Position 490.85 -912.46}
+		{xform zl -96.14}
+	}
+	{Entity "barrel5_a" 0x5061
+		{Position 514.82 -1004.32}
+		{xform zl -117.41}
+	}
+	{Entity "air_force_kaserne_bed" 0x4bd
+		{Position 704.11 -804.24}
+		{xform zl -91.33}
+	}
+	{Entity "air_force_kaserne_bed" 0x4bc
+		{Position 644.64 -801.64}
+		{xform zl -91.33}
+	}
+	{Entity "air_force_kaserne_bed" 0x4c4
+		{Position 702.04 -880.11}
+		{xform zl 87.78}
+	}
+	{Entity "air_force_kaserne_bed" 0x4c5
+		{Position 643.17 -879.69}
+		{xform zl 87.84}
+	}
+	{Entity "air_force_kaserne_bed" 0x4be
+		{Position 776.52 -807.03}
+		{xform zl -91.33}
+	}
+	{Entity "wood_floor1b1b" 0x681e
+		{Position 865.43 -850.94}
+		{xform zl 177.76}
+	}
+	{Entity "air_force_kaserne_bed" 0x4c1
+		{Position 917.33 -884.61}
+		{xform zl 87.87}
+	}
+	{Entity "air_force_kaserne_bed" 0x4c2
+		{Position 842.49 -885.91}
+		{xform zl 89.13}
+	}
+	{Entity "air_force_kaserne_bed" 0x4c3
+		{Position 774.62 -882.28}
+		{xform zl 88.58}
+	}
+	{Entity "air_force_kaserne_bed" 0x4c0
+		{Position 917.09 -808}
+		{xform zl -91.33}
+	}
+	{Entity "underground_entrance" 0x2821
+		{Position -1032.99 799.89 0}
+		{xform zl -89.71}
+	}
+	{Entity "underground_entrance" 0x108c
+		{Position -1033.28 948.38 0}
+		{xform zl -90.21}
+	}
+	{Entity "box_sentry" 0x3c15
+		{Position 46.39 -2556.3 -6}
+		{xform zl 89.93}
+	}
+	{Entity "air_force_hangar" 0x242b
+		{Position -1272.73 1386.09}
+		{xform zl 84.53}
+		{Constrain none}
+		{Placer
+			{State "3" {Unlinked}}
+			{State "4" {Unlinked}}
+			{State "7" {Unlinked}}
+			{State "r3" {Unlinked}}
+			{State "r4" {Unlinked}}
+		}
+	}
+	{Entity "air_force_hangar" 0x14a
+		{Position -1266.59 1388.73}
+		{xform zl -95.7}
+		{Constrain none}
+		{Placer
+			{State "3" {Unlinked}}
+			{State "4" {Unlinked}}
+			{State "7" {Unlinked}}
+			{State "r3" {Unlinked}}
+			{State "r4" {Unlinked}}
+		}
+	}
+	{Entity "ladder_big2" 0x180a
+		{Position -1054.94 1294.24}
+		{xform zl 143.82}
+	}
+	{Entity "stuff1_b" 0x14b
+		{Position -1097.13 1238.08}
+		{xform zl -117.4}
+	}
+	{Entity "wheel" 0x14c
+		{Position -1146.8 1313.68}
+		{xform zl -65.44}
+	}
+	{Entity "wheel" 0x14d
+		{Position -1161.87 1300.98}
+		{xform zl -8.14 y 66.39 zw -71.48}
+	}
+	{Entity "stuff2_b" 0x14e
+		{Position -1208.55 1258.56}
+		{xform zl 88.57}
+	}
+	{Entity "ladder_small" 0x180b
+		{Position -1137.55 1438.15}
+		{xform zl -7.46}
+	}
+	{Entity "stuff_box" 0x14f
+		{Position -1116.29 1434.96}
+		{xform zl -32.18}
+	}
+	{Entity "stuff_b" 0x150
+		{Position -1023.23 1422.13}
+		{xform zl -129.27}
+	}
+	{Entity "dok_tower" 0x151
+		{Position -214.23 62.8}
+		{xform zl 177.98}
+	}
+	{Entity "wood_floor1_c" 0x1408
+		{Position -268.67 70.92}
+		{xform zl 174.37}
+	}
+	{Entity "wood_floor1_c" 0x1409
+		{Position -215.18 63.03}
+		{xform zl 174.37}
+	}
+	{Entity "wood_floor1" 0x140a
+		{Position -240.13 120.7}
+		{xform zl 177.96}
+	}
+	{Entity "mts-boiler" 0x152
+		{Position -227.36 140.37}
+		{xform zl 177.36}
+	}
+	{Entity "mts-boiler1" 0x153
+		{Position -280.74 63.51}
+		{xform zl 87.3}
+	}
+	{Entity "viaduct" 0x154
+		{Position -1267.9 1386.38 -3.72}
+		{xform zl -4.94}
+	}
+	{Link 0x700d {0x700c "mgun"}}
+	{Link 0x4156 {0x4155 "mgun"}}
+	{Link 0x4161 {0x4162 "mgun"}}
+	{Link 0x200 {0x7e "mgun"}}
+	{Link 0x415c {0x415b "mgun"}}
+	{Link 0x201 {0x415e "mgun"}}
+	{Link 0x281d {0x2821 "02"}}
+	{Link 0x108e {0x108c "02"}}
+	{Inventory 0x540e
+		{box
+			{clear}
+			{item "body_armor" {cell 0 0}}
+			{item "body_armor" {cell 2 0}}
+			{item "body_armor" {cell 4 0}}
+			{item "body_armor" {cell 6 0}}
+		}
+	}
+	{Inventory 0x540d
+		{box
+			{clear}
+			{item "can" {cell 0 0}}
+			{item "can" {cell 2 0}}
+			{item "can" {cell 4 0}}
+			{item "can" {cell 6 0}}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{from "pattern mgun"
+	{filling "ammo 54539_75" 75}
+	{entity "rpk74"}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	{mass 4.6}
+	{fireSound	"mgun/rpk/"}
+	{reloadSound "ak47"}
+	{rechargeTime 4.2}
+	{inventory 	{handle_bone "handle_box"}}
+
+	("recoveryTime" r(650))
+	("burst_long")
+	("accuracy_rifle_low")
+	("speed" s(900))
+	{range 80 85}
+	{healthDamage 300}
+}

@@ -1,0 +1,18 @@
+{from "pattern gun"
+	{filling "bullet120"}
+	{fireSound "gun/120mm_m256_fire"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 8.57}
+	("range_maximum")
+
+	("speed" s(1475))
+	("caliber_maximum")
+	{projectileDamage 500}
+        ("damage" a(660) b(630) c(610) d(600) e(580))
+	{parameters "apcr"
+        ("damage" a(660) b(650) c(640) d(620) e(601))
+	}
+	
+	("accuracy_maximum")
+	{range 227 237}
+}

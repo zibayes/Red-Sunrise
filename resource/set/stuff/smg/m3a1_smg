@@ -1,0 +1,7 @@
+{from "pattern smg"
+	{filling "ammo 1143_30" 30}
+	{entity "m3a1_smg"}
+	{reloadSound "mp5_reload"}
+	("recoveryTime" r(450))
+ 	("speed" s(800))
+}

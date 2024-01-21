@@ -1,0 +1,10 @@
+{item
+	{tag "keepEntity itemin2hands"}
+	{entity "pkm_stan"}
+	{inventory
+		{size 3 4}
+		{weight 100}
+		{fsm "hand-only"}
+	}
+	{mass 5}
+}

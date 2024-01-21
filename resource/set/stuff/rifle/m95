@@ -1,0 +1,18 @@
+{from "pattern rifle"
+	{tag "assaultrifle"}
+	{filling "ammo 76239_30" 30}
+	{mass 3.5}
+	{entity "m95"}
+	{desc "Barrett M95"}
+	{fireSound "small_arms/akm/"}
+	{reloadSound "Ak74_reload"}
+	{rechargeTime 3.6}
+	
+	{Automatic}
+	{healthDamage 250}
+	("recoveryTime" r(750))
+	("accuracy_rifle")
+	("speed" s(700))
+	{range 90 90}
+	("burst_assault_rifle")
+}

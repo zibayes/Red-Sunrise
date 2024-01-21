@@ -1,0 +1,22 @@
+{bullet
+	{tag "bullet stackable pierce"}
+	{inventory
+		{weight 10}
+		{block 10}
+		{size 2 1}
+		{fsm "belt"}
+	}
+	{mass 0.1}
+	{entity "size12_ammo"}
+	{trace
+		{view "/texture/fx/trace_shotgun"
+			{ScaleY 0.175}
+			{Light 8}
+		}
+		{length 2.5}
+	}
+	{damage blastwave  
+		{energy 0.25}
+		{area 0.5 1.5}
+	}
+}

@@ -1,0 +1,23 @@
+{from "pattern gun"
+	{filling "bullet45" 150}
+	{fireSound "gun/40mm_m19_fire"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 2}
+	{RecoveryTime 0.29}
+	{AimingTolerance 10}
+	{Automatic}
+	("range_short")
+	{burst
+		{min 1}
+		{short 2.5 1}
+		{long 7 2}
+	}
+	
+	("speed" s(1275))
+	("caliber_minimum")    
+	{projectileDamage 125}
+	("damage" a(125) b(110) c(105) d(99) e(95))
+	
+	{range 192 202}    
+	("accuracy_zenite_high")        
+}

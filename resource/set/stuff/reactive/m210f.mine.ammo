@@ -1,0 +1,19 @@
+{bullet
+        {desc "M210F Mine"}
+	{tag "big shell bomb rocket_mine no_ricochet"}
+	{inventory
+		{size 6 1}
+		{weight 100}
+	}	
+	{mass 42}
+	{entity "m210f_mine"}
+	{view "m210f_mine"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	{damage blastwave
+		{energy 1}
+		{area 2.5 4}
+	}
+}

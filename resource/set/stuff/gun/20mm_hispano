@@ -1,0 +1,30 @@
+{from "pattern gun"
+	{filling "bullet20 zenite" 30}
+	{fireSound "gun/20mm_hispano_fire"}
+	{RecoveryTime 0.086}
+	{RechargeTime 4}
+	{reloadSound "flak38"}
+	{Automatic}
+	{spreading
+		{spreadradius	 3}
+		{SpreadXYRatio	1.5}
+		{BurstAccuracy 100 90 85 80 72 65 50 40 30}
+	}
+	{burst
+;		{min 1}
+		{short 2.5 1}
+		{long 7 2}
+	}
+	("speed" s(880))
+	("caliber_zenite")
+	("range_zenite")
+
+	{projectileDamage 60}
+	("damage" a(60) b(45) c(30) d(28) e(20))
+	{RelaxationTime 0}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{AimingTolerance 10}
+	{range 157 167}
+	("accuracy_zenite_medium")
+}

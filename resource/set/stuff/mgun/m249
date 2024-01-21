@@ -1,0 +1,13 @@
+{from "pattern mgun"
+	{filling "ammo 55645_200" 200}
+	{entity "m249"}
+	{desc "M249 SAW"}
+	{fireSound	"mgun/m249_fire"}
+	{reloadSound "m249_reload"}
+
+	("recoveryTime" r(850))
+	("burst_long")
+	("speed" s(915))
+	{range 80 85}
+	{healthDamage 280}
+}

@@ -1,0 +1,5 @@
+{breed
+	{behaviour soldier}
+	{icon_priority 0}
+	{nationality eng}
+}

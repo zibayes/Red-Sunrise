@@ -1,0 +1,23 @@
+{from "pattern gun"
+	{filling "bullet76"}
+	{fireSound "gun/76mm_d56t_fire"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 7.5}	    
+	
+	("speed" s(700))
+	("caliber_medium")
+	{projectileDamage 110}	
+	("damage" a(106) b(100) c(85) d(75) e(67))
+	{parameters "apcr"
+		("speed" s(950))
+        	("damage" a(146) b(127) c(110) d(93) e(76))
+	}
+	{parameters "heat"
+		("speed" s(700))
+		("damage_cumulative" a(200))
+		("accuracy_very_low")
+	}
+
+	{range 157 167}	
+	("accuracy_minimum")
+}

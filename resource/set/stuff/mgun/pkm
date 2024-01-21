@@ -1,0 +1,14 @@
+{from "pattern mgun"
+	{filling "ammo 76254_100" 100}
+	{entity "pkm"}
+	{desc "ПКМ"}
+	{fireSound	"smg/PKM_burst/"}
+	{reloadSound "PKM_reload"}
+	{inventory 	{handle_bone "handle_box"}}
+
+	("recoveryTime" r(650))
+	("burst_long")
+	("speed" s(825))
+	{healthDamage 315}
+	{range 95 100}
+}

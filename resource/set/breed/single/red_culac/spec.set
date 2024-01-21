@@ -1,0 +1,38 @@
+{breed
+	{skin "ussr_soldier_navy"}
+	{portrait "rus_navy"}
+	{icon "scouts"}
+	{icon_priority 2}
+	{nationality rus}
+	{perks
+		{"health" "150%"
+		}
+		{"power" "300%"
+		}
+		{"vision" mp_specnaz
+		}
+		{"stealth"}
+		{"speed" 1.2
+		}
+		{"melee" expert
+		}
+		{"avoidance" expert
+		}
+		{"pistol" expert
+		}
+		{"smg" expert
+		}
+		{"rifle" expert
+		}
+		{"mgun" basic
+		}
+		{"rocketlauncher" none
+		}
+	}
+	{inventory
+		{item "rgo grenade" 3}
+		{item "aks74u" filled}
+		{item "f1 grenade" 3}
+		{in_hands 0}
+	}
+}

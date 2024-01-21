@@ -1,0 +1,24 @@
+{bullet
+	{tag "big size_big shell fg bomb"}
+	{inventory
+		{size 4 2}
+		{weight 150}
+	}	
+	{mass 50}
+	{entity "165hesh_ammo"}
+	{view "165hesh_ammo"}
+	
+	{detonationThickness 1}
+	{applyProjectile}
+
+	; anti-personel
+	{damage blastwave
+		{energy 1}
+		{area 12 18}
+	}				
+	; anti-tank
+	{damage add blastwave
+			{energy 16}
+			{area 7 12}
+	}
+}

@@ -1,0 +1,34 @@
+{from "pattern gun"
+	{filling "bullet100"}
+	{fireSound "gun/100mm_2a70_fire"}
+	("range_light_howitzer")
+	{rechargeTime 6}
+	{AimingTolerance 10}
+
+	("speed" s(350))
+	("caliber_maximum")
+	{projectileDamage 200}
+        ("damage" a(200) b(200) c(200) d(200) e(200))
+	
+	("accuracy_minimum")
+	{range 245 255}
+	{parameters "arkan"
+		{bullet_view "arkan_ammo"
+			{tail "rocket_smoke" "tail"}
+		}
+		("speed" s(500))
+		("damage_cumulative" a(525))
+		{range 280 285}
+		{gravity 0}
+		{spreading 5.25
+			{SpreadPower	1}
+		}
+		{cursor "cannon_on_atgm"}
+		{cursorReloading "cannon_reload_atgm"}
+	}
+	{parameters "heat"
+		("speed" s(450))
+		("damage_cumulative" a(380))
+		("accuracy_very_low")
+	}
+}

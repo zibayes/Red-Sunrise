@@ -1,0 +1,15 @@
+{from "pattern sniper_rifle"
+	{filling "ammo 76251_10aw" 10}
+	{inventory
+		{size 6 2 }
+	}
+	{entity "l96a1"}
+	{desc "L96A1"}
+	{fireSound "rifle/l96a1_fire"}
+	{reloadSound "l96a1_reload"}
+	{healthDamage 305}
+
+	{rechargeTime 5}	
+	("speed" s(950))
+	{range 110 110}
+}

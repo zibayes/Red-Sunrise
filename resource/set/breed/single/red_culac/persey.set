@@ -1,0 +1,25 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "persey"}
+	{portrait ussr_persey}
+	{icon_priority 0}
+	{nationality rus}
+	{perks
+		{"speed" 1
+		}
+		{"health" "150%"
+		}
+		{"vision" mp_officer
+		}
+		{"mgun" lvl_5
+		}
+		{"pistol" lvl_5
+		}
+	}
+	{inventory
+		{item "aps" filling "918_20 ammo" 20}
+		{item "akms" filled}
+		{in_hands 0}
+	}
+}

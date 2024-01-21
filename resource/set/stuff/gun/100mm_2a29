@@ -1,0 +1,10 @@
+{from "pattern gun"
+        {desc "100mm 2A29"}
+	{filling "bullet100" 1}
+	{fireSound "gun/85to100_cal/100mm_d10c"}
+	{rechargeTime 6}
+	{speed 895}
+	{projectileDamage 170}
+        ("damage" a(236) b(223) c(203) d(192) e(178))
+	{range 150 160}
+}

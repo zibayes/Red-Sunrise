@@ -1,0 +1,24 @@
+{from "pattern sniper_rifle"
+	{filling "ammo 55645_30ar" 30}
+	{inventory
+		{size 6 2 }
+	}
+	{entity "m16a1_dmr"}
+	{desc "M16"}
+	{fireSound "small_arms/m16/"}
+	{reloadSound "m16_reload"}
+	{range 100 100}
+	{healthDamage 270}
+	{recoveryTime 0.40}
+	{mass 3.63}
+	{special
+		{mode aim}
+		{PrepareTime 1.00}	
+		{PrepareCursor "aimed_shot"}
+		{accuracy 2.5}
+		{damage 0.60}
+		{throw_off}
+	}	
+	("speed" s(975))
+	("accuracy_rifle_very_high")
+}

@@ -1,0 +1,15 @@
+{from "pattern gun" ; T-55AM-1
+        {desc "100μμ Δ10Ò \"Ελό\""}
+	{filling "bullet100" 1}
+	{fireSound "gun/cannon_big/"}
+	{reloadSound "tankgun/"}	
+	{rechargeTime 5.9}
+
+	{speed 895}
+	
+	{projectileDamage 100}
+
+	("damage" a(212) b(190) c(164) d(143) e(124)) ; BR-412
+	
+	{range 160 160}
+}

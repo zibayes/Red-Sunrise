@@ -1,0 +1,17 @@
+{from "pattern gun"   
+	{tag "cumulative nokeep"}    
+	{filling "bullet76"}
+	{fireSound "gun/76mm_l23a1_fire"}
+	{reloadSound "gun_r01"}
+	{rechargeTime 8.57}
+	("range_light_howitzer")
+	
+	("speed" s(650))
+	("caliber_medium")
+	{projectileDamage 120}
+	("damage_cumulative" a(120))
+	{DisableRicochet}
+	{curve "cumulative"}
+	("accuracy_minimum")
+	{range 157 167}		
+}

@@ -1,0 +1,24 @@
+{from "pattern gun"
+	{filling "bullet115"}
+	{fireSound "gun/115mm_2a20_fire"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 10}
+	("range_maximum")
+
+	("speed" s(1615))
+	("caliber_maximum")
+	{projectileDamage 295}
+	("damage" a(295) b(278) c(250) d(237) e(200))
+	{parameters "apcr"
+		("speed" s(1615))
+       		("damage" a(350) b(322) c(300) d(283) e(270))
+	}
+	{parameters "heat"
+		("speed" s(950))
+		("damage_cumulative" a(440))
+		("accuracy_medium")
+	}
+	
+	("accuracy_very_low")
+	{range 210 220}
+}

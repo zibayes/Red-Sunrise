@@ -1,0 +1,4 @@
+{from "pattern headgear"
+        {desc "Офицерская фуражка"}
+	{entity "cap_rus_sql"}
+}

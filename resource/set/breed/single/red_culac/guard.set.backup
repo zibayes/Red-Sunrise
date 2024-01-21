@@ -1,0 +1,38 @@
+{breed
+	{skin "ussr_soldier_navy"}
+	{portrait "rus_guard"}
+	{icon "soldier"}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{body belt_a_backpack}
+		{head rus_helmet_1}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"power" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"pistol" basic
+		}
+		{"smg" basic
+		}
+		{"mgun" none
+		}
+		{"rifle" none
+		}
+		{"rocketlauncher" none
+		}
+		{"melee" advanced
+		}
+	}
+	{inventory
+		{item "ak74"}
+		{item "f1 grenade" 3}
+		{in_hands 0}
+	}
+}

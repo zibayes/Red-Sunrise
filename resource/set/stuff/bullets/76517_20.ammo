@@ -1,0 +1,18 @@
+{bullet
+	{tag "bullet stackable pierce"}
+	{inventory
+		{weight 5}
+		{block 20}
+		{size 1 2}
+		{fsm "belt"}
+	}	
+	{mass 0.010}
+	{entity "type63_clip"}
+	{trace
+		{view "/texture/fx/trace2"
+			{ScaleY 0.12}
+			{Light 1}
+		}
+		{length 6}
+	}
+}

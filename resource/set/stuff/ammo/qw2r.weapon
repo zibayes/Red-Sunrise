@@ -1,0 +1,11 @@
+{from "pattern gun2"
+	{filling "ammo qw2" 2}
+	{fillingVisible "rocketr"}
+	{fireSound "reactive/katyusha_burst"}
+	{RecoveryTime 2}
+	{rechargeTime 40}
+	{range 262 262}
+	
+	("speed" s(500))
+	("accuracy_minimum")
+}

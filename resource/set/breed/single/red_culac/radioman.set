@@ -1,0 +1,27 @@
+{breed
+	{behaviour soldier}
+	{skin "ussr_soldier"}
+	{portrait ussr_radioman}
+	{icon radioman}
+	{icon_priority 5}
+	{nationality rus}
+	{armors
+		{body belt_a}
+		{head rus_afg_ermolka}
+	}
+	{perks
+		{"melee"}
+		{"avoidance"}
+		{"pistol"}
+		{"rifle"}
+		{"smg"}
+		{"mgun"}
+	}
+	{inventory
+		{item "akms" filled}
+		{item "pistol ammo" 210}
+		{item "bandage" 5}
+		{item "radio_station"}
+		{in_hands 0}
+	}
+}

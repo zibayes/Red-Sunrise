@@ -1,0 +1,25 @@
+{from "pattern rifle"
+	{tag "assaultrifle"}
+	{filling "ammo 76251_20jp" 20}
+	{inventory
+		{size 5 2 }
+		{link_bone "gun_back"}
+		{weight 100 }
+	}
+	{mass 3.5}
+	{entity "jap64smg"}
+	{fireSound "smg/Type64_fire"}
+	{reloadSound "hkg3_reload"}
+	{rechargeTime 3.5}
+	
+	{Automatic}
+	{healthDamage 265}
+	("recoveryTime" r(450))
+	("accuracy_rifle")
+	("speed" s(700))
+	{range 70 75}
+	{burst
+		{short 3 0.5}
+		{long 20 0.5}
+	}
+}

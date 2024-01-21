@@ -1,0 +1,10 @@
+{item
+	{tag "keepEntity itemin2hands"}
+	{entity "mk19"}
+	{inventory
+		{size 6 4}
+		{weight 100}
+		{fsm "hand-only"}
+	}
+	{mass 20}
+}

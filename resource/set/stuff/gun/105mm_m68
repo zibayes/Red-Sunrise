@@ -1,0 +1,24 @@
+{from "pattern gun"
+	{filling "bullet105"}
+	{fireSound "gun/105mm_l7_fire"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 7.5}
+	("range_maximum")
+
+	("speed" s(1478))
+	("caliber_maximum")
+	{projectileDamage 300}
+        ("damage" a(320) b(300) c(280) d(263) e(258))
+	{parameters "apcr"
+		("speed" s(1580))
+		("damage" a(380) b(364) c(320) d(255) e(220))
+	}
+	{parameters "heat"
+		("speed" s(1173))
+		("damage_cumulative" a(400))
+		("accuracy_minimum")
+	}
+	
+	("accuracy_medium")
+	{range 192 202}
+}
