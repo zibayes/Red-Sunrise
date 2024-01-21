@@ -1,0 +1,161 @@
+{fx
+	{##+ particleview fire
+		{generator
+			{totalparticles 1}
+			{emissionarea
+				{radius 0}
+				{alpha0 0}
+				{alpha1 0}
+			}
+			{particleinit
+				{speed 0}
+				{lifetime 0.1}
+			}
+			{particlesinblock 1}
+			{timetolive 0.1}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/flash/flashssp3"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{light 1
+						{linear
+							{min 0.8}
+							{max 0}
+						}
+					}
+					{scale 0.3 0.05}
+					{preturn 0 180}
+				}
+			}
+		}
+		{notifyowner}
+	}
+	{##+ spriteview halo
+		{sprite "$/flash/halo02"
+			{timer
+				{mode }
+				{duration 0.2}
+			}
+			{preturn 0 180}
+			{scale 1}
+			{light 1
+				{linear
+					{min 0.6}
+					{max 0}
+				}
+			}
+		}
+		{halo}
+		{notifyowner}
+		{autovisible}
+	}
+	{##+ spriteview halo
+		{sprite "$/additional/glow1"
+			{timer
+				{mode }
+				{duration 0.1}
+			}
+			{preturn 0 180}
+			{scale 0.3}
+			{light 1
+				{linear
+					{min 1}
+					{max 0}
+				}
+			}
+			{highlight 0xffff6323}
+		}
+		{halo}
+		{notifyowner}
+		{autovisible}
+	}
+	{##+ spriteview muz1hor
+		{sprite "$/flash/flashssp1"
+			{light 1
+				{linear
+					{min 1}
+					{max 0}
+				}
+			}
+			{scalex 0.6 0.1}
+			{scaley 0.6 0.1}
+			{timer
+				{duration 0.08}
+				{mode play }
+			}
+			{highlight 0xfffed4bf}
+		}
+		{orientation normalXY}
+		{autovisible}
+	}
+	{##+ spriteview muz11hor
+		{sprite "$/additional/fire_shot5"
+			{light 1
+				{linear
+					{min 1}
+					{max 0}
+				}
+			}
+			{scalex 0.35 0.05}
+			{scaley 0.15 0.05}
+			{timer
+				{duration 0.08}
+				{mode play }
+			}
+			{highlight 0xfffed4bf}
+			{preturn 0 180}
+			{shiftx 20}
+		}
+		{orientation trace}
+		{autovisible}
+	}
+	{##+ spriteview muz2v
+		{sprite "$/flash/flashssp1"
+			{light 1
+				{linear
+					{min 1}
+					{max 0}
+				}
+			}
+			{scalex 0.55 0.15}
+			{scaley 0.55 0.15}
+			{timer
+				{duration 0.08}
+				{mode play }
+			}
+			{highlight 0xfffed4bf}
+		}
+		{orientation normalXZ}
+		{autovisible}
+	}
+	{##+ spriteview muz3
+		{sprite "$/additional/fire_shot5"
+			{light 1
+				{linear
+					{min 0.7 0.1}
+					{max 0}
+				}
+			}
+			{timer
+				{duration 0.1}
+				{mode play }
+			}
+			{scale 1
+				{power
+					{min 0.1}
+					{max 0.3}
+					{pow 1}
+				}
+			}
+			{preturn 0 180}
+			{shiftz 1.8}
+			{## highlight 0xff2f2aff}
+		}
+		{orientation billboard}
+		{autovisible}
+	}
+}

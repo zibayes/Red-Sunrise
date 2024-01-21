@@ -1,5 +1,4 @@
-# hidden directories
-
+# resource ignore
 resource/entity/humanskin
 resource/entity/inventory_modern
 resource/entity/modern_construction

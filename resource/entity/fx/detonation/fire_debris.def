@@ -1,0 +1,81 @@
+{fx
+	{particleview fire
+		{generator
+			{totalparticles 30}
+			{emissionarea
+				{radius 0.5 0.5}
+				{alpha0 0}
+				{alpha1 360 360}
+				{speed 2}
+			}
+			{particleinit
+				{speed 0}
+				{lifetime 0.75 0.25}
+			}
+			{timetolive 0.8}
+		}
+		{mover
+			{damping 0.7}
+			{gravity
+				{value 0.02}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/fire_shot2"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 90 90}
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 50}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0.01}
+							{max 0.25 0.05}
+						}
+					}
+					{light 1
+						{linear
+							{min 0.4 0.1}
+							{max 0}
+						}
+					}
+					{highlight 0xfffdcd89}
+				}
+				{sprite "$/additional/fire_shot2"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 90 90}
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 50}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0.05}
+							{max 0.25 0.05}
+						}
+					}
+					{light 1
+						{linear
+							{min 0.4 0.1}
+							{max 0}
+						}
+					}
+					{highlight 0xfffec88a}
+				}
+			}
+		}
+	}
+}

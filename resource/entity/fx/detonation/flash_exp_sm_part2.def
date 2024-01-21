@@ -1,0 +1,54 @@
+{fx
+	{particleview fire
+		{generator
+			{totalparticles 60}
+			{emissionarea
+				{radius 0.2 0.2}
+				{alpha0 0}
+				{alpha1 360 360}
+				{speed 4}
+			}
+			{particleinit
+				{speed 0}
+				{lifetime 0.35 0.05}
+			}
+			{timetolive 1}
+		}
+		{mover
+			{damping 0.9}
+			{gravity
+				{value 0.05}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/fire_shot2"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{turn 1
+						{linear
+							{min 0}
+							{max 2500 1500}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0.045 -0.005}
+							{max 0.02}
+						}
+					}
+					{light 1
+						{linear
+							{min 0.6 0.1}
+							{max 0}
+						}
+					}
+					{highlight 0xfffeaf64}
+				}
+			}
+		}
+	}
+}

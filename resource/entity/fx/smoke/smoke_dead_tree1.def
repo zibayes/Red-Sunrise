@@ -1,0 +1,187 @@
+{fx
+	{fire}
+	{#+ particleview fire
+		{generator
+			{## totalparticles 300}
+			{emissionarea
+				{radius 2.5 2.5}
+				{alpha0 0}
+				{alpha1 3.5 2.5}
+				{speed 0.4}
+			}
+			{particleinit
+				{speed 0.65 0.15}
+				{lifetime 1.5 0.5}
+			}
+			{axisz}
+		}
+		{mover
+			{damping 0.96}
+			{gravity
+				{value -0.001}
+			}
+			{## nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/flame1a"
+					{scale 1
+						{power
+							{min 0.35 0.05}
+							{max 0.55 0.05}
+							{pow 1}
+						}
+					}
+					{light 1
+						{peak
+							{min 0}
+							{max 0.45 0.15}
+						}
+					}
+					{## turn 1
+						{linear
+							{min 0}
+							{max 0 10}
+						}
+					}
+					{preturn 0 20}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xffffb278}
+					{## scalex 1
+						{power
+							{min 0.3}
+							{max 0.6}
+							{pow 1}
+						}
+					}
+					{## scaley 1
+						{power
+							{min 0.1}
+							{max 0.6}
+							{pow 1}
+						}
+					}
+				}
+			}
+		}
+		{offset 0 0 -40}
+	}
+	{#+ particleview fire_o
+		{generator
+			{emissionarea
+				{radius 5 5}
+				{alpha0 0}
+				{alpha1 3.5 2.5}
+				{speed 0.4}
+			}
+			{particleinit
+				{speed 2.5 0.5}
+				{lifetime 1.15 0.35}
+			}
+			{axisz}
+		}
+		{mover
+			{damping 0.96}
+			{gravity
+				{value -0.001}
+			}
+			{## nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/fire_shot5"
+					{scale 1
+						{linear
+							{min 0.2}
+							{max 0.45 0.05}
+						}
+					}
+					{light 1
+						{peak
+							{min 0}
+							{max 0.15 0.05}
+						}
+					}
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 30}
+						}
+					}
+					{preturn 0 180}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xfffe8a42}
+				}
+			}
+		}
+		{offset 0 0 -40}
+	}
+	{particleview smoke_bl
+		{generator
+			{## totalparticles 10}
+			{emissionarea
+				{radius 2.5 2.5}
+				{alpha0 5 5}
+				{alpha1 8 2}
+				{speed 0.15}
+			}
+			{particleinit
+				{speed 3 1}
+				{lifetime 3.5 0.5}
+			}
+			{axisz}
+		}
+		{mover
+			{damping 0.97}
+			{gravity
+				{value -0.03}
+			}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/smoke_round2"
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 40}
+						}
+					}
+					{scale 1
+						{## linear
+							{min 0.25 0.05}
+							{max 0.9 0.1}
+						}
+						{power
+							{min 0}
+							{max 0.9 0.1}
+							{pow 0.8}
+						}
+					}
+					{visibility 1
+						{## linear
+							{min 0.5}
+							{max 0}
+						}
+						{peak
+							{min 0}
+							{max 0.9 0.1}
+						}
+					}
+					{preturn 0 180}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xff9c9c9c}
+				}
+			}
+		}
+		{offset 0 0 -40}
+	}
+}

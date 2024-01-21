@@ -1,0 +1,20 @@
+{fx
+	{spriteview FlashSSP
+		{sprite "$/flash/flashss128"
+			{scale 0.1}
+			{light 1
+				{linear
+					{min 0}
+					{max 1}
+				}
+			}
+			{timer
+				{duration 0.2}
+			}
+			{highlight 0xfffdb9b6}
+		}
+		{halo
+			{usedirection}
+		}
+	}
+}

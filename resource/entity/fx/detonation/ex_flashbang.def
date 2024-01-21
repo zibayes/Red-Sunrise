@@ -1,0 +1,42 @@
+{fx
+	{sound "detonation/grenade_flashbang/"}
+	{#+ lightview
+		{type point}
+		{animator
+			{timer
+				{duration 0.2}
+			}
+			{visibility 1
+				{linear
+					{min 0.2}
+					{max 0}
+				}
+			}
+			{highlight 0xffedb0}
+		}
+		{attenuation0 0.02}
+		{attenuation1 0.4}
+		{radius 200}
+		{effectonground}
+		{offset 0 0 120}
+	}
+	{spriteview halo2
+		{sprite "$/additional/glow1"
+			{timer
+				{mode }
+				{duration 0.2}
+			}
+			{scale 1}
+			{light 1
+				{peak
+					{min 0}
+					{max 0.5}
+				}
+			}
+			{highlight 0xffffffff}
+		}
+		{halo}
+		{notifyowner}
+		{autovisible}
+	}
+}

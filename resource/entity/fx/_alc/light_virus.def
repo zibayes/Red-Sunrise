@@ -1,0 +1,40 @@
+{fx
+	{#+ spriteview
+		{sprite "$/flash/halo02"
+			{light 1
+				{peak
+					{min 0.2}
+					{max 0.25}
+				}
+			}
+			{timer
+				{mode play loop }
+				{duration 2}
+			}
+			{scale 0.2}
+			{highlight 0x41b22b}
+		}
+		{halo}
+	}
+	{#+ lightview
+		{animator
+			{timer
+				{mode play loop}
+				{duration 2}
+			}
+			{visibility 1
+				{peak
+					{min 1.7}
+					{max 2}
+				}
+			}
+			{highlight 0x41b22b}
+		}
+		{type point}
+		{radius 10}
+		{attenuation0 0.1}
+		{attenuation1 0.05}
+		{pulseperiod 0.125 0.075}
+		{effectonground}
+	}
+}

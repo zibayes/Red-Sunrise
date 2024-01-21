@@ -1,0 +1,170 @@
+{fx
+	{fire}
+	{particleview
+		{generator
+			{## totalparticles 150}
+			{emissionarea
+				{radius 5 5}
+				{alpha0 15 15}
+				{alpha1 -5 2}
+				{speed 0.07}
+			}
+			{particleinit
+				{speed 0.2 0.1}
+				{lifetime 6 1}
+			}
+			{## particlesinblock 1}
+			{axisz}
+		}
+		{mover
+			{damping 0.999}
+			{gravity
+				{value -0.003}
+			}
+		}
+		{visualizer
+			{stage 
+				{##+ sprite "$/additional/smoke_light1_small"
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 150}
+						}
+					}
+					{scale 1
+						{## linear
+							{min 0.25 0.05}
+							{max 2.1 0.3}
+						}
+						{## peak
+							{min 0.3 0.1}
+							{max 2.5 0.5}
+						}
+						{power
+							{min 0.3 0.1}
+							{max 2.5 0.5}
+							{pow 1}
+						}
+					}
+					{visibility 1
+						{peak
+							{min 0}
+							{max 0.8}
+						}
+					}
+					{preturn 0 180}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xff303030}
+				}
+				{#+ sprite "$/additional/smoke_light4"
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 100}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0}
+							{max 0.75 0.15}
+						}
+					}
+					{visibility 1
+						{## peak
+							{min 0}
+							{max 1}
+						}
+						{## power
+							{min 1}
+							{max 0}
+							{pow 5}
+						}
+						{npower
+							{min 0.8}
+							{max 0}
+							{pow 5}
+						}
+					}
+					{preturn 0 180}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xff363636}
+				}
+				{##+ sprite "$/additional/smoke_round2"
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 100}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0.075 0.025}
+							{max 0.75 0.15}
+						}
+					}
+					{visibility 1
+						{## peak
+							{min 0}
+							{max 1}
+						}
+						{npower
+							{min 1}
+							{max 0}
+							{pow 1}
+						}
+					}
+					{preturn 0 180}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xff6f6f6f}
+				}
+				{sprite "$/additional/smoke_round2"
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 100}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0}
+							{max 0.75 0.15}
+						}
+					}
+					{visibility 1
+						{## peak
+							{min 0}
+							{max 1}
+						}
+						{## power
+							{min 1}
+							{max 0}
+							{pow 5}
+						}
+						{npower
+							{min 0.5}
+							{max 0}
+							{pow 5}
+						}
+					}
+					{preturn 0 180}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xff5f5f5f}
+				}
+			}
+		}
+		{offset 0 0 5}
+		{notifyowner}
+	}
+}

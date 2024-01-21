@@ -1,0 +1,25 @@
+{fx
+	{#+ lightview
+		{animator
+			{timer
+				{mode play loop}
+				{duration 2}
+			}
+			{visibility 1
+				{peak
+					{min 2.7}
+					{max 3}
+				}
+			}
+			{highlight 0xa0a0a0}
+		}
+		{type spot}
+		{attenuation0 0.05}
+		{attenuation1 1}
+		{falloff 6}
+		{theta 18}
+		{phi 80}
+		{radius 1500}
+		{effectonground}
+	}
+}

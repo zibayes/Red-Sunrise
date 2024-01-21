@@ -1,0 +1,51 @@
+{fx
+	{particleview
+		{generator
+			{totalparticles 50}
+			{emissionarea
+				{radius 0.5 0.5}
+				{alpha0 0}
+				{alpha1 5 3}
+			}
+			{particleinit
+				{speed 0}
+				{lifetime 4 2}
+			}
+		}
+		{mover
+			{damping 0.95}
+			{gravity
+				{value -0.008}
+			}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/smoke_light4_small"
+					{turn 1
+						{linear
+							{min 0}
+							{max 90 60}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0}
+							{max 0.2 0.1}
+						}
+					}
+					{visibility 1
+						{peak
+							{min 0}
+							{max 0.2}
+						}
+					}
+					{preturn 0 180}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+				}
+			}
+		}
+	}
+}

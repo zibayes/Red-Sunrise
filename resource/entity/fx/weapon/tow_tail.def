@@ -1,0 +1,205 @@
+{fx
+	{#+ lightview
+		{animator
+			{highlight 0xffffab78}
+		}
+		{type point}
+		{radius 100}
+		{attenuation0 0.1}
+		{attenuation1 1}
+		{effectonground}
+		{offset 0 0 50}
+	}
+	{#+ spriteview flash
+		{sprite "$/flash/flash"
+			{light 1
+				{linear
+					{min 2}
+					{max 0}
+				}
+			}
+			{scalex 1
+				{linear
+					{min 0.15}
+					{max 0.8}
+				}
+			}
+			{scaley 1
+				{linear
+					{min 0.07}
+					{max 0.2}
+				}
+			}
+			{timer
+				{duration 0.07}
+				{mode play loop pingpong }
+			}
+		}
+		{orientation trace}
+		{autovisible}
+	}
+	{#+ particleview smoke
+		{generator
+			{totalparticles 30}
+			{emissionarea
+				{radius 0 1}
+				{alpha0 0 2}
+				{alpha1 0}
+			}
+			{particleinit
+				{speed 0.1}
+				{lifetime 1.4 0.4}
+			}
+		}
+		{mover
+			{damping 0.95}
+			{## gravity
+				{value -0.002}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/smoke_light4"
+					{## turn 1
+						{linear
+							{min 0}
+							{max 0 50}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 0.55 0.15}
+							{max 0}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 0 180}
+					{scalex 1
+						{power
+							{min 1}
+							{max 2.5 0.5}
+							{pow 0.8}
+						}
+					}
+					{scaley 1
+						{power
+							{min 0.06 0.01}
+							{max 0.15 0.05}
+							{pow 1}
+						}
+					}
+					{highlight 0xffafafaf}
+				}
+				{flags trace }
+			}
+		}
+		{notifyowner}
+	}
+	{#+ spriteview halo1
+		{sprite "$/additional/glow2"
+			{timer
+				{mode play loop }
+				{duration 0.08}
+			}
+			{preturn 0 180}
+			{scale 1
+				{peak
+					{min 0.1}
+					{max 0.2}
+				}
+			}
+			{light 1}
+			{highlight 0xfffd925b}
+		}
+		{halo}
+		{notifyowner}
+		{autovisible}
+	}
+	{#+ spriteview halo2
+		{sprite "$/additional/glow1"
+			{timer
+				{mode play loop }
+				{duration 0.08}
+			}
+			{preturn 90 90}
+			{scale 0.1}
+			{light 0.2}
+			{highlight 0xffffab78}
+		}
+		{halo}
+		{notifyowner}
+		{autovisible}
+	}
+	{particleview fire
+		{generator
+			{totalparticles 30}
+			{emissionarea
+				{radius 0 0.1}
+				{alpha0 0 0.1}
+				{alpha1 0}
+			}
+			{particleinit
+				{speed 0.1}
+				{lifetime 0.08}
+			}
+		}
+		{mover
+			{damping 0.95}
+			{## gravity
+				{value -0.002}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/fire_shot5"
+					{## turn 1
+						{linear
+							{min 0}
+							{max 0 50}
+						}
+					}
+					{## visibility 1
+						{linear
+							{min 0.4 0.1}
+							{max 0}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 0 180}
+					{scalex 1
+						{power
+							{min 0.5}
+							{max 0.8 0.1}
+							{pow 1}
+						}
+					}
+					{scaley 1
+						{power
+							{min 0.06 0.01}
+							{max 0}
+							{pow 1}
+						}
+					}
+					{highlight 0xffffab78}
+					{light 1
+						{power
+							{min 0.5}
+							{max 0}
+							{pow 1}
+						}
+					}
+				}
+				{flags trace }
+			}
+		}
+		{notifyowner}
+	}
+}

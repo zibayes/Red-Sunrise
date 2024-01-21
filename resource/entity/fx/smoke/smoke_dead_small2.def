@@ -1,0 +1,175 @@
+{fx
+	{fire}
+	{#+ particleview fire
+		{generator
+			{## totalparticles 10}
+			{emissionarea
+				{radius 2 2}
+				{alpha0 0}
+				{alpha1 -5 2}
+				{speed 0.1}
+			}
+			{particleinit
+				{speed 0.35 0.05}
+				{lifetime 1.25 0.25}
+			}
+			{axisz}
+		}
+		{mover
+			{damping 0.9975}
+			{gravity
+				{value -0.005}
+			}
+			{## nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/fire_shot5"
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 20}
+						}
+					}
+					{scale 1
+						{## linear
+							{min 0.05}
+							{max 0.15 0.05}
+						}
+						{power
+							{min 0.05}
+							{max 0.15 0.05}
+							{pow 1}
+						}
+					}
+					{light 1
+						{peak
+							{min 0}
+							{max 0.075 0.025}
+						}
+					}
+					{preturn 0 180}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xffffbb81}
+				}
+			}
+		}
+		{notifyowner}
+	}
+	{#+ particleview "flames     "
+		{generator
+			{## totalparticles 3}
+			{emissionarea
+				{radius 2.5 2.5}
+				{alpha0 2.5 2.5}
+				{alpha1 5 5}
+				{speed 0.1}
+			}
+			{particleinit
+				{speed 0}
+				{lifetime 1.4 0.4}
+			}
+			{axisz}
+		}
+		{mover
+			{nodependonwind}
+			{damping 0.2}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/flame1a"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{light 1
+						{peak
+							{min 0}
+							{max 0.5 0.1}
+						}
+					}
+					{## scalex 0.55 0.15}
+					{## scaley 1
+						{linear
+							{min 0.4}
+							{max 1.5}
+						}
+					}
+					{scale 1
+						{power
+							{min 0.05 0.05}
+							{max 0.3 0.1}
+							{pow 1}
+						}
+					}
+					{preturn 0 10}
+					{highlight 0xffffc7a5}
+				}
+			}
+		}
+		{notifyowner}
+		{offset 0 0 -7}
+	}
+	{#+ particleview smoke
+		{generator
+			{## totalparticles 40}
+			{emissionarea
+				{radius 10 10}
+				{alpha0 0}
+				{alpha1 -5 2}
+				{speed 0.25}
+			}
+			{particleinit
+				{speed 1.2 0.2}
+				{lifetime 1.5 0.5}
+			}
+			{axisz}
+		}
+		{mover
+			{damping 0.995}
+			{gravity
+				{value 0.001}
+			}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/smoke_light6"
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 30}
+						}
+					}
+					{scale 1
+						{## linear
+							{min 0}
+							{max 0.7 0.2}
+						}
+						{power
+							{min 0}
+							{max 0.55 0.05}
+							{pow 1}
+						}
+					}
+					{visibility 1
+						{peak
+							{min 0}
+							{max 0.7 0.1}
+						}
+					}
+					{preturn 0 180}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xff555555}
+				}
+			}
+		}
+		{offset 0 0 -5}
+		{notifyowner}
+	}
+}

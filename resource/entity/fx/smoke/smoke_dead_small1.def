@@ -1,0 +1,136 @@
+{fx
+	{fire}
+	{#+ particleview smoke
+		{generator
+			{totalparticles 10}
+			{emissionarea
+				{radius 1 1}
+				{alpha0 0}
+				{alpha1 -20 2}
+				{speed 0.4}
+			}
+			{particleinit
+				{speed 0}
+				{lifetime 0.8 0.3}
+			}
+			{particlesinblock 1}
+			{axisz}
+		}
+		{offset 0 0 5}
+		{mover
+			{damping 0.96}
+			{gravity
+				{value -0.05}
+			}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/smoke_light4_small"
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 100}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0.15 0.05}
+							{max 0.6 0.2}
+						}
+					}
+					{visibility 1
+						{peak
+							{min 0}
+							{max 0.5}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 0 180}
+					{highlight 0xff858585}
+				}
+				{sprite "$/additional/smoke_light1_small"
+					{turn 1
+						{linear
+							{min 0}
+							{max 0 100}
+						}
+					}
+					{scale 1
+						{linear
+							{min 0.15 -0.05}
+							{max 0.65 -0.05}
+						}
+					}
+					{visibility 1
+						{peak
+							{min 0}
+							{max 0.6}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 0 180}
+					{highlight 0xff5c5c5c}
+				}
+			}
+		}
+		{notifyowner}
+	}
+	{particleview fire
+		{generator
+			{emissionarea
+				{radius 0.5 0.5}
+				{alpha1 10 10}
+				{speed 0.3}
+			}
+			{particleinit
+				{speed 0.5 0.5}
+				{lifetime 0.7 0.1}
+			}
+			{axisz}
+		}
+		{mover
+			{damping 0.8}
+			{gravity
+				{value 0}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/flame1a"
+					{scale 1
+						{## linear
+							{min 0.25 0.05}
+							{max 0.5 0.1}
+						}
+						{power
+							{min 0}
+							{max 0.15 0.05}
+							{pow 1}
+						}
+					}
+					{light 1
+						{peak
+							{min 0}
+							{max 0.65 0.05}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 0 20}
+					{highlight 0xffffab78}
+				}
+			}
+		}
+		{notifyowner}
+		{offset 0 0 -5}
+	}
+}

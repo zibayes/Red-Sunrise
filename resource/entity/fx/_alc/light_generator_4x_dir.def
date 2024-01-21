@@ -1,0 +1,517 @@
+{fx
+	{#+ lightview
+		{type spot}
+		{animator
+			{highlight 0xa0a0a0}
+		}
+		{attenuation0 0.15}
+		{attenuation1 0.6}
+		{falloff 1.5}
+		{theta 80}
+		{phi 160}
+		{radius 400}
+		{priority 5}
+		{effectonground}
+		{nightonly}
+		{offset 40 0 0}
+	}
+	{#+ spriteview cone
+		{sprite "$/additional/light1"
+			{light 1
+				{peak
+					{min 0.02}
+					{max 0.05}
+				}
+			}
+			{timer
+				{mode play loop }
+				{duration 2}
+			}
+			{scalex 1.5}
+			{scaley 1}
+		}
+		{orientation trace}
+		{offset 0 6 7}
+	}
+	{#+ particleview flies
+		{generator
+			{totalparticles 10}
+			{emissionarea
+				{radius 5 5}
+				{alpha0 5 5}
+				{alpha1 0 360}
+				{distributionlaw disk}
+				{## psi 100}
+				{## theta 300}
+			}
+			{particleinit
+				{speed 0.075 0.025}
+				{lifetime 0.95 0.25}
+			}
+			{axisz}
+			{particlesinblock 1}
+		}
+		{mover
+			{gravity
+				{value 0}
+			}
+			{damping 0.99}
+			{## collisions
+				{terrain}
+				{restitution 0.4}
+			}
+			{nodependonwind}
+		}
+		{notifyowner}
+		{visualizer
+			{stage 
+				{sprite "$/particle/oskolkim"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 0.075 0.025}
+					{light 1
+						{peak
+							{min 0}
+							{max 1}
+						}
+					}
+					{bluelight 0.75 0.25}
+					{greenlight 0.85 0.15}
+					{redlight 0.85 0.15}
+				}
+			}
+		}
+		{offset 0 6 7}
+	}
+	{#+ particleview flies2
+		{generator
+			{totalparticles 10}
+			{emissionarea
+				{radius 5 5}
+				{alpha0 5 5}
+				{alpha1 0 360}
+				{distributionlaw disk}
+				{## psi 100}
+				{## theta 300}
+			}
+			{particleinit
+				{speed 0.075 0.025}
+				{lifetime 0.95 0.25}
+			}
+			{## axisz}
+			{particlesinblock 1}
+		}
+		{mover
+			{gravity
+				{value 0}
+			}
+			{damping 0.99}
+			{## collisions
+				{terrain}
+				{restitution 0.4}
+			}
+			{nodependonwind}
+		}
+		{notifyowner}
+		{visualizer
+			{stage 
+				{sprite "$/particle/oskolkim"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 0.075 0.025}
+					{light 1
+						{peak
+							{min 0}
+							{max 1}
+						}
+					}
+					{bluelight 0.75 0.25}
+					{greenlight 0.85 0.15}
+					{redlight 0.85 0.15}
+				}
+			}
+		}
+		{offset 0 6 7}
+	}
+	{#+ spriteview cone
+		{sprite "$/additional/light1"
+			{light 1
+				{peak
+					{min 0.02}
+					{max 0.05}
+				}
+			}
+			{timer
+				{mode play loop }
+				{duration 2}
+			}
+			{scalex 1.5}
+			{scaley 1}
+		}
+		{orientation trace}
+		{offset 0 -7 7}
+	}
+	{#+ particleview flies
+		{generator
+			{totalparticles 10}
+			{emissionarea
+				{radius 5 5}
+				{alpha0 5 5}
+				{alpha1 0 360}
+				{distributionlaw disk}
+				{## psi 100}
+				{## theta 300}
+			}
+			{particleinit
+				{speed 0.075 0.025}
+				{lifetime 0.95 0.25}
+			}
+			{axisz}
+			{particlesinblock 1}
+		}
+		{mover
+			{gravity
+				{value 0}
+			}
+			{damping 0.99}
+			{## collisions
+				{terrain}
+				{restitution 0.4}
+			}
+			{nodependonwind}
+		}
+		{notifyowner}
+		{visualizer
+			{stage 
+				{sprite "$/particle/oskolkim"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 0.075 0.025}
+					{light 1
+						{peak
+							{min 0}
+							{max 1}
+						}
+					}
+					{bluelight 0.75 0.25}
+					{greenlight 0.85 0.15}
+					{redlight 0.85 0.15}
+				}
+			}
+		}
+		{offset 0 -7 7}
+	}
+	{#+ particleview flies2
+		{generator
+			{totalparticles 10}
+			{emissionarea
+				{radius 5 5}
+				{alpha0 5 5}
+				{alpha1 0 360}
+				{distributionlaw disk}
+				{## psi 100}
+				{## theta 300}
+			}
+			{particleinit
+				{speed 0.075 0.025}
+				{lifetime 0.95 0.25}
+			}
+			{## axisz}
+			{particlesinblock 1}
+		}
+		{mover
+			{gravity
+				{value 0}
+			}
+			{damping 0.99}
+			{## collisions
+				{terrain}
+				{restitution 0.4}
+			}
+			{nodependonwind}
+		}
+		{notifyowner}
+		{visualizer
+			{stage 
+				{sprite "$/particle/oskolkim"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 0.075 0.025}
+					{light 1
+						{peak
+							{min 0}
+							{max 1}
+						}
+					}
+					{bluelight 0.75 0.25}
+					{greenlight 0.85 0.15}
+					{redlight 0.85 0.15}
+				}
+			}
+		}
+		{offset 0 -7 7}
+	}
+	{#+ spriteview cone
+		{sprite "$/additional/light1"
+			{light 1
+				{peak
+					{min 0.02}
+					{max 0.05}
+				}
+			}
+			{timer
+				{mode play loop }
+				{duration 2}
+			}
+			{scalex 1.5}
+			{scaley 1}
+		}
+		{orientation trace}
+		{offset 0 6 -6}
+	}
+	{#+ particleview flies
+		{generator
+			{totalparticles 10}
+			{emissionarea
+				{radius 5 5}
+				{alpha0 5 5}
+				{alpha1 0 360}
+				{distributionlaw disk}
+				{## psi 100}
+				{## theta 300}
+			}
+			{particleinit
+				{speed 0.075 0.025}
+				{lifetime 0.95 0.25}
+			}
+			{axisz}
+			{particlesinblock 1}
+		}
+		{mover
+			{gravity
+				{value 0}
+			}
+			{damping 0.99}
+			{## collisions
+				{terrain}
+				{restitution 0.4}
+			}
+			{nodependonwind}
+		}
+		{notifyowner}
+		{visualizer
+			{stage 
+				{sprite "$/particle/oskolkim"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 0.075 0.025}
+					{light 1
+						{peak
+							{min 0}
+							{max 1}
+						}
+					}
+					{bluelight 0.75 0.25}
+					{greenlight 0.85 0.15}
+					{redlight 0.85 0.15}
+				}
+			}
+		}
+		{offset 0 6 -6}
+	}
+	{#+ particleview flies2
+		{generator
+			{totalparticles 10}
+			{emissionarea
+				{radius 5 5}
+				{alpha0 5 5}
+				{alpha1 0 360}
+				{distributionlaw disk}
+				{## psi 100}
+				{## theta 300}
+			}
+			{particleinit
+				{speed 0.075 0.025}
+				{lifetime 0.95 0.25}
+			}
+			{## axisz}
+			{particlesinblock 1}
+		}
+		{mover
+			{gravity
+				{value 0}
+			}
+			{damping 0.99}
+			{## collisions
+				{terrain}
+				{restitution 0.4}
+			}
+			{nodependonwind}
+		}
+		{notifyowner}
+		{visualizer
+			{stage 
+				{sprite "$/particle/oskolkim"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 0.075 0.025}
+					{light 1
+						{peak
+							{min 0}
+							{max 1}
+						}
+					}
+					{bluelight 0.75 0.25}
+					{greenlight 0.85 0.15}
+					{redlight 0.85 0.15}
+				}
+			}
+		}
+		{offset 0 6 -6}
+	}
+	{#+ spriteview cone
+		{sprite "$/additional/light1"
+			{light 1
+				{peak
+					{min 0.02}
+					{max 0.05}
+				}
+			}
+			{timer
+				{mode play loop }
+				{duration 2}
+			}
+			{scalex 1.5}
+			{scaley 1}
+		}
+		{orientation trace}
+		{offset 0 -7 -6}
+	}
+	{#+ particleview flies
+		{generator
+			{totalparticles 10}
+			{emissionarea
+				{radius 5 5}
+				{alpha0 5 5}
+				{alpha1 0 360}
+				{distributionlaw disk}
+				{## psi 100}
+				{## theta 300}
+			}
+			{particleinit
+				{speed 0.075 0.025}
+				{lifetime 0.95 0.25}
+			}
+			{axisz}
+			{particlesinblock 1}
+		}
+		{mover
+			{gravity
+				{value 0}
+			}
+			{damping 0.99}
+			{## collisions
+				{terrain}
+				{restitution 0.4}
+			}
+			{nodependonwind}
+		}
+		{notifyowner}
+		{visualizer
+			{stage 
+				{sprite "$/particle/oskolkim"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 0.075 0.025}
+					{light 1
+						{peak
+							{min 0}
+							{max 1}
+						}
+					}
+					{bluelight 0.75 0.25}
+					{greenlight 0.85 0.15}
+					{redlight 0.85 0.15}
+				}
+			}
+		}
+		{offset 0 -7 -6}
+	}
+	{#+ particleview flies2
+		{generator
+			{totalparticles 10}
+			{emissionarea
+				{radius 5 5}
+				{alpha0 5 5}
+				{alpha1 0 360}
+				{distributionlaw disk}
+				{## psi 100}
+				{## theta 300}
+			}
+			{particleinit
+				{speed 0.075 0.025}
+				{lifetime 0.95 0.25}
+			}
+			{## axisz}
+			{particlesinblock 1}
+		}
+		{mover
+			{gravity
+				{value 0}
+			}
+			{damping 0.99}
+			{## collisions
+				{terrain}
+				{restitution 0.4}
+			}
+			{nodependonwind}
+		}
+		{notifyowner}
+		{visualizer
+			{stage 
+				{sprite "$/particle/oskolkim"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 0.075 0.025}
+					{light 1
+						{peak
+							{min 0}
+							{max 1}
+						}
+					}
+					{bluelight 0.75 0.25}
+					{greenlight 0.85 0.15}
+					{redlight 0.85 0.15}
+				}
+			}
+		}
+		{offset 0 -7 -6}
+	}
+	{lightview
+		{type point}
+		{animator
+			{highlight 0xffffffff}
+		}
+		{radius 100}
+		{priority 5}
+		{nightonly}
+		{attenuation0 0.1}
+		{attenuation1 0.6}
+	}
+}

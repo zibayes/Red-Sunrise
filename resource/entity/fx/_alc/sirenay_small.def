@@ -1,0 +1,95 @@
+{fx
+	{#+ lightview
+		{animator
+			{timer
+				{mode play loop }
+				{duration 2}
+			}
+			{visibility 1
+				{peak
+					{min 4.7}
+					{max 5}
+				}
+			}
+			{highlight 0x00b4ff}
+		}
+		{attenuation0 0.2}
+		{attenuation1 0.1}
+		{pulseperiod 0.125 0.075}
+		{radius 10}
+		{effectonground}
+	}
+	{#+ particleview central
+		{generator
+			{emissionarea
+				{radius 0}
+				{alpha0 0}
+				{alpha1 90}
+				{speed 0.2}
+			}
+			{particleinit
+				{speed 0}
+				{lifetime 0.08}
+			}
+			{totalparticles 3}
+			{axisz}
+		}
+		{mover
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/flash/FlashSS3"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scale 0.3}
+					{light 1
+						{peak
+							{min 0}
+							{max 0.1}
+						}
+					}
+					{preturn 90 90}
+					{highlight 0x00b4ff}
+				}
+			}
+		}
+	}
+	{#+ spriteview "halo night"
+		{sprite "$/flash/flashss3"
+			{timer
+				{mode play loop }
+				{duration 0.1}
+			}
+			{light 1
+				{peak
+					{min 0}
+					{max 0.2}
+				}
+			}
+			{scale 1.0}
+		}
+		{halo}
+		{nightonly}
+		{autovisible}
+	}
+	{#+ spriteview halo
+		{sprite "$/flash/flashss3"
+			{timer
+				{mode play loop }
+				{duration 0.1}
+			}
+			{light 1
+				{peak
+					{min 0}
+					{max 0.7}
+				}
+			}
+			{scale 0.2 0.1}
+		}
+		{halo}
+		{autovisible}
+	}
+}

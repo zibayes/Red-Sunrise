@@ -1,0 +1,97 @@
+{fx
+	{spriteview
+		{sprite "$/flash/halo02"
+			{light 1
+				{peak
+					{min 0.2}
+					{max 0.25}
+				}
+			}
+			{timer
+				{mode play loop }
+				{duration 2}
+			}
+			{scale 0.8}
+		}
+		{halo
+		}
+	}
+	{#+ spriteview glow
+		{sprite "$/additional/glow3"
+			{preturn 0 180}
+			{light 1
+				{peak
+					{min 0.7}
+					{max 0.9}
+				}
+			}
+			{timer
+				{mode play loop }
+				{duration 2}
+			}
+			{scale 0.085 0.005}
+			{highlight 0xfffed0a4}
+		}
+		{halo
+		}
+	}
+	{#+ spriteview main
+		{sprite "$/additional/light1"
+			{light 1
+				{peak
+					{min 0.25}
+					{max 0.2}
+				}
+			}
+			{timer
+				{mode play loop }
+				{duration 3}
+			}
+			{scalex 0.7}
+			{scaley 0.6}
+			{highlight 0xfffed4ad}
+		}
+		{orientation trace}
+		{#+ softintersection}
+	}
+	{#+ spriteview lines1
+		{sprite "$/additional/light2"
+			{light 1
+				{peak
+					{min 0.05}
+					{max 0.07}
+				}
+			}
+			{timer
+				{mode play loop }
+				{duration 3}
+			}
+			{scalex 0.4}
+			{scaley 0.1}
+			{highlight 0xffebffff}
+			{preturn 0 10}
+		}
+		{orientation trace}
+		{#+ softintersection}
+	}
+	{#+ spriteview lines2
+		{sprite "$/additional/light2"
+			{light 1
+				{peak
+					{min 0.1}
+					{max 0.12}
+				}
+			}
+			{timer
+				{mode play loop }
+				{duration 3}
+			}
+			{scalex 0.05}
+			{scaley 0.07}
+			{highlight 0xffebffff}
+			{preturn 0 10}
+		}
+		{orientation trace}
+		{#+ softintersection}
+	}
+}

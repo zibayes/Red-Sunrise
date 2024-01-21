@@ -1,0 +1,435 @@
+{fx
+	{#+ particleview splash
+		{generator
+			{totalparticles 15}
+			{particlesinblock 15}
+			{emissionarea
+				{radius 0.5 0.5}
+				{alpha0 10 10}
+				{alpha1 40 10}
+				{## distributionlaw sphere}
+			}
+			{particleinit
+				{speed 2.5 2.5}
+				{lifetime 0.4 0.1}
+			}
+			{timetolive 0.1}
+			{axisz}
+		}
+		{mover
+			{gravity
+				{value 0.1}
+			}
+			{damping 0.81}
+			{## collisions
+				{terrain}
+				{restitution 0.4}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/blood1"
+					{scale 1
+						{power
+							{min 0.04}
+							{max 0.175 0.025}
+							{pow 1}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 0 180}
+					{highlight 0xff380100}
+				}
+				{## flags trace }
+				{sprite "$/additional/blood1"
+					{scale 1
+						{power
+							{min 0.05}
+							{max 0.225 0.025}
+							{pow 0.9}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 0 180}
+					{highlight 0xff893c39}
+				}
+				{sprite "$/additional/blood1"
+					{scale 1
+						{power
+							{min 0.02}
+							{max 0.075 0.025}
+							{pow 0.9}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 1}
+							{max 0}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 0 180}
+					{highlight 0xff431300}
+				}
+			}
+		}
+		{notifyowner}
+	}
+	{#+ particleview sparks
+		{generator
+			{emissionarea
+				{radius 1 1}
+				{alpha0 7.5 7.5}
+				{alpha1 60 60}
+				{## distributionlaw sphere}
+			}
+			{particleinit
+				{speed 7.5 2.5}
+				{lifetime 0.3 0.1}
+			}
+			{timetolive 0.01}
+			{totalparticles 30}
+			{particlesinblock 30}
+			{axisz}
+		}
+		{mover
+			{damping 0.95}
+			{gravity
+				{value 0.1}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.5}
+			}
+		}
+		{visualizer
+			{stage 
+				{flags trace }
+				{sprite "$/additional/blood2"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{scalex 1
+						{linear
+							{min 0.4}
+							{max 0.1}
+						}
+					}
+					{scaley 0.03}
+					{highlight 0xff4d0800}
+				}
+			}
+		}
+	}
+	{#+ particleview sparks_blood_trace
+		{generator
+			{emissionarea
+				{radius 1 1}
+				{alpha0 7.5 7.5}
+				{alpha1 60 60}
+			}
+			{particleinit
+				{speed 2.5 0.5}
+				{lifetime 0.3 0.1}
+			}
+			{timetolive 0.01}
+			{totalparticles 15}
+			{particlesinblock 15}
+			{axisz}
+		}
+		{mover
+			{damping 0.95}
+			{gravity
+				{value 0.01}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.5}
+			}
+		}
+		{visualizer
+			{stage 
+				{flags trace }
+				{sprite "$/additional/blood1"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xff4d0800}
+					{scalex 1
+						{linear
+							{min 0.1}
+							{max 0.4 0.1}
+						}
+					}
+					{scaley 0.065 0.015}
+					{preturn 0 180}
+					{visibility 1
+						{power
+							{min 1}
+							{max 0}
+							{pow 1}
+						}
+					}
+				}
+				{sprite "$/additional/blood1"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{highlight 0xff702b23}
+					{scalex 1
+						{linear
+							{min 0.1}
+							{max 0.4 0.1}
+						}
+					}
+					{scaley 0.065 0.015}
+					{preturn 0 180}
+					{visibility 1
+						{power
+							{min 1}
+							{max 0}
+							{pow 1}
+						}
+					}
+				}
+			}
+		}
+	}
+	{#+ particleview splash_filled2
+		{generator
+			{totalparticles 15}
+			{particlesinblock 15}
+			{emissionarea
+				{radius 0.5 0.5}
+				{alpha0 25 25}
+				{alpha1 50 10}
+				{## distributionlaw sphere}
+			}
+			{particleinit
+				{speed 3.5 1.5}
+				{lifetime 1.5 0.5}
+			}
+			{timetolive 0.1}
+			{axisz}
+		}
+		{mover
+			{gravity
+				{value 0.1}
+			}
+			{damping 0.81}
+			{## collisions
+				{terrain}
+				{restitution 0.4}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/smoke_light4"
+					{scale 1
+						{power
+							{min 0.1}
+							{max 0.35 0.05}
+							{pow 1}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 0.35 0.05}
+							{max 0}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 0 180}
+					{highlight 0xff751d0c}
+				}
+				{## flags trace }
+				{sprite "$/additional/smoke_light4"
+					{scale 1
+						{power
+							{min 0.1}
+							{max 0.4 0.1}
+							{pow 0.9}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 0.15 0.05}
+							{max 0}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 0 180}
+					{highlight 0xffdb2604}
+				}
+			}
+		}
+		{notifyowner}
+	}
+	{particleview splash_dots
+		{generator
+			{totalparticles 10}
+			{particlesinblock 10}
+			{emissionarea
+				{radius 0.5 0.5}
+				{alpha0 25 25}
+				{alpha1 50 10}
+				{## distributionlaw sphere}
+			}
+			{particleinit
+				{speed 3.5 1.5}
+				{lifetime 0.75 0.25}
+			}
+			{timetolive 0.1}
+			{axisz}
+		}
+		{mover
+			{gravity
+				{value 0.1}
+			}
+			{damping 0.81}
+			{## collisions
+				{terrain}
+				{restitution 0.4}
+			}
+			{nodependonwind}
+		}
+		{visualizer
+			{stage 
+				{sprite "$/additional/water2"
+					{scale 1
+						{power
+							{min 0.05}
+							{max 0.35 0.05}
+							{pow 1}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 0.85 0.15}
+							{max 0}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 0 180}
+					{highlight 0xff4d0800}
+				}
+				{## flags trace }
+				{sprite "$/additional/water2"
+					{scale 1
+						{power
+							{min 0.1}
+							{max 0.4 0.1}
+							{pow 0.9}
+						}
+					}
+					{visibility 1
+						{linear
+							{min 0.85 0.15}
+							{max 0}
+						}
+					}
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{preturn 0 180}
+					{highlight 0xff701b0b}
+				}
+			}
+		}
+		{notifyowner}
+		{## delay 0.1}
+	}
+	{#+ particleview flesh
+		{generator
+			{emissionarea
+				{radius 1 1}
+				{alpha0 7.5 7.5}
+				{alpha1 60 60}
+				{## distributionlaw sphere}
+			}
+			{particleinit
+				{speed 2.5 0.5}
+				{lifetime 2 1}
+			}
+			{timetolive 0.01}
+			{totalparticles 7}
+			{particlesinblock 7}
+			{axisz}
+		}
+		{mover
+			{damping 0.95}
+			{gravity
+				{value 0.2}
+			}
+			{collisions
+				{terrain}
+				{restitution 0.1}
+			}
+		}
+		{visualizer
+			{stage 
+				{## flags trace }
+				{sprite "$/particle/rock_1"
+					{timer
+						{mode play }
+						{duration -1}
+					}
+					{visibility 1
+						{power
+							{min 1}
+							{max 0}
+							{pow 1}
+						}
+					}
+					{## scalex 1
+						{linear
+							{min 0.4}
+							{max 0.1}
+						}
+					}
+					{## scaley 0.03}
+					{highlight 0xffff3200}
+					{scale 0.15 0.05}
+					{preturn 0 180}
+					{turn 0 360}
+				}
+			}
+		}
+	}
+}

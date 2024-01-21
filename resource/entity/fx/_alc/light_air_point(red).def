@@ -1,0 +1,19 @@
+{fx
+	{#+ spriteview
+		{sprite "$/flash/halo02"
+			{light 1
+				{peak
+					{min 0.2}
+					{max 0.25}
+				}
+			}
+			{timer
+				{mode play loop }
+				{duration 2}
+			}
+			{scale 0.2}
+			{highlight 0xff0018}
+		}
+		{halo}
+	}
+}

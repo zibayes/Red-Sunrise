@@ -1,0 +1,23 @@
+{fx
+	{#+ lightview
+		{animator
+			{timer
+				{mode play loop}
+				{duration 2}
+			}
+			{visibility 1
+				{peak
+					{min 2.7}
+					{max 3}
+				}
+			}
+			{highlight 0xff0000}
+		}
+		{type point}
+		{radius 200}
+		{attenuation0 0.2}
+		{attenuation1 0.1}
+		{pulseperiod 0.125 0.075}
+		{effectonground}
+	}
+}

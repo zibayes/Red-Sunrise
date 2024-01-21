@@ -1,0 +1,33 @@
+{fx
+	{#+ spriteview lines2
+		{sprite "$/additional/light2"
+			{light 1
+				{peak
+					{min 0.04}
+					{max 0.06}
+				}
+			}
+			{timer
+				{mode play loop }
+				{duration 3}
+			}
+			{scalex 0.55 0.15}
+			{scaley 0.4 0.1}
+			{highlight 0xffebffff}
+			{preturn 0 10}
+		}
+		{orientation trace}
+		{#+ softintersection}
+	}
+	{#+ lightview
+		{type point}
+		{animator
+			{highlight 0xe0c9a2}
+		}
+		{attenuation0 0.2}
+		{attenuation1 1}
+		{radius 140}
+		{priority 10}
+		{effectonground}
+	}
+}
